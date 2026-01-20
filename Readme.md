@@ -28,11 +28,12 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Equipements | Marque  | N° série | Processeur | RAM  | Stockage | Date d'achat | Fin de Garantie |  
-|-------------|---------|----------|------------|------|----------|--------------|-----------------|
-| Ordinateur  |  acer   |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2023   |   31/12/2026    | 
-| Ordinateur  |  acer   |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2024   |   31/12/2027    |
-| Serveur     |  acer   |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2025   |   31/12/2028    |
+| Equipements | Marque  | N° série | Processeur | RAM  | Stockage | Date d'achat | Fin de Garantie | Localisation |
+|-------------|---------|----------|------------|------|----------|--------------|-----------------|--------------|
+| Ordinateur  | Acer    |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2023   |   31/12/2026    | Bureau 1     |
+| Ordinateur  | Dell    |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2024   |   31/12/2027    | Bureau 1     |
+| Ordinateur  | Lenovo  |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2024   |   31/12/2027    | Bureau 2     |
+| Serveur     | Dell    |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2024   |   31/12/2027    | Bureau 2     |
 
 
 <p align="center">
@@ -73,7 +74,7 @@ L'inventaire Software consiste à collecter les données logiciels.
 Un ensemble de collecteurs de données permet d’enregistrer automatiquement les performances d’un poste ou d’un serveur sur une période définie. Grâce à PerfMon, il est possible de créer un suivi personnalisé des indicateurs clés (CPU, mémoire, disque, réseau) et de planifier exécution. Les données collectées peuvent ensuite être analysées pour anticiper les dégradations et proposer des actions de maintenance préventive.
 
 
-## Methodologie :
+### Créer un suivi :
 
 
 <p align="center">
@@ -105,7 +106,7 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
 </p>
 
 
-## Planifier l’exécution :
+### Planifier l’exécution :
 
 
 <p align="center">
