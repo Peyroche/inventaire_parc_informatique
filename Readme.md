@@ -48,10 +48,10 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 L'inventaire Software consiste à collecter les données logiciels.
 
-|             Logiciel                        |    Licence      | Numéro licence | Utilisateur autorisé | Version  | Date d'expiration | Date de fin de support |                                                                     
+| Logiciel                                    |    Licence      | Numéro licence | Utilisateur autorisé | Version  | Date d'expiration | Date de fin de support |                                                            
 |---------------------------------------------|-----------------|----------------|----------------------|----------|-------------------|------------------------|
 | Systèmes       | Windows pro 10             |        /        |        /       |        20            |  21H2    |         /         |      13/01/2032        |
-| Applicatifs    | Suite Office (Word, Excell)|  Microsoft 365  |        /       |        20            |    /     |    31/12/2026     |          /             |
+| Applicatifs    | Suite Office               |  Microsoft 365  |        /       |        20            |    /     |    31/12/2026     |          /             |
 | Utilitaires    | Duplicati                  |  Open source    |        /       |         2            |    /     |         /         |          /             |
 | Développements | Visual Studio code         |  Open source    |        /       |         5            |    /     |         /         |          /             |
 | Métiers        | CRM                        |        /        |        /       |        10            |    /     |         /         |          /             |
