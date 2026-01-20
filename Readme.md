@@ -37,13 +37,9 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 <p align="center">
 
-<img src="images/05.png" width="400">
+<img src="configuration/01.png" width="400">
 
-</p>
-
-<p align="center">
-
-<img src="images/04.png" width="400">
+<img src="/02.png" width="400">
 
 </p>
 
@@ -62,21 +58,11 @@ L'inventaire Software consiste à collecter les données logiciels.
 | Serveurs       | Windows server 22          |        /        |        /       |         2            |  21H2    |         /         |      13/01/2032        |
 
 
-Contrairement à office (Word, Excelle, etc...) qui a une date d’expiration liée à l’abonnement. Windows Pro ou Windows Server, n'ont pas de fin d'abonnement, on parle plutôt de fin de support en fonction de leur version. Chaque version de Windows a une date de fin de support, après cette date : plus de mises à jour de sécurité, risques de conformité, risques de cybersécurité, obligation de migration dans un SI professionnel.
-
-La date de fin de support d’une version de Windows n’est jamais “devinée” : elle est publiée officiellement par Microsoft. Pour la connaître, il suffit d’identifier la version exacte de Windows et de consulter le tableau de cycle de vie correspondant.
-
-Comment trouvé la version sur Windows ?
-
-Sur le poste ou le serveur taper : Win + R → winver
-
 <p align="center">
 
-<img src="images/01.png" width="400">
+<img src="version/01.png" width="400">
 
-<img src="images/02.png" width="400">
-
-<img src="images/03.png" width="400">
+<img src="version/02.png" width="400">
 
 </p>
 
@@ -95,9 +81,9 @@ Touche Windows → taper perfmon → Entrer
 
 <p align="center">
 
-<img src="perfom/01.png" width="400">
+<img src="perfmon/01.png" width="400">
 
-<img src="perfom/02.png" width="400">
+<img src="perfmon/02.png" width="400">
 
 </p>
 
@@ -108,11 +94,11 @@ Dans le volet gauche : Surveillance des performances → Ensembles de collecteur
 
 <p align="center">
 
-<img src="perfom/03.png" width="400">
+<img src="perfmon/03.png" width="400">
 
-<img src="perfom/04.png" width="400">
+<img src="perfmon/04.png" width="400">
 
-<img src="perfom/05.png" width="400">
+<img src="perfmon/05.png" width="400">
 
 </p>
 
@@ -124,7 +110,7 @@ Choisir Créer manuellement (avancé) → Suivant
 
 <p align="center">
 
-<img src="perfom/06.png" width="400">
+<img src="perfmon/06.png" width="400">
 
 </p>
 
@@ -135,7 +121,7 @@ Choisir Données de performances → Suivant
 
 <p align="center">
 
-<img src="perfom/07.png" width="400">
+<img src="perfmon/07.png" width="400">
 
 </p>
 
@@ -143,11 +129,11 @@ Cliquer sur Ajouter → sélectionner les compteurs souhaités :
 
 <p align="center">
 
-<img src="perfom/08.png" width="400">
+<img src="perfmon/08.png" width="400">
 
-<img src="perfom/09.png" width="400">
+<img src="perfmon/09.png" width="400">
 
-<img src="perfom/10.png" width="400">
+<img src="perfmon/10.png" width="400">
 
 </p>
 
@@ -158,7 +144,7 @@ Choisir un dossier (ex : C:\PerfLogs\Suivi_PC01)
 
 <p align="center">
 
-<img src="perfom/11.png" width="400">
+<img src="perfmon/11.png" width="400">
 
 </p>
 
@@ -169,7 +155,7 @@ Choisir Enregistrer et fermer
 
 <p align="center">
 
-<img src="perfom/12.png" width="400">
+<img src="perfmon/12.png" width="400">
 
 </p>
 
@@ -180,7 +166,7 @@ Planifier l’exécution :
 
 <p align="center">
 
-<img src="perfom/13.png" width="400">
+<img src="perfmon/13.png" width="400">
 
 </p>
 
@@ -191,7 +177,7 @@ Activer la planification
 
 <p align="center">
 
-<img src="perfom/14.png" width="400">
+<img src="perfmon/14.png" width="400">
 
 </p>
 
@@ -199,13 +185,13 @@ Définir la date de début
 
 <p align="center">
 
-<img src="perfom/15.png" width="400">
+<img src="perfmon/15.png" width="400">
 
-<img src="perfom/16.png" width="400">
+<img src="perfmon/16.png" width="400">
 
-<img src="perfom/17.png" width="400">
+<img src="perfmon/17.png" width="400">
 
-<img src="perfom/18.png" width="400">
+<img src="perfmon/18.png" width="400">
 
 </p>
  
