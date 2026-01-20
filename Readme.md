@@ -30,9 +30,9 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 | Equipements | Marque  | N° série | Processeur | RAM  | Stockage | Date d'achat | Fin de Garantie |  
 |-------------|---------|----------|------------|------|----------|--------------|-----------------|
-| Ordinateur  |  acer   |    /     | i5-1235U   | 2 GO | 49,4 GO  | 31/12/2023   |   31/12/2026    |   
-| Ordinateur  |  acer   |    /     | i5-1235U   | 2 Go | 49,4 GO  | 31/12/2024   |   31/12/2027    |
-| Serveur     |  acer   |    /     | i5-1235U   | 2 Go | 49,4 GO  | 31/12/2025   |   31/12/2028    |
+| Ordinateur  |  acer   |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2023   |   31/12/2026    | 
+| Ordinateur  |  acer   |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2024   |   31/12/2027    |
+| Serveur     |  acer   |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2025   |   31/12/2028    |
 
 
 <p align="center">
