@@ -1,4 +1,4 @@
-# PROJET 1 : INVENTAIRE DU PARC INFORMATIQUE AVEC GLPI
+# PROJET 1 : INVENTAIRE PARC INFORMATIQUE
 
 ---
 
@@ -28,18 +28,18 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Equipements | Marque  | N° série | Processeur | RAM  | Stockage |         Anomalie            |      Actions recommandées        | Date d'achat | Fin de Garantie |  
-|-------------|---------|----------|------------|------|----------|-----------------------------|----------------------------------|--------------|-----------------|
-| Ordinateur  |  acer   |    /     | i5-1235U   | 2 GO | 49,4 GO  | RAM et Stockage insuffisant | Remplacement disque, Upgrade RAM | 31/12/2023   |   31/12/2026    |   
-| Ordinateur  |  acer   |    /     | i5-1235U   | 2 Go | 49,4 GO  | RAM et Stockage insuffisant | Remplacement disque, Upgrade RAM | 31/12/2024   |   31/12/2027    |
-| Serveur     |  acer   |    /     | i5-1235U   | 2 Go | 49,4 GO  | RAM et Stockage insuffisant | Remplacement disque, Upgrade RAM | 31/12/2025   |   31/12/2028    |
+| Equipements | Marque  | N° série | Processeur | RAM  | Stockage | Date d'achat | Fin de Garantie |  
+|-------------|---------|----------|------------|------|----------|--------------|-----------------|
+| Ordinateur  |  acer   |    /     | i5-1235U   | 2 GO | 49,4 GO  | 31/12/2023   |   31/12/2026    |   
+| Ordinateur  |  acer   |    /     | i5-1235U   | 2 Go | 49,4 GO  | 31/12/2024   |   31/12/2027    |
+| Serveur     |  acer   |    /     | i5-1235U   | 2 Go | 49,4 GO  | 31/12/2025   |   31/12/2028    |
 
 
 <p align="center">
 
 <img src="configuration/01.png" width="400">
 
-<img src="/02.png" width="400">
+<img src="configuration/02.png" width="400">
 
 </p>
 
@@ -73,7 +73,7 @@ L'inventaire Software consiste à collecter les données logiciels.
 Un ensemble de collecteurs de données permet d’enregistrer automatiquement les performances d’un poste ou d’un serveur sur une période définie. Grâce à PerfMon, il est possible de créer un suivi personnalisé des indicateurs clés (CPU, mémoire, disque, réseau) et de planifier exécution. Les données collectées peuvent ensuite être analysées pour anticiper les dégradations et proposer des actions de maintenance préventive.
 
 
-Étapes à suivre : 
+## Methodologie :
 
 1. Ouvrir PerfMon 
 
