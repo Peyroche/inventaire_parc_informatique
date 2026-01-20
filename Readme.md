@@ -75,9 +75,6 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
 
 ## Methodologie :
 
-1. Ouvrir PerfMon 
-
-Touche Windows → taper perfmon → Entrer 
 
 <p align="center">
 
@@ -85,49 +82,15 @@ Touche Windows → taper perfmon → Entrer
 
 <img src="perfmon/02.png" width="400">
 
-</p>
-
-
-2. Accéder à “Ensembles de collecteurs de données” 
-
-Dans le volet gauche : Surveillance des performances → Ensembles de collecteurs de données → clic droit sur Défini par l’utilisateur → Nouveau → Ensemble de collecteurs de données 
-
-<p align="center">
-
 <img src="perfmon/03.png" width="400">
 
 <img src="perfmon/04.png" width="400">
 
 <img src="perfmon/05.png" width="400">
 
-</p>
-
-
-3. Nommer l’ensemble 
-
-Donner un nom explicite (ex : Suivi_1_semaine_PC01) 
-Choisir Créer manuellement (avancé) → Suivant
-
-<p align="center">
-
 <img src="perfmon/06.png" width="400">
 
-</p>
-
-
-4. Ajouter des collecteurs 
-
-Choisir Données de performances → Suivant 
-
-<p align="center">
-
 <img src="perfmon/07.png" width="400">
-
-</p>
-
-Cliquer sur Ajouter → sélectionner les compteurs souhaités : 
-
-<p align="center">
 
 <img src="perfmon/08.png" width="400">
 
@@ -135,55 +98,21 @@ Cliquer sur Ajouter → sélectionner les compteurs souhaités :
 
 <img src="perfmon/10.png" width="400">
 
-</p>
-
-
-5. Définir l’emplacement d’enregistrement 
-
-Choisir un dossier (ex : C:\PerfLogs\Suivi_PC01)
-
-<p align="center">
-
 <img src="perfmon/11.png" width="400">
-
-</p>
-
-
-6. Définir le mode d’exécution 
-
-Choisir Enregistrer et fermer 
-
-<p align="center">
 
 <img src="perfmon/12.png" width="400">
 
 </p>
 
 
-Planifier l’exécution :
+## Planifier l’exécution :
 
-1. Dans Défini par l’utilisateur, clic droit sur ton ensemble → Propriétés 
 
 <p align="center">
 
 <img src="perfmon/13.png" width="400">
 
-</p>
-
-
-2. Onglet Planification : 
-
-Activer la planification 
-
-<p align="center">
-
 <img src="perfmon/14.png" width="400">
-
-</p>
-
-Définir la date de début 
-
-<p align="center">
 
 <img src="perfmon/15.png" width="400">
 
