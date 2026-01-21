@@ -53,14 +53,14 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 L'inventaire Software consiste à collecter les données logiciels.
 
-| Types Logiciels|   Logiciels      |    Licences     | N° de Licence  |  Utilisateurs  | Expiration  |  Version   | Fin de support |
-|----------------|--------------------|-----------------|----------------|----------------|-------------|------------|----------------|
-| Systèmes       | Windows pro 10     |        /        |        /       |        20      |      /      |   21H2     |   13/01/2032   |
-| Applicatifs    | Suite Office       | Microsoft 365   |        /       |        20      | 14/09/2026  |     /      |      /         |
-| Utilitaires    | Duplicati          |  Open source    |        /       |         2      |     /       |     /      |      /         |
-| Développements | Visual Studio code |  Open source    |        /       |         5      |     /       |     /      |      /         |
-| Métiers        | CRM                |        /        |        /       |        10      |     /       |     /      |      /         |
-| Serveurs       | Windows server 22  |        /        |        /       |         2      |     /       |   21H2     |      /         |
+| Types Logiciels|   Logiciels        |  Licences       | Expiration  |  Version   | Fin de support |
+|----------------|--------------------|-----------------|-------------|------------|----------------|
+| Systèmes       | Windows pro 10     |        /        |      /      |   21H2     |   13/01/2032   |
+| Applicatifs    | Suite Office       | Microsoft 365   | 14/09/2026  |     /      |      /         |
+| Utilitaires    | Duplicati          |  Open source    |     /       |     /      |      /         |
+| Développements | Visual Studio code |  Open source    |     /       |     /      |      /         |
+| Métiers        | CRM                |        /        |     /       |     /      |      /         |
+| Serveurs       | Windows server 22  |        /        |     /       |   21H2     |      /         |
 
 
 <p align="center">
