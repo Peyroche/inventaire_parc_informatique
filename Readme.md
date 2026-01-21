@@ -73,11 +73,6 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 </p>
 
-
-## II.1.2. Inventaire Global:
-
-[Télécharger le fichier Excel](inventaire/fichier.xlsx)
-
 ---
 
 ## II.2. Suivi des indicateurs clés de performance :
