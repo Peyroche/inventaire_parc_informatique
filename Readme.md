@@ -28,35 +28,39 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Equipements | Marque  | N° série | Processeur | RAM  | Stockage | Date d'achat | Fin de Garantie | Localisation |
-|-------------|---------|----------|------------|------|----------|--------------|-----------------|--------------|
-| Ordinateur  | Acer    |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2023   |   31/12/2026    | Bureau 1     |
-| Ordinateur  | Dell    |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2024   |   31/12/2027    | Bureau 1     |
-| Ordinateur  | Lenovo  |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2024   |   31/12/2027    | Bureau 2     |
-| Serveur     | Dell    |    /     | i5-1235U   | 2 Go | 49,4 Go  | 31/12/2024   |   31/12/2027    | Bureau 2     |
+| Type de poste | Marque  | Modèle             | Processeur | RAM  | Stockage | Date acquisition | Fin de Garantie | Localisation |
+|---------------|---------|--------------------|------------|------|----------|------------------|-----------------|--------------|
+| PC fixe       | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     |
+| Laptop        | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     |
+| PC fixe       | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     |
+| PC fixe       | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 2     |
+| Laptop        | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     |
+| PC fixe       | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     |
+| PC fixe       | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     |
+| Laptop        | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     |
 
 
 <p align="center">
 
 <img src="configuration/01.png" width="400">
 
-<img src="configuration/02.png" width="400">
-
-</p>
+<img src="configuration/02.png" width="400">              
+                                                                       
+</p>                                                                    
 
 
 ## II.1.2. Inventaire Software : 
 
 L'inventaire Software consiste à collecter les données logiciels.
 
-| Logiciels                           |    Licences     | N° de Licence  |  Utilisateurs  | Version  | Expiration | Fin de support |
-|-------------------------------------|-----------------|----------------|----------------|----------|------------|----------------|
-| Systèmes       | Windows pro 10     |        /        |        /       |        20      |  21H2    |          / |  13/01/2032    |
-| Applicatifs    | Suite Office       | Microsoft 365   |        /       |        20      |    /     | 31/12/2026 |          /     |
-| Utilitaires    | Duplicati          |  Open source    |        /       |         2      |    /     |         /  |          /     |
-| Développements | Visual Studio code |  Open source    |        /       |         5      |    /     |         /  |          /     |
-| Métiers        | CRM                |        /        |        /       |        10      |    /     |         /  |          /     |
-| Serveurs       | Windows server 22  |        /        |        /       |         2      |  21H2    |         /  |  13/01/2032    |
+| Logiciels                           |    Licences     | N° de Licence  |  Utilisateurs  | Expiration  |  Version   | Fin de support |
+|-------------------------------------|-----------------|----------------|----------------|-------------|------------|----------------|
+| Systèmes       | Windows pro 10     |        /        |        /       |        20      |      /      |   21H2     |   13/01/2032   |
+| Applicatifs    | Suite Office       | Microsoft 365   |        /       |        20      | 14/09/2026  |     /      |      /         |
+| Utilitaires    | Duplicati          |  Open source    |        /       |         2      |     /       |     /      |      /         |
+| Développements | Visual Studio code |  Open source    |        /       |         5      |     /       |     /      |      /         |
+| Métiers        | CRM                |        /        |        /       |        10      |     /       |     /      |      /         |
+| Serveurs       | Windows server 22  |        /        |        /       |         2      |     /       |   21H2     |      /         |
 
 
 <p align="center">
