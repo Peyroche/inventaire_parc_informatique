@@ -16,6 +16,8 @@ Le projet a pour objectifs :
 
 - d'établir un suivi des indicateurs clés de performance,
 
+- de réaliser les mises à jours régulières des configurations matérielles et logicielles
+
 - de définir et formaliser une politique de sécurité adaptée à l’organisation,
 
 - d’intégrer un outil automatisé de gestion des ressources, tel que GLPI, afin d’optimiser le suivi et la centralisation des informations.
@@ -70,6 +72,11 @@ L'inventaire Software consiste à collecter les données logiciels.
 <img src="version/02.png" width="400">
 
 </p>
+
+
+## II.1.2. Inventaire Global:
+
+[Télécharger le fichier Excel](.inventaire/fichier.xlsx)
 
 ---
 
@@ -127,9 +134,16 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
 
 </p>
  
+
 ---
 
-## II.3. Politique de sécurité :
+## II.3 Mises à jours des configuration matérielles et logicielles :
+
+Réaliser des mises à jour régulières des configurations matérielles et logicielles est essentiel pour garantir un niveau optimal de sécurité, de stabilité et de performance au sein du système d’information. Cela inclut l’application systématique des correctifs de sécurité, la mise à jour des pilotes, ainsi que l’ajustement des paramètres réseau en fonction des besoins opérationnels. Pour automatiser et centraliser la gestion des mises à jour, l’entreprise peut s’appuyer sur une solution telle que WSUS (Windows Server Update Services), permettant de contrôler, valider et déployer les correctifs sur l’ensemble du parc informatique.
+
+---
+
+## II.4 Politique de sécurité :
 
 La Politique de Sécurité des Systèmes d’Information (PSSI) définit les règles permettant d’assurer la confidentialité, l’intégrité et la disponibilité des données et services informatiques de l’organisation MDF.
 
