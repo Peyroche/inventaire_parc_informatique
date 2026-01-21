@@ -110,6 +110,7 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
 </p>
 
 
+
 ### Planifier l’exécution :
 
 
