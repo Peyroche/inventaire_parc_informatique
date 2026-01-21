@@ -4,7 +4,7 @@
 
 ## I. Contexte :
 
-Dans le cadre d’un projet réalisé sur un réseau virtuel, l’organisation ne dispose d’aucun inventaire structuré. Les équipements sont dispersés et les informations ne sont ni centralisées ni mises à jour. Cette situation rend nécessaire la mise en place d’une démarche professionnelle visant à optimiser la gestion des ressources.
+Dans le cadre d’un projet réalisé pour une entreprise du nom de MDF sur un réseau virtuel, l’organisation ne dispose d’aucun inventaire structuré. Les équipements sont dispersés et les informations utilisateurs ne sont ni centralisées ni mises à jour. Cette situation rend nécessaire la mise en place d’une démarche professionnelle visant à optimiser la gestion des ressources de l'entreprise.
 
 ---
 
@@ -30,17 +30,16 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Type de poste | Marque  | Modèle             | Processeur | RAM  | Stockage | Date acquisition | Fin de Garantie | Localisation |
-|---------------|---------|--------------------|------------|------|----------|------------------|-----------------|--------------|
-| PC fixe       | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     |
-| Laptop        | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     |
-| PC fixe       | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     |
-| PC fixe       | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 2     |
-| Laptop        | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     |
-| PC fixe       | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     |
-| PC fixe       | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     |
-| Laptop        | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     |
-
+| Type de poste | Marques | Modèles            | Processeur | RAM  | Stockage | Date acquisition | Fin de Garantie | Localisation | Périphériques   | Services            |
+|---------------|---------|--------------------|------------|------|----------|------------------|-----------------|--------------|-----------------|---------------------|
+| PC fixe       | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Direction           |
+| Laptop        | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Ressources Humaines |
+| PC fixe       | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Markéting           |
+| PC fixe       | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 2     | Souris, Clavier | Commercial          |
+| Laptop        | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     | Souris, Clavier | Production          |
+| PC fixe       | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     | Souris, Clavier | Stagiaire           |
+| PC fixe       | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     | Souris, Clavier | Comptabilité        |
+| Laptop        | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     | Souris, Clavier | Informatique        |
 
 <p align="center">
 
@@ -55,14 +54,14 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 L'inventaire Software consiste à collecter les données logiciels.
 
-| Types Logiciels|   Logiciel         | Licences      |  Utilisateurs  | Expiration  |  Version   | Fin de support |
+| Types Logiciels|   Logiciels        | Licences        | N° de Licence  | Expiration  |  Version   | Fin de support |
 |----------------|--------------------|-----------------|----------------|-------------|------------|----------------|
-| Systèmes       | Windows pro 10     |        /        |        20      |      /      |   21H2     |   13/01/2032   |
-| Applicatifs    | Suite Office       | Microsoft 365   |        20      | 14/09/2026  |     /      |      /         |
-| Utilitaires    | Duplicati          |  Open source    |         2      |     /       |     /      |      /         |
-| Développements | Visual Studio code |  Open source    |         5      |     /       |     /      |      /         |
-| Métiers        | CRM                |        /        |        10      |     /       |     /      |      /         |
-| Serveurs       | Windows server 22  |        /        |         2      |     /       |   21H2     |      /         |
+| Systèmes       | Windows pro 10     |        /        |       /        |      /      |   21H2     |   13/01/2032   |
+| Applicatifs    | Suite Office       | Microsoft 365   |       /        | 14/09/2026  |     /      |      /         |
+| Utilitaires    | Duplicati          |  Open source    |       /        |     /       |     /      |      /         |
+| Développements | Visual Studio code |  Open source    |       /        |     /       |     /      |      /         |
+| Métiers        | CRM                |        /        |       /        |     /       |     /      |      /         |
+| Serveurs       | Windows server 22  |        /        |       /        |     /       |   21H2     |      /         |
 
 
 <p align="center">
@@ -191,7 +190,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 - Installation de logiciels interdite sans validation IT.
 
-- Antivirus obligatoire.
+- Windows Defender Antivirus obligatoire.
 
 
 ## Réseau :
@@ -202,7 +201,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 - Wi‑Fi invité isolé du réseau interne.
 
+---
 
-
-
+II.5. Automatisé la gestion avec GLPI :
 
