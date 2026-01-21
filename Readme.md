@@ -128,7 +128,6 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
 
 </p>
  
-
 ---
 
 ## II.3 Mises à jours des configuration matérielles et logicielles :
@@ -203,5 +202,12 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 ---
 
-II.5. Automatisé la gestion avec GLPI :
+## II.5. Automatisé la gestion avec GLPI :
+
+GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. C’est l’un des outils les plus utilisés en France pour inventorier, suivre et administrer un système d’information.
+
+### II.5.1 Installation de GLPI :
+
+
+
 
