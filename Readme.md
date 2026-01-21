@@ -142,7 +142,7 @@ Réaliser des mises à jour régulières des configurations matérielles et logi
 La Politique de Sécurité des Systèmes d’Information (PSSI) définit les règles permettant d’assurer la confidentialité, l’intégrité et la disponibilité des données et services informatiques de l’organisation MDF.
 
 
-## Principes généraux :
+### Principes généraux :
 
 - La sécurité est l’affaire de tous les utilisateurs.
 
@@ -153,7 +153,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 - Les données sensibles doivent être protégées contre toute divulgation non autorisée.
 
 
-## Gestion des comptes et habilitations :
+### Gestion des comptes et habilitations :
 
 - Chaque utilisateur dispose d’un compte nominatif.
 
@@ -164,7 +164,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 - Les comptes inactifs sont désactivés après 30 jours.
 
 
-## Gestion des mots de passe :
+### Gestion des mots de passe :
 
 - Longueur minimale : 12 caractères.
 
@@ -175,7 +175,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 - Interdiction de partager un mot de passe.
 
 
-## Sauvegardes :
+### Sauvegardes :
 
 - Sauvegarde quotidienne des serveurs critiques.
 
@@ -184,7 +184,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 - Tests de restauration trimestriels.
 
 
-## Postes de travail :
+### Postes de travail :
 
 - Verrouillage automatique après 10 minutes.
 
@@ -193,7 +193,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 - Windows Defender Antivirus obligatoire.
 
 
-## Réseau :
+### Réseau :
 
 - Segmentation par VLAN.
 
