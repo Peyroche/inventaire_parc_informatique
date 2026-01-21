@@ -80,7 +80,6 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
 
 ### Créer un suivi :
 
-
 <p align="center">
 
 <img src="perfmon/01.png" width="400">
@@ -110,9 +109,7 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
 </p>
 
 
-
 ### Planifier l’exécution :
-
 
 <p align="center">
 
