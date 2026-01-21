@@ -16,7 +16,7 @@ Le projet a pour objectifs :
 
 - d'établir un suivi des indicateurs clés de performance,
 
-- de réaliser les mises à jours régulières des configurations matérielles et logicielles
+- de réaliser les mises à jours logicielles et matériels,
 
 - de définir et formaliser une politique de sécurité adaptée à l’organisation,
 
@@ -130,9 +130,14 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
  
 ---
 
-## II.3 Mises à jours des configuration matérielles et logicielles :
+## II.3 Mises à jours des configurations logicielles :
 
-Réaliser des mises à jour régulières des configurations matérielles et logicielles est essentiel pour garantir un niveau optimal de sécurité, de stabilité et de performance au sein du système d’information. Cela inclut l’application systématique des correctifs de sécurité, la mise à jour des pilotes, ainsi que l’ajustement des paramètres réseau en fonction des besoins opérationnels. Pour automatiser et centraliser la gestion des mises à jour, l’entreprise peut s’appuyer sur une solution telle que WSUS (Windows Server Update Services), permettant de contrôler, valider et déployer les correctifs sur l’ensemble du parc informatique.
+Les mises à jour logicielles concernent tout ce qui touche au fonctionnement des programmes et du système d’exploitation. Elles sont essentielles pour maintenir la sécurité et la stabilité du SI. Pour automatiser et centraliser la gestion des mises à jour, l’entreprise peut s’appuyer sur une solution telle que WSUS (Windows Server Update Services). WSUS permet de gérer :
+Mises à jour Windows, les Correctifs de sécurité Microsoft, les Mises à jour Office (MSI), les Pilotes Microsoft (limité), les Produits Microsoft (SQL, .NET, etc.)
+
+---
+
+## II.4 Mises à jours des configurations matérielles :
 
 ---
 
