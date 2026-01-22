@@ -117,12 +117,6 @@ Dans le cadre de la maintenance préventive, nous avons choisi de réaliser deux
 
 <img src="perfmon/10.png" width="400">
 
-<img src="perfmon/11.png" width="400">
-
-<img src="perfmon/12.png" width="400">
-
-<img src="perfmon/12.png" width="400">
-
 </p>
 
  
