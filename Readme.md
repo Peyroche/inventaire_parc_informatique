@@ -85,13 +85,15 @@ Voici un tableau simple pour guider le choix :
 | Réaliser des mises à jour des produits Microsoft, application des correctifs de sécurité, ajustement des paramètres réseau | Ajustement        | 
 
 Dans le cadre de la maintenance préventive, nous avons choisi de réaliser deux actions :
+
 - l’action de surveillance,
+
 - l'action d'ajustement.
 
 
 ## II.2.1. Action de surveillance :
 
-### Création d'un suivi des indicateurs clés des performances CPU/RAM/Stockage via PerfMon :
+### Planification d'un suivi des performances CPU/RAM/Stockage via PerfMon :
 
 <p align="center">
 
