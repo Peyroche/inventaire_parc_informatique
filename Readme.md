@@ -14,9 +14,7 @@ Le projet a pour objectifs :
 
 - d’établir un inventaire structuré,
 
-- d'établir un suivi des indicateurs clés de performance,
-
-- de réaliser les mises à jours logicielles et matériels,
+- de réaliser une stratégie de maintenance préventive,
 
 - de définir et formaliser une politique de sécurité adaptée à l’organisation,
 
@@ -74,12 +72,26 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 ---
 
-## II.2. Suivi des indicateurs clés de performance :
+## II.2. Stratégie de Maintenance préventive :
 
-Un ensemble de collecteurs de données permet d’enregistrer automatiquement les performances d’un poste ou d’un serveur sur une période définie. Grâce à PerfMon, il est possible de créer un suivi personnalisé des indicateurs clés (CPU, mémoire, disque, réseau) et de planifier exécution. Les données collectées peuvent ensuite être analysées pour anticiper les dégradations et proposer des actions de maintenance préventive.
+Une stratégie de maintenance préventive peut être ciblée. Par exemple, si l’objectif est de vérifier la stabilité du système, on peut se concentrer uniquement sur la surveillance. Si l’objectif est de renforcer la sécurité, on peut choisir uniquement l’ajustement (correctifs, mises à jour). Si l’objectif est de vérifier l’état du matériel, on peut se limiter à l’inspection.
+
+Voici un tableau simple pour guider le choix :
+
+|  Objectif                                                                                                                  | Action pertinente |      
+|----------------------------------------------------------------------------------------------------------------------------|-------------------|
+| Examiner régulièrement l’état physique du matériel informatique, comme les câbles, les ventilateurs, ou les disques durs   | Inspection        |                                                                           
+| Suivi des indicateurs clés des performances (température, utilisation CPU, espace disque)                                  | Surveillance      | 
+| Réaliser des mises à jour des produits Microsoft, application des correctifs de sécurité, ajustement des paramètres réseau | Ajustement        | 
+
+Dans le cadre de la maintenance préventive, nous avons choisi de réaliser deux actions :
+- l’action de surveillance,
+- l'action d'ajustement.
 
 
-### Créer un suivi :
+## II.2.1. Action de surveillance :
+
+### Création d'un suivi des indicateurs clés des performances CPU/RAM/Stockage via PerfMon :
 
 <p align="center">
 
@@ -110,7 +122,7 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
 </p>
 
 
-### Planifier son exécution :
+### Planifier l'exécution du suivi :
 
 <p align="center">
 
@@ -128,16 +140,22 @@ Un ensemble de collecteurs de données permet d’enregistrer automatiquement le
 
 </p>
  
----
 
-## II.3 Mises à jours des configurations logicielles :
+## II.2.2. Action d'ajustement
 
-Les mises à jour logicielles concernent tout ce qui touche au fonctionnement des programmes et du système d’exploitation. Elles sont essentielles pour maintenir la sécurité et la stabilité du SI. Pour automatiser et centraliser la gestion des mises à jour, l’entreprise peut s’appuyer sur une solution telle que WSUS (Windows Server Update Services). WSUS permet de gérer :
-Mises à jour Windows, les Correctifs de sécurité Microsoft, les Mises à jour Office (MSI), les Pilotes Microsoft (limité), les Produits Microsoft (SQL, .NET, etc.)
+### Réaliser la mise à jour des produits Microsoft via WSUS :
+
+
+
+
+
+
 
 ---
 
 ## II.4 Mises à jours des configurations matérielles :
+
+Les mises à jour matérielles concernent les composants physiques du parc informatique. Elles sont nécessaires lorsque le matériel devient insuffisant, obsolète ou limite les performances. 
 
 ---
 
