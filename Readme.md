@@ -28,16 +28,16 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Postes  | Marques | Modèles            | Processeur | RAM  | Stockage | Date acquisition | Fin de Garantie | Périphériques   |
-|---------|---------|--------------------|------------|------|----------|------------------|-----------------|-----------------|
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    |        /        | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    |       /         | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    |      /          |
+| Postes  | Marques | Modèles            | Processeur | RAM  | Stockage | Périphériques   |
+|---------|---------|--------------------|------------|------|----------|-----------------|
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |        /        | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |       /         | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |      /          |
 
 <p align="center">
 
