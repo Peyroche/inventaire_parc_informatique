@@ -28,16 +28,16 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Postes  | N°   | Marques | Modèles            | Processeur | RAM  | Stockage | Date acquisition | Fin de Garantie | Localisation | Périphériques   | Services            |
-|---------|------|---------|--------------------|------------|------|----------|------------------|-----------------|--------------|-----------------|---------------------|
-| PC fixe | PC01 | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Direction           |
-| Laptop  | PC02 | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Ressources Humaines |
-| PC fixe | PC03 | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Markéting           |
-| PC fixe | PC04 | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 2     | Souris, Clavier | Commercial          |
-| Laptop  | PC05 | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     | Souris, Clavier | Production          |
-| PC fixe | PC06 | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     | Souris, Clavier | Stagiaire           |
-| PC fixe | PC07 | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     | Souris, Clavier | Comptabilité        |
-| Laptop  | PC08 | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     | Souris, Clavier | Informatique        |
+| Postes  | Marques | Modèles            | Processeur | RAM  | Stockage | Date acquisition | Fin de Garantie | Périphériques   |
+|---------|---------|--------------------|------------|------|----------|------------------|-----------------|-----------------|
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    |        /        | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    |       /         | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    |      /          |
 
 <p align="center">
 
