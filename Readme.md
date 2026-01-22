@@ -119,36 +119,14 @@ Dans le cadre de la maintenance préventive, nous avons choisi de réaliser deux
 
 <img src="perfmon/12.png" width="400">
 
-</p>
-
-
-### Planifier l'exécution du suivi :
-
-<p align="center">
-
-<img src="perfmon/13.png" width="400">
-
-<img src="perfmon/14.png" width="400">
-
-<img src="perfmon/15.png" width="400">
-
-<img src="perfmon/16.png" width="400">
-
-<img src="perfmon/17.png" width="400">
-
-<img src="perfmon/18.png" width="400">
+<img src="perfmon/12.png" width="400">
 
 </p>
+
  
-
 ## II.2.2. Action d'ajustement
 
 ### Réaliser la mise à jour des produits Microsoft via WSUS :
-
-
-
-
-
 
 
 ---
