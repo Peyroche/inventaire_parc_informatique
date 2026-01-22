@@ -14,7 +14,7 @@ Le projet a pour objectifs :
 
 - d’établir un inventaire structuré,
 
-- de réaliser une stratégie de maintenance préventive,
+- de réaliser un suivi des indicateurs clés des performances (température, utilisation CPU, espace disque),
 
 - de définir et formaliser une politique de sécurité adaptée à l’organisation,
 
@@ -28,16 +28,16 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Postes  | N°  | Marques | Modèles            | Processeur | RAM  | Stockage | Date acquisition | Fin de Garantie | Localisation | Périphériques   | Services            |
-|---------|-----|---------|--------------------|------------|------|----------|------------------|-----------------|--------------|-----------------|---------------------|
-| PC fixe | 001 | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Direction           |
-| Laptop  | 002 | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Ressources Humaines |
-| PC fixe | 003 | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Markéting           |
-| PC fixe | 004 | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 2     | Souris, Clavier | Commercial          |
-| Laptop  | 005 | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     | Souris, Clavier | Production          |
-| PC fixe | 006 | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     | Souris, Clavier | Stagiaire           |
-| PC fixe | 007 | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     | Souris, Clavier | Comptabilité        |
-| Laptop  | 008 | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     | Souris, Clavier | Informatique        |
+| Postes  | N°   | Marques | Modèles            | Processeur | RAM  | Stockage | Date acquisition | Fin de Garantie | Localisation | Périphériques   | Services            |
+|---------|------|---------|--------------------|------------|------|----------|------------------|-----------------|--------------|-----------------|---------------------|
+| PC fixe | PC01 | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Direction           |
+| Laptop  | PC02 | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Ressources Humaines |
+| PC fixe | PC03 | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 1     | Souris, Clavier | Markéting           |
+| PC fixe | PC04 | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   10/01/2024     |   10/01/2027    | Bureau 2     | Souris, Clavier | Commercial          |
+| Laptop  | PC05 | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     | Souris, Clavier | Production          |
+| PC fixe | PC06 | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 2     | Souris, Clavier | Stagiaire           |
+| PC fixe | PC07 | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     | Souris, Clavier | Comptabilité        |
+| Laptop  | PC08 | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |   20/02/2024     |   20/02/2027    | Bureau 3     | Souris, Clavier | Informatique        |
 
 <p align="center">
 
@@ -72,28 +72,7 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 ---
 
-## II.2. Stratégie de Maintenance préventive :
-
-Une stratégie de maintenance préventive peut être ciblée. Par exemple, si l’objectif est de vérifier la stabilité du système, on peut se concentrer uniquement sur la surveillance. Si l’objectif est de renforcer la sécurité, on peut choisir uniquement l’ajustement (correctifs, mises à jour). Si l’objectif est de vérifier l’état du matériel, on peut se limiter à l’inspection.
-
-Voici un tableau simple pour guider le choix :
-
-|  Objectif                                                                                                                  | Action pertinente |      
-|----------------------------------------------------------------------------------------------------------------------------|-------------------|
-| Examiner régulièrement l’état physique du matériel informatique, comme les câbles, les ventilateurs, ou les disques durs   | Inspection        |                                                                           
-| Suivi des indicateurs clés des performances (température, utilisation CPU, espace disque)                                  | Surveillance      | 
-| Réaliser des mises à jour des produits Microsoft, application des correctifs de sécurité, ajustement des paramètres réseau | Ajustement        | 
-
-Dans le cadre de la maintenance préventive, nous avons choisi de réaliser deux actions :
-
-- l’action de surveillance,
-
-- l'action d'ajustement.
-
-
-## II.2.1. Action de surveillance :
-
-### Planification d'un suivi des performances CPU/RAM/Stockage via PerfMon :
+## II.2. Réaliser un suivi des indicateurs clés des performances :
 
 <p align="center">
 
@@ -118,18 +97,6 @@ Dans le cadre de la maintenance préventive, nous avons choisi de réaliser deux
 <img src="perfmon/10.png" width="400">
 
 </p>
-
- 
-## II.2.2. Action d'ajustement
-
-### Réaliser la mise à jour des produits Microsoft via WSUS :
-
-
----
-
-## II.4 Mises à jours des configurations matérielles :
-
-Les mises à jour matérielles concernent les composants physiques du parc informatique. Elles sont nécessaires lorsque le matériel devient insuffisant, obsolète ou limite les performances. 
 
 ---
 
