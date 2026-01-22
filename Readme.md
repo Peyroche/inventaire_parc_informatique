@@ -52,14 +52,14 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 L'inventaire Software consiste à collecter les données logiciels.
 
-| Types Logiciels|   Logiciels        | Licences        | N° de Licence  | Expiration  |  Version   | Fin de support |
-|----------------|--------------------|-----------------|----------------|-------------|------------|----------------|
-| Systèmes       | Windows pro 10     |        /        |       /        |      /      |   21H2     |   13/01/2032   |
-| Applicatifs    | Suite Office       | Microsoft 365   |       /        | 14/09/2026  |     /      |      /         |
-| Utilitaires    | Duplicati          |  Open source    |       /        |     /       |     /      |      /         |
-| Développements | Visual Studio code |  Open source    |       /        |     /       |     /      |      /         |
-| Métiers        | CRM                |        /        |       /        |     /       |     /      |      /         |
-| Serveurs       | Windows server 22  |        /        |       /        |     /       |   21H2     |      /         |
+| Types Logiciels| Logiciels          | Licences      | Expiration | Version  | Fin de support |
+|----------------|--------------------|---------------|------------|----------|----------------|
+| Systèmes       | Windows pro 10     |        /      |      /     |   21H2   |   13/01/2032   |
+| Applicatifs    | Suite Office       | Microsoft 365 | 14/09/2026 |     /    |      /         |
+| Utilitaires    | Duplicati          |  Open source  |     /      |     /    |      /         |
+| Développements | Visual Studio code |  Open source  |     /      |     /    |      /         |
+| Métiers        | CRM                |        /      |     /      |     /    |      /         |
+| Serveurs       | Windows server 22  |        /      |     /      |   21H2   |      /         |
 
 
 <p align="center">
