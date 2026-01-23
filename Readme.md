@@ -45,8 +45,9 @@ L'inventaire Hardware consiste à collecter les données matériels.
                                                                        
 </p>                                                                    
 
+---
 
-#### Explication :
+## Explication :
 
 GPU est un processeur spécialisé dans le traitement graphique.
 
@@ -82,6 +83,7 @@ Cela arrive uniquement :
 
 - logiciels légers (GLPI, VirtualBox, Github, CRM).
 
+---
 
 ## II.1.2. Inventaire Software : 
 
@@ -106,6 +108,7 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 </p>
 
+---
 
 ## II.1.3. Inventaire Globale : 
  
@@ -148,10 +151,16 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 </p>
 
-#### Conclusion : 
+---
+
+## Conclusion : 
+
 Le fait que Windows 10 Enterprise LTSC ne soit pas activé peut indirectement empêcher l’installation automatique de certains pilotes, surtout dans une machine virtuelle. Windows non activé limite certaines fonctionnalités, notamment : Personnalisation, Accès complet à Windows Update, Téléchargement de pilotes facultatifs ou tiers.
 
-#### Résultat : 
+---
+
+## Résultat : 
+
 Certains périphériques, comme les contrôleurs PCI virtuels, restent non reconnus car Windows ne télécharge pas leur pilote automatiquement.
 
 <p align="center">
@@ -160,7 +169,10 @@ Certains périphériques, comme les contrôleurs PCI virtuels, restent non recon
 
 </p>
 
-#### Solution :
+---
+
+## Solution :
+
 Activer une clé MAK ou une clé KMS.
 
 #### Pour rappel :
