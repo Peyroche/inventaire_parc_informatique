@@ -125,7 +125,7 @@ L'inventaire Software consiste à collecter les données logiciels.
                                                                                            
 ---
 
-## II.2. Réaliser un suivi des indicateurs clés des performances :
+## II.2. Suivi des indicateurs clés des performances :
 
 <p align="center">
 
@@ -153,13 +153,9 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 ---
 
-## Conclusion : 
+## Conclusion sur le suivi : 
 
 Le fait que Windows 10 Enterprise LTSC ne soit pas activé peut indirectement empêcher l’installation automatique de certains pilotes, surtout dans une machine virtuelle. Windows non activé limite certaines fonctionnalités, notamment : Personnalisation, Accès complet à Windows Update, Téléchargement de pilotes facultatifs ou tiers.
-
----
-
-## Résultat : 
 
 Certains périphériques, comme les contrôleurs PCI virtuels, restent non reconnus car Windows ne télécharge pas leur pilote automatiquement.
 
@@ -171,7 +167,7 @@ Certains périphériques, comme les contrôleurs PCI virtuels, restent non recon
 
 ---
 
-## Solution :
+## Solution proposé au suivi :
 
 Activer une clé MAK ou une clé KMS.
 
