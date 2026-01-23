@@ -28,16 +28,16 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Postes  | Marques | Modèles            | Processeur | RAM  | Carte graphique | Stockage | Périphériques   |
-|---------|---------|--------------------|------------|------|-----------------|----------|-----------------|
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |       /         |  50 GB   |        /        | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |       /         |  50 GB   |       /         | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |       /         |  50 GB   |      /          |
+| Postes  | Marques | Modèles            | Processeur | RAM  | Carte graphique    | Stockage | Périphériques   |
+|---------|---------|--------------------|------------|------|--------------------|----------|-----------------|
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   |        /        | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   |       /         | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   |      /          |
 
 <p align="center">
 
