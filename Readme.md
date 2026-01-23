@@ -14,7 +14,7 @@ Le projet a pour objectifs :
 
 - d’établir un inventaire structuré,
 
-- de réaliser un suivi des indicateurs clés des performances (température, utilisation CPU, espace disque),
+- de réaliser un suivi des indicateurs clés des performances,
 
 - de définir et formaliser une politique de sécurité adaptée à l’organisation,
 
