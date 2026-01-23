@@ -46,6 +46,43 @@ L'inventaire Hardware consiste à collecter les données matériels.
 </p>                                                                    
 
 
+#### Explication :
+
+GPU est un processeur spécialisé dans le traitement graphique.
+
+Si Windows affiche Aucun GPU installé, cela veut dire qu'il y a de GPU réel.
+
+Cela arrive uniquement :
+
+- si le processeur n’a pas de GPU intégré  
+
+- s'il n'y a pas de carte graphique dédiée.
+
+
+Dans ce cas :
+
+- windows utilise un pilote d’affichage basique
+
+- l’affichage fonctionne, mais très limité
+
+- pas d’accélération graphique
+
+- performances faibles mais suffisantes pour afficher le bureau.
+
+
+Il est possible d'utiliser :
+
+- bureautique (Word, Excel, PDF)
+
+- navigation Internet
+
+- youTube / Netflix
+
+- gestion de fichiers
+
+- logiciels légers (GLPI, VirtualBox, Github, CRM).
+
+
 ## II.1.2. Inventaire Software : 
 
 L'inventaire Software consiste à collecter les données logiciels.
@@ -74,14 +111,14 @@ L'inventaire Software consiste à collecter les données logiciels.
  
 | N° | Code | Postes   | Marques |             Logiciels                  | Processeur | RAM  | Stockage | Périphériques   |   Etats       | Services     | Localisation |
 |----|------|----------|---------|----------------------------------------|------------|------|----------|-----------------|---------------|--------------|--------------|
-| 1  | PC01 | PC fixe  | Dell    | Windows pro 10, Libre Office           | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |  En service   | Direction    |   Bureau 1   |
-| 2  | PC02 | Laptop   | Lenovo  | Windows pro 10, Libre Office           | Intel i5   | 2 Go | 49,4 Go  |        /        |  En service   | RH           |   Bureau 1   |
-| 3  | PC03 | PC fixe  | HP      | Windows pro 10, Libre Office           | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |  En service   | Production   |   Bureau 2   |
-| 4  | PC04 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |  En service   | Commercial   |   Bureau 2   |
-| 5  | PC05 | Laptop   | Lenovo  | CRM, Visual studio code                | Intel i5   | 2 Go | 49,4 Go  |        /        |  En service   | Comptabilité |   Bureau 3   | 
-| 6  | PC06 | PC fixe  | HP      | Windows pro 10,  Visual studio code    | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |  En service   | Informatique |   Bureau 4   |
-| 7  | PC07 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |  En service   | Marketing    |   Bureau 3   |
-| 8  | PC08 | Laptop   | Lenovo  | Windows server 22                      | Intel i5   | 2 Go | 49,4 Go  |        /        |  En service   | Informatique |   Bureau 4   |
+| 1  | PC01 | PC fixe  | Dell    | Windows pro 10, Libre Office           | Intel i5   | 2 Go |  50 GB   | Souris, Clavier |  En service   | Direction    |   Bureau 1   |
+| 2  | PC02 | Laptop   | Lenovo  | Windows pro 10, Libre Office           | Intel i5   | 2 Go |  50 GB   |        /        |  En service   | RH           |   Bureau 1   |
+| 3  | PC03 | PC fixe  | HP      | Windows pro 10, Libre Office           | Intel i5   | 2 Go |  50 GB   | Souris, Clavier |  En service   | Production   |   Bureau 2   |
+| 4  | PC04 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM      | Intel i5   | 2 Go |  50 GB   | Souris, Clavier |  En service   | Commercial   |   Bureau 2   |
+| 5  | PC05 | Laptop   | Lenovo  | CRM, Visual studio code                | Intel i5   | 2 Go |  50 GB   |        /        |  En service   | Comptabilité |   Bureau 3   | 
+| 6  | PC06 | PC fixe  | HP      | Windows pro 10,  Visual studio code    | Intel i5   | 2 Go |  50 GB   | Souris, Clavier |  En service   | Informatique |   Bureau 4   |
+| 7  | PC07 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM      | Intel i5   | 2 Go |  50 GB   | Souris, Clavier |  En service   | Marketing    |   Bureau 3   |
+| 8  | PC08 | Laptop   | Lenovo  | Windows server 22                      | Intel i5   | 2 Go |  50 GB   |        /        |  En service   | Informatique |   Bureau 4   |
                                                                                            
 ---
 
