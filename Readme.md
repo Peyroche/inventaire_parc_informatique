@@ -28,22 +28,20 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Postes  | Marques | Modèles            | Processeur | RAM  | Stockage | Périphériques   |
-|---------|---------|--------------------|------------|------|----------|-----------------|
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |        /        | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |       /         | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |      /          |
+| Postes  | Marques | Modèles            | Processeur | RAM  | Carte graphique | Stockage | Périphériques   |
+|---------|---------|--------------------|------------|------|-----------------|----------|-----------------|
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |       /         |  50 GB   |        /        | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |       /         |  50 GB   |       /         | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |       /         |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |       /         |  50 GB   |      /          |
 
 <p align="center">
 
 <img src="configuration/01.png" width="400">
-
-<img src="configuration/02.png" width="400">              
                                                                        
 </p>                                                                    
 
