@@ -113,13 +113,10 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 </p>
 
-
-### Conclusion : 
-
+#### Conclusion : 
 Le fait que Windows 10 Enterprise LTSC ne soit pas activé peut indirectement empêcher l’installation automatique de certains pilotes, surtout dans une machine virtuelle. Windows non activé limite certaines fonctionnalités, notamment : Personnalisation, Accès complet à Windows Update, Téléchargement de pilotes facultatifs ou tiers.
 
-### Résultat : 
-
+#### Résultat : 
 Certains périphériques, comme les contrôleurs PCI virtuels, restent non reconnus car Windows ne télécharge pas leur pilote automatiquement.
 
 <p align="center">
@@ -128,12 +125,10 @@ Certains périphériques, comme les contrôleurs PCI virtuels, restent non recon
 
 </p>
 
-### Solution :
-
+#### Solution :
 Activer une clé MAK ou une clé KMS.
 
-### Pour rappel :
-
+#### Pour rappel :
 Une clé MAK est une clé de produit Windows utilisée dans les entreprises pour activer définitivement un certain nombre de machines. 
 Fonctionnement : 
 - elle active Windows une seule fois par machine, 
