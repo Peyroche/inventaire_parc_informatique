@@ -52,14 +52,13 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 L'inventaire Software consiste à collecter les données logiciels.
 
-| Types Logiciels| Logiciels          | Licences      | Expiration | Version  | Fin de support |
-|----------------|--------------------|---------------|------------|----------|----------------|
-| Systèmes       | Windows pro 10     |        /      |      /     |   21H2   |   13/01/2032   |
-| Applicatifs    | Suite Office       | Microsoft 365 | 14/09/2026 |     /    |      /         |
-| Utilitaires    | Duplicati          |  Open source  |     /      |     /    |      /         |
-| Développements | Visual Studio code |  Open source  |     /      |     /    |      /         |
-| Métiers        | CRM                |        /      |     /      |     /    |      /         |
-| Serveurs       | Windows server 22  |        /      |     /      |   21H2   |      /         |
+| Types Logiciels| Logiciels          | Licences    | Date d'expiration | Version | Date de fin de support |
+|----------------|--------------------|-------------|-------------------|---------|------------------------|
+| Systèmes       | Windows pro 10     |      /      |        /          |   21H2  |      13/01/2032        |
+| Applicatifs    | Libre Office       | Open source |        /          |     /   |           /            |
+| Développements | Visual Studio code | Open source |        /          |     /   |           /            |
+| Métiers        | CRM                |      /      |        /          |     /   |           /            |
+| Serveurs       | Windows server 22  |      /      |        /          |   21H2  |      13/01/2032        |
 
 
 <p align="center">
@@ -68,8 +67,24 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 <img src="version/02.png" width="400">
 
+<img src="libreoffice/01.png" width="400">
+
 </p>
 
+
+## II.1.3. Inventaire Globale : 
+ 
+| N° | Code | Marques  | Modèles | Logiciels                           | Processeur | RAM  | Stockage | Périphériques   |
+|----|------|----------|---------|-------------------------------------|------------|------|----------|-----------------|
+| 1  | PC01 | PC fixe  | Dell    | Windows pro 10, Libre Office        | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |
+| 2  | PC02 | Laptop   | Lenovo  | Windows pro 10, Libre Office        | Intel i5   | 2 Go | 49,4 Go  |        /        |
+| 3  | PC03 | PC fixe  | HP      | Windows pro 10, Libre Office        | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |
+| 4  | PC04 | PC fixe  | Dell    | Windows pro 10, Libre Office        | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |
+| 5  | PC05 | Laptop   | Lenovo  | CRM, Visual studio code             | Intel i5   | 2 Go | 49,4 Go  |        /        |
+| 6  | PC06 | PC fixe  | HP      | Windows pro 10,  Visual studio code | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |
+| 7  | PC07 | PC fixe  | Dell    | Windows pro 10, Libre Office        | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier |
+| 8  | PC08 | Laptop   | Lenovo  | Windows server 22                   | Intel i5   | 2 Go | 49,4 Go  |        /        |       
+                                                                                           
 ---
 
 ## II.2. Réaliser un suivi des indicateurs clés des performances :
