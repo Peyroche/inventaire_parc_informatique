@@ -28,16 +28,16 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Types de Postes | Marques | Modèles            | Processeur | RAM  | Stockage | Périphériques   |
-|-----------------|---------|--------------------|------------|------|----------|-----------------|
-| PC fixe         | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| Laptop          | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |        /        | 
-| PC fixe         | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| PC fixe         | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| Laptop          | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |       /         | 
-| PC fixe         | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| PC fixe         | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
-| Laptop          | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |      /          |
+| Postes  | Marques | Modèles            | Processeur | RAM  | Stockage | Périphériques   |
+|---------|---------|--------------------|------------|------|----------|-----------------|
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |        /        | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |       /         | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | 49,4 Go  |      /          |
 
 <p align="center">
 
@@ -52,13 +52,13 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 L'inventaire Software consiste à collecter les données logiciels.
 
-| Types de Logiciels | Logiciels          | Licences    | Dates d'expiration | Version | Dates de fin de support |
-|--------------------|--------------------|-------------|--------------------|---------|-------------------------|
-| Systèmes           | Windows pro 10     |      /      |        /           |   21H2  |      13/01/2032         |
-| Applicatifs        | Libre Office       | Open source |        /           |     /   |           /             |
-| Développements     | Visual Studio code | Open source |        /           |     /   |           /             |
-| Métiers            | CRM                |      /      |        /           |     /   |           /             |
-| Serveurs           | Windows server 22  |      /      |        /           |   21H2  |      13/01/2032         |
+| Types de Logiciels | Logiciels          | Licences    | Expiration | Version | Fin de support |
+|--------------------|--------------------|-------------|------------|---------|----------------|
+| Systèmes           | Windows pro 10     |      /      |    /       |   21H2  |   13/01/2032   |
+| Applicatifs        | Libre Office       | Open source |    /       |     /   |       /        |
+| Développements     | Visual Studio code | Open source |    /       |     /   |       /        |
+| Métiers            | CRM                |      /      |    /       |     /   |       /        |
+| Serveurs           | Windows server 22  |      /      |    /       |   21H2  |   13/01/2032   |
 
 
 <p align="center">
@@ -74,16 +74,16 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 ## II.1.3. Inventaire Globale : 
  
-| N° | Code | Postes   | Marques | Logiciels                           | Processeur | RAM  | Stockage | Périphériques   | Etats       | Services     |
-|----|------|----------|---------|-------------------------------------|------------|------|----------|-----------------|-------------|--------------|
-| 1  | PC01 | PC fixe  | Dell    | Windows pro 10, Libre Office        | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service  | Direction    |
-| 2  | PC02 | Laptop   | Lenovo  | Windows pro 10, Libre Office        | Intel i5   | 2 Go | 49,4 Go  |        /        | En service  | RH           |
-| 3  | PC03 | PC fixe  | HP      | Windows pro 10, Libre Office        | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service  | Production   |
-| 4  | PC04 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM   | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service  | Commercial   |
-| 5  | PC05 | Laptop   | Lenovo  | CRM, Visual studio code             | Intel i5   | 2 Go | 49,4 Go  |        /        | En service  | Comptabilité |
-| 6  | PC06 | PC fixe  | HP      | Windows pro 10,  Visual studio code | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service  | Informatique |
-| 7  | PC07 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM   | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service  | Marketing    |
-| 8  | PC08 | Laptop   | Lenovo  | Windows server 22                   | Intel i5   | 2 Go | 49,4 Go  |        /        | En service  | Informatique |
+| N° | Code | Postes   | Marques | Logiciels                             | Processeur | RAM  | Stockage | Périphériques   | Etats        | Services     |
+|----|------|----------|---------|---------------------------------------|------------|------|----------|-----------------|--------------|--------------|
+| 1  | PC01 | PC fixe  | Dell    | Windows pro 10, Libre Office          | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service   | Direction    |
+| 2  | PC02 | Laptop   | Lenovo  | Windows pro 10, Libre Office          | Intel i5   | 2 Go | 49,4 Go  |        /        | En service   | RH           |
+| 3  | PC03 | PC fixe  | HP      | Windows pro 10, Libre Office          | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service   | Production   |
+| 4  | PC04 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service   | Commercial   |
+| 5  | PC05 | Laptop   | Lenovo  | CRM, Visual studio code               | Intel i5   | 2 Go | 49,4 Go  |        /        | En service   | Comptabilité |
+| 6  | PC06 | PC fixe  | HP      | Windows pro 10,  Visual studio code   | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service   | Informatique |
+| 7  | PC07 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM     | Intel i5   | 2 Go | 49,4 Go  | Souris, Clavier | En service   | Marketing    |
+| 8  | PC08 | Laptop   | Lenovo  | Windows server 22                     | Intel i5   | 2 Go | 49,4 Go  |        /        | En service   | Informatique |
                                                                                            
 ---
 
