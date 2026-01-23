@@ -128,6 +128,24 @@ Certains périphériques, comme les contrôleurs PCI virtuels, restent non recon
 
 </p>
 
+### Solution :
+
+Activer une clé MAK ou une clé KMS.
+
+### Pour rappel :
+
+Une clé MAK est une clé de produit Windows utilisée dans les entreprises pour activer définitivement un certain nombre de machines. 
+Fonctionnement : 
+- elle active Windows une seule fois par machine, 
+- l’activation se fait via Internet directement auprès de Microsoft, 
+- une fois activé, le PC reste activé à vie, même hors réseau.
+
+Une clé KMS est une clé utilisée pour activer Windows via un serveur d’activation interne dans une organisation. 
+Fonctionnement :
+- le PC contacte un serveur KMS interne, 
+- l’activation est temporaire : 180 jours, 
+- le PC doit renouveler son activation régulièrement en restant sur le réseau de l’entreprise.
+
 ---
 
 ## II.4 Politique de sécurité :
