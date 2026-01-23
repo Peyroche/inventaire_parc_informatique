@@ -59,7 +59,7 @@ Cela arrive uniquement :
 - s'il n'y a pas de carte graphique dédiée.
 
 
-Dans ce cas :
+#### Dans ce cas :
 
 - windows utilise un pilote d’affichage basique
 
@@ -70,7 +70,7 @@ Dans ce cas :
 - performances faibles mais suffisantes pour afficher le bureau.
 
 
-Il est possible d'utiliser :
+#### Il est possible d'utiliser :
 
 - bureautique (Word, Excel, PDF)
 
