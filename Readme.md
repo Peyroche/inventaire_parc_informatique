@@ -101,8 +101,6 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 <img src="perfmon/08.png" width="400">
 
-<img src="perfmon/09.png" width="400">
-
 </p>
 
 
