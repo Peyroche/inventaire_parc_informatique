@@ -228,10 +228,11 @@ ITIL (Information Technology Infrastructure Library) est un référentiel intern
 
 Prérequis à télécharger :
 
-- WampServer (PHP version 7.4.33)
-- GLPI version 10.0.6
-- OCS Inventory NG version 2.0.5
-- Fusion Inventory Version 10.0.6 + 1.1
+- WampServer (PHP version 7.4.33) : https://www.wampserver.com
+- Packages Microsoft Visual C++ : https://wampserver.aviatechno.net
+- GLPI version 10.0.6 : https://www.glpi-project.org/en/new-version-glpi-10-0-6/
+- OCS Inventory NG version 2.0.5 : https://github.com/fusioninventory/fusioninventory-for-glpi/releases
+- Fusion Inventory Version 10.0.6 + 1.1 : https://github.com/pluginsGLPI/ocsinventoryng/releases/tag/2.0.5
 
 ## Hyperviseur :
 
