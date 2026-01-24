@@ -226,8 +226,68 @@ GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer u
 
 ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
 
-## II.8.1. Installation de GLPI :
+## II.6.1. Installation de GLPI :
 
+Prérequis à télécharger :
+
+- WampServer (PHP version 7.4.33)
+- GLPI version 10.0.6
+- OCS Inventory NG version 2.0.5
+- Fusion Inventory Version 10.0.6 + 1.1
+
+## Installation VBoxWindowsAdditions dans une VM :
+
+<p align="center">
+
+<img src="vbox/01.png" width="400">
+
+<img src="vbox/02.png" width="400">
+
+<img src="vbox/03.png" width="400">
+
+<img src="vbox/04.png" width="400">
+
+<img src="vbox/05.png" width="400">
+
+<img src="vbox/06.png" width="400">
+
+<img src="vbox/07.png" width="400">
+
+<img src="vbox/08.png" width="400">
+
+<img src="vbox/09.png" width="400">
+
+</p>
+
+## Transfère fichier et installation de WampServer dans une VM avec VBoxWindowsAdditions :
+
+<p align="center">
+
+<img src="wampserver/01.png" width="400">
+
+<img src="wampserver/02.png" width="400">
+
+<img src="wampserver/03.png" width="400">
+
+<img src="wampserver/04.png" width="400">
+
+<img src="wampserver/05.png" width="400">
+
+<img src="wampserver/06.png" width="400">
+
+<img src="wampserver/07.png" width="400">
+
+<img src="wampserver/08.png" width="400">
+
+<img src="wampserver/09.png" width="400">
+
+<img src="wampserver/10.png" width="400">
+
+<img src="wampserver/11.png" width="400">
+
+<img src="wampserver/12.png" width="400">
+
+</p>
 
 
 
