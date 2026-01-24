@@ -244,6 +244,8 @@ Prérequis à télécharger :
 
 ## Installation VBoxWindowsAdditions :
 
+VBoxWindowsAdditions (appelée aussi Guest Additions) sert à transformer les fichiers et biens d'autres choses encore dans un environnement virtuel.
+
 <p align="center">
 
 <img src="vbox/01.png" width="400">
