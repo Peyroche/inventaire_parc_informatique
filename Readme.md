@@ -135,7 +135,7 @@ Fonctionnement :
 
 ---
 
-## II.4 Politique de sécurité :
+## II.3 Politique de sécurité :
 
 La Politique de Sécurité des Systèmes d’Information (PSSI) définit les règles permettant d’assurer la confidentialité, l’intégrité et la disponibilité des données et services informatiques de l’organisation MDF.
 
@@ -201,7 +201,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 ---
 
-## II.5. Automatisation de la gestion avec GLPI :
+## II.4. Automatisation de la gestion avec GLPI :
 
 GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
 
