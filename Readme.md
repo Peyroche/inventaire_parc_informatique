@@ -207,7 +207,7 @@ GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer u
 
 ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
 
-## II.5.1 Installation de GLPI :
+## II.4.1 Installation de GLPI :
 
 
 
