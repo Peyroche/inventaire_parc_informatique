@@ -239,13 +239,15 @@ Prérequis à télécharger :
 
 <p align="center">
 
-<img src="vbox/01.png" width="400">
+<img src="hyperviseur_1/01.png" width="400">
 
 </p>
 
-## Installation VBoxWindowsAdditions dans une VM :
+## Installation VBoxWindowsAdditions :
 
 <p align="center">
+
+<img src="vbox/01.png" width="400">
 
 <img src="vbox/02.png" width="400">
 
@@ -259,10 +261,6 @@ Prérequis à télécharger :
 
 <img src="vbox/07.png" width="400">
 
-<img src="vbox/08.png" width="400">
-
-<img src="vbox/09.png" width="400">
-
 </p>
 
 
@@ -270,15 +268,19 @@ Prérequis à télécharger :
 
 <p align="center">
 
-<img src="wampserver/01.png" width="400">
+<img src="hyperviseur_2/01.png" width="400">
 
-<img src="wampserver/02.png" width="400">
+<img src="hyperviseur_2/02.png" width="400">
 
 </p>
 
-## Transfère fichier et installation de WampServer dans une VM avec VBoxWindowsAdditions :
+## Installation WampServer :
 
 <p align="center">
+
+<img src="wampserver/01.png" width="400">
+
+<img src="wampserver/02.png" width="400">
 
 <img src="wampserver/03.png" width="400">
 
@@ -296,11 +298,4 @@ Prérequis à télécharger :
 
 <img src="wampserver/10.png" width="400">
 
-<img src="wampserver/11.png" width="400">
-
-<img src="wampserver/12.png" width="400">
-
 </p>
-
-
-
