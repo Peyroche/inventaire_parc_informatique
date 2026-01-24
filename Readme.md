@@ -28,16 +28,16 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Postes  | Marques | Modèles            | Processeur | RAM  |  GPU   | Stockage | Périphériques   |
-|---------|---------|--------------------|------------|------|--------|----------|-----------------|
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |   /    |  50 GB   |        /        | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |   /    |  50 GB   |       /         | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |   /    |  50 GB   |      /          |
+| Postes  | Marques | Modèles            | N° de série  | Processeur | RAM  |  GPU   | Stockage | Périphériques   |
+|---------|---------|--------------------|--------------|------------|------|--------|----------|-----------------|
+| PC fixe | Dell    | Optiplex 7070      |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon |       /      | Intel i5   | 2 Go |   /    |  50 GB   |        /        | 
+| PC fixe | HP      | ProDesk 400 G6     |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon |       /      | Intel i5   | 2 Go |   /    |  50 GB   |       /         | 
+| PC fixe | HP      | ProDesk 400 G6     |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon |       /      | Intel i5   | 2 Go |   /    |  50 GB   |      /          |
 
 <p align="center">
 
@@ -50,13 +50,13 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 L'inventaire Software consiste à collecter les données logiciels.
 
-| Types de Logiciels | Logiciels          | Licences    | Expiration | Version | Fin de support |
-|--------------------|--------------------|-------------|------------|---------|----------------|
-| Systèmes           | Windows pro 10     |      /      |    /       |   21H2  |   13/01/2032   |
-| Applicatifs        | Libre Office       | Open source |    /       |     /   |       /        |
-| Développements     | Visual Studio code | Open source |    /       |     /   |       /        |
-| Métiers            | CRM                |      /      |    /       |     /   |       /        |
-| Serveurs           | Windows server 22  |      /      |    /       |   21H2  |   13/01/2032   |
+| Types de Logiciels | Logiciels          | Licences    |  N° de Licence   | Expiration | Version | Fin de support |
+|--------------------|--------------------|-------------|------------------|------------|---------|----------------|
+| Systèmes           | Windows pro 10     |      /      |       /          |     /      |   21H2  |   13/01/2032   |
+| Applicatifs        | Libre Office       | Open source |       /          |     /      |     /   |       /        |
+| Développements     | Visual Studio code | Open source |       /          |     /      |     /   |       /        |
+| Métiers            | CRM                |      /      |       /          |     /      |     /   |       /        |
+| Serveurs           | Windows server 22  |      /      |       /          |     /      |   21H2  |   13/01/2032   |
 
 
 <p align="center">
@@ -108,7 +108,7 @@ L'inventaire Software consiste à collecter les données logiciels.
 </p>
 
 
-Le fait que Windows 10 Enterprise LTSC ne soit pas activé peut indirectement empêcher l’installation automatique de certains pilotes, surtout dans une machine virtuelle. Windows non activé limite certaines fonctionnalités, notamment : Personnalisation, Accès complet à Windows Update, Téléchargement de pilotes facultatifs ou tiers.
+Le fait que Windows 10 Enterprise LTSC ne soit pas activé peut indirectement empêcher l’installation automatique de certains pilotes, surtout dans une machine virtuelle. Windows non activé limite certaines fonctionnalités, notamment : personnalisation, accès complet à Windows Update, téléchargement de pilotes facultatifs ou tiers.
 
 Certains périphériques, comme les contrôleurs PCI virtuels, restent non reconnus car Windows ne télécharge pas leur pilote automatiquement.
 
@@ -119,9 +119,9 @@ Certains périphériques, comme les contrôleurs PCI virtuels, restent non recon
 </p>
 
 
-La Solution dans tout ça serait d'activer une clé MAK ou une clé KMS.
+La solution dans tout ça serait d'activer une clé MAK ou une clé KMS.
 
-Pour rappel Une clé MAK est une clé de produit Windows utilisée dans les entreprises pour activer définitivement un certain nombre de machines. 
+Pour rappel une clé MAK est une clé de produit Windows utilisée dans les entreprises pour activer définitivement un certain nombre de machines. 
 Fonctionnement : 
 - elle active Windows une seule fois par machine, 
 - l’activation se fait via Internet directement auprès de Microsoft, 
@@ -203,7 +203,9 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 ## II.5. Automatisation de la gestion avec GLPI :
 
-GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
+GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
+
+ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
 
 ## II.5.1 Installation de GLPI :
 
