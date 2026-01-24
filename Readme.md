@@ -18,6 +18,8 @@ Le projet a pour objectifs :
 
 - de définir une politique de sécurité adaptée à l’organisation,
 
+- de définir une conformité RGPD et ISO 27001,
+
 - d’intégrer un outil automatisé GLPI.
 
 ---
@@ -135,10 +137,9 @@ Fonctionnement :
 
 ---
 
-## II.3 Politique de sécurité :
+## II.3. Politique de sécurité :
 
-La Politique de Sécurité des Systèmes d’Information (PSSI) définit les règles permettant d’assurer la confidentialité, l’intégrité et la disponibilité des données et services informatiques de l’organisation MDF.
-
+La Politique de Sécurité des Systèmes d’Information (PSSI) définit les règles permettant d’assurer la confidentialité, l’intégrité et la disponibilité des données et services informatiques de l’organisation.
 
 ### Principes généraux :
 
@@ -197,17 +198,63 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 - Filtrage via firewall Fortinet.
 
-- Wi‑Fi invité isolé du réseau interne.
+---
+
+## II.4. Conformité RGPD :
+
+Le RGPD est une loi européenne qui encadre la protection des données personnelles.
+
+### Ce que le RGPD impose :
+
+- Minimiser les données collectées
+
+- Informer les utilisateurs
+
+- Obtenir le consentement
+
+- Sécuriser les données (techniquement et organisationnelle)
+
+- Déclarer les violations de données
+
+- Documenter les traitements
+
+- Respecter les droits : accès, rectification, suppression, portabilité.
 
 ---
 
-## II.4. Automatisation de la gestion avec GLPI :
+## II.5. Conformité ISO 27001 :
+
+ISO 27001 est une norme internationale qui définit comment mettre en place un SMSI (Système de Management de la Sécurité de l’Information).
+
+### Ce que ISO 27001 impose :
+
+- Politique de sécurité
+
+- Analyse des risques
+
+- Mesures de sécurité (contrôles)
+
+- Gestion des incidents
+
+- Gestion des accès
+
+- Sécurité physique
+
+- Continuité d’activité
+
+- Audit interne
+
+- Amélioration continue.
+
+---
+
+## II.8. Automatisation de la gestion avec GLPI :
 
 GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
 
 ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
 
-## II.4.1 Installation de GLPI :
+## II.8.1. Installation de GLPI :
 
 
 
