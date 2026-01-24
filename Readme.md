@@ -14,11 +14,11 @@ Le projet a pour objectifs :
 
 - d’établir un inventaire structuré,
 
-- de réaliser un suivi des indicateurs clés des performances,
+- de réaliser un diagnostic du système,
 
-- de définir et formaliser une politique de sécurité adaptée à l’organisation,
+- de définir une politique de sécurité adaptée à l’organisation,
 
-- d’intégrer un outil automatisé de gestion des ressources, tel que GLPI, afin d’optimiser le suivi et la centralisation des informations.
+- d’intégrer un outil automatisé GLPI.
 
 ---
 
@@ -83,7 +83,7 @@ L'inventaire Software consiste à collecter les données logiciels.
                                                                                            
 ---
 
-## II.2. Suivi des indicateurs clés des performances :
+## II.2. Diagnostic du système :
 
 <p align="center">
 
