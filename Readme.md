@@ -235,11 +235,17 @@ Prérequis à télécharger :
 - OCS Inventory NG version 2.0.5
 - Fusion Inventory Version 10.0.6 + 1.1
 
-## Installation VBoxWindowsAdditions dans une VM :
+## Hyperviseur :
 
 <p align="center">
 
 <img src="vbox/01.png" width="400">
+
+</p>
+
+## Installation VBoxWindowsAdditions dans une VM :
+
+<p align="center">
 
 <img src="vbox/02.png" width="400">
 
@@ -259,13 +265,20 @@ Prérequis à télécharger :
 
 </p>
 
-## Transfère fichier et installation de WampServer dans une VM avec VBoxWindowsAdditions :
+
+## Hyperviseur :
 
 <p align="center">
 
 <img src="wampserver/01.png" width="400">
 
 <img src="wampserver/02.png" width="400">
+
+</p>
+
+## Transfère fichier et installation de WampServer dans une VM avec VBoxWindowsAdditions :
+
+<p align="center">
 
 <img src="wampserver/03.png" width="400">
 
