@@ -28,16 +28,16 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Postes  | Marques | Modèles            | Processeur | RAM  | Carte graphique    | Stockage | Périphériques   |
-|---------|---------|--------------------|------------|------|--------------------|----------|-----------------|
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   |        /        | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   |       /         | 
-| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go | Aucun GPU installé |  50 GB   |      /          |
+| Postes  | Marques | Modèles            | Processeur | RAM  |  GPU   | Stockage | Périphériques   |
+|---------|---------|--------------------|------------|------|--------|----------|-----------------|
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |   /    |  50 GB   |        /        | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |   /    |  50 GB   |       /         | 
+| PC fixe | HP      | ProDesk 400 G6     | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| PC fixe | Dell    | Optiplex 7070      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| Laptop  | Lenovo  | ThinkPad X1 Carbon | Intel i5   | 2 Go |   /    |  50 GB   |      /          |
 
 <p align="center">
 
@@ -45,45 +45,6 @@ L'inventaire Hardware consiste à collecter les données matériels.
                                                                        
 </p>                                                                    
 
----
-
-## Explication :
-
-GPU est un processeur spécialisé dans le traitement graphique.
-
-Si Windows affiche Aucun GPU installé, cela veut dire qu'il y a de GPU réel.
-
-Cela arrive uniquement :
-
-- si le processeur n’a pas de GPU intégré  
-
-- s'il n'y a pas de carte graphique dédiée.
-
-
-#### Dans ce cas :
-
-- windows utilise un pilote d’affichage basique
-
-- l’affichage fonctionne, mais très limité
-
-- pas d’accélération graphique
-
-- performances faibles mais suffisantes pour afficher le bureau.
-
-
-#### Il est possible d'utiliser :
-
-- bureautique (Word, Excel, PDF)
-
-- navigation Internet
-
-- youTube / Netflix
-
-- gestion de fichiers
-
-- logiciels légers (GLPI, VirtualBox, Github, CRM).
-
----
 
 ## II.1.2. Inventaire Software : 
 
@@ -108,7 +69,6 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 </p>
 
----
 
 ## II.1.3. Inventaire Globale : 
  
@@ -151,9 +111,6 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 </p>
 
----
-
-## Conclusion sur le suivi : 
 
 Le fait que Windows 10 Enterprise LTSC ne soit pas activé peut indirectement empêcher l’installation automatique de certains pilotes, surtout dans une machine virtuelle. Windows non activé limite certaines fonctionnalités, notamment : Personnalisation, Accès complet à Windows Update, Téléchargement de pilotes facultatifs ou tiers.
 
@@ -165,20 +122,16 @@ Certains périphériques, comme les contrôleurs PCI virtuels, restent non recon
 
 </p>
 
----
 
-## Solution proposé au suivi :
+La Solution dans tout ça serait d'activer une clé MAK ou une clé KMS.
 
-Activer une clé MAK ou une clé KMS.
-
-#### Pour rappel :
-Une clé MAK est une clé de produit Windows utilisée dans les entreprises pour activer définitivement un certain nombre de machines. 
+Pour rappel Une clé MAK est une clé de produit Windows utilisée dans les entreprises pour activer définitivement un certain nombre de machines. 
 Fonctionnement : 
 - elle active Windows une seule fois par machine, 
 - l’activation se fait via Internet directement auprès de Microsoft, 
 - une fois activé, le PC reste activé à vie, même hors réseau.
 
-Une clé KMS est une clé utilisée pour activer Windows via un serveur d’activation interne dans une organisation. 
+Tandsiqu'une clé KMS est une clé utilisée pour activer Windows via un serveur d’activation interne dans une organisation. 
 Fonctionnement :
 - le PC contacte un serveur KMS interne, 
 - l’activation est temporaire : 180 jours, 
