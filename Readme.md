@@ -13,13 +13,9 @@ Dans le cadre d’un projet réalisé pour une entreprise du nom de MDF sur un r
 Le projet a pour objectifs :
 
 - d’établir un inventaire structuré,
-
 - de réaliser un diagnostic du système,
-
 - de définir une politique de sécurité adaptée à l’organisation,
-
 - de définir une conformité RGPD et ISO 27001,
-
 - d’intégrer un outil automatisé GLPI.
 
 ---
@@ -124,13 +120,17 @@ Certains périphériques, comme les contrôleurs PCI virtuels, restent non recon
 La solution dans tout ça serait d'activer une clé MAK ou une clé KMS.
 
 Pour rappel une clé MAK est une clé de produit Windows utilisée dans les entreprises pour activer définitivement un certain nombre de machines. 
+
 Fonctionnement : 
+
 - elle active Windows une seule fois par machine, 
 - l’activation se fait via Internet directement auprès de Microsoft, 
 - une fois activé, le PC reste activé à vie, même hors réseau.
 
-Tandsiqu'une clé KMS est une clé utilisée pour activer Windows via un serveur d’activation interne dans une organisation. 
+Tandis qu'une clé KMS est une clé utilisée pour activer Windows via un serveur d’activation interne dans une organisation. 
+
 Fonctionnement :
+
 - le PC contacte un serveur KMS interne, 
 - l’activation est temporaire : 180 jours, 
 - le PC doit renouveler son activation régulièrement en restant sur le réseau de l’entreprise.
@@ -144,58 +144,44 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 ### Principes généraux :
 
 - La sécurité est l’affaire de tous les utilisateurs.
-
 - Toute action doit respecter les lois en vigueur (RGPD, propriété intellectuelle).
-
 - Les accès sont attribués selon le principe du moindre privilège.
-
 - Les données sensibles doivent être protégées contre toute divulgation non autorisée.
 
 
 ### Gestion des comptes et habilitations :
 
 - Chaque utilisateur dispose d’un compte nominatif.
-
 - Les droits sont attribués via le modèle AGDLP.
-
 - Les comptes administrateurs sont strictement réservés au personnel IT.
-
 - Les comptes inactifs sont désactivés après 30 jours.
 
 
 ### Gestion des mots de passe :
 
 - Longueur minimale : 12 caractères.
-
 - Complexité obligatoire (majuscules, minuscules, chiffres, caractères spéciaux).
-
 - Renouvellement tous les 90 jours.
-
 - Interdiction de partager un mot de passe.
 
 
 ### Sauvegardes :
 
 - Sauvegarde quotidienne des serveurs critiques.
-
 - Conservation 30 jours.
-
 - Tests de restauration trimestriels.
 
 
 ### Postes de travail :
 
 - Verrouillage automatique après 10 minutes.
-
 - Installation de logiciels interdite sans validation IT.
-
 - Windows Defender Antivirus obligatoire.
 
 
 ### Réseau :
 
 - Segmentation par VLAN.
-
 - Filtrage via firewall Fortinet.
 
 ---
@@ -207,17 +193,11 @@ Le RGPD est une loi européenne qui encadre la protection des données personnel
 ### Ce que le RGPD impose :
 
 - Minimiser les données collectées
-
 - Informer les utilisateurs
-
 - Obtenir le consentement
-
 - Sécuriser les données (techniquement et organisationnelle)
-
 - Déclarer les violations de données
-
 - Documenter les traitements
-
 - Respecter les droits : accès, rectification, suppression, portabilité.
 
 ---
@@ -229,21 +209,13 @@ ISO 27001 est une norme internationale qui définit comment mettre en place un S
 ### Ce que ISO 27001 impose :
 
 - Politique de sécurité
-
 - Analyse des risques
-
 - Mesures de sécurité (contrôles)
-
 - Gestion des incidents
-
 - Gestion des accès
-
 - Sécurité physique
-
 - Continuité d’activité
-
 - Audit interne
-
 - Amélioration continue.
 
 ---
