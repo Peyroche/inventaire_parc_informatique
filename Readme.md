@@ -11,6 +11,7 @@ Dans le cadre d’un projet réalisé pour une entreprise du nom de MDF sur un r
 ## II. Objectifs du projet :
 
 Le projet a pour objectifs :
+
 - d’établir un inventaire structuré,
 - de réaliser un diagnostic du système,
 - de définir une politique de sécurité adaptée à l’organisation,
@@ -121,6 +122,7 @@ La solution dans tout ça serait d'activer une clé MAK ou une clé KMS.
 Pour rappel une clé MAK est une clé de produit Windows utilisée dans les entreprises pour activer définitivement un certain nombre de machines. 
 
 Fonctionnement : 
+
 - elle active Windows une seule fois par machine, 
 - l’activation se fait via Internet directement auprès de Microsoft, 
 - une fois activé, le PC reste activé à vie, même hors réseau.
@@ -128,6 +130,7 @@ Fonctionnement :
 Tandis qu'une clé KMS est une clé utilisée pour activer Windows via un serveur d’activation interne dans une organisation. 
 
 Fonctionnement :
+
 - le PC contacte un serveur KMS interne, 
 - l’activation est temporaire : 180 jours, 
 - le PC doit renouveler son activation régulièrement en restant sur le réseau de l’entreprise.
@@ -139,6 +142,7 @@ Fonctionnement :
 La Politique de Sécurité des Systèmes d’Information (PSSI) définit les règles permettant d’assurer la confidentialité, l’intégrité et la disponibilité des données et services informatiques de l’organisation.
 
 ### Principes généraux :
+
 - La sécurité est l’affaire de tous les utilisateurs.
 - Toute action doit respecter les lois en vigueur (RGPD, propriété intellectuelle).
 - Les accès sont attribués selon le principe du moindre privilège.
@@ -146,6 +150,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 
 ### Gestion des comptes et habilitations :
+
 - Chaque utilisateur dispose d’un compte nominatif.
 - Les droits sont attribués via le modèle AGDLP.
 - Les comptes administrateurs sont strictement réservés au personnel IT.
@@ -153,6 +158,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 
 ### Gestion des mots de passe :
+
 - Longueur minimale : 12 caractères.
 - Complexité obligatoire (majuscules, minuscules, chiffres, caractères spéciaux).
 - Renouvellement tous les 90 jours.
@@ -160,18 +166,21 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 
 ### Sauvegardes :
+
 - Sauvegarde quotidienne des serveurs critiques.
 - Conservation 30 jours.
 - Tests de restauration trimestriels.
 
 
 ### Postes de travail :
+
 - Verrouillage automatique après 10 minutes.
 - Installation de logiciels interdite sans validation IT.
 - Windows Defender Antivirus obligatoire.
 
 
 ### Réseau :
+
 - Segmentation par VLAN.
 - Filtrage via firewall Fortinet.
 
@@ -180,11 +189,13 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 ## II.4. Conformité RGPD :
 
 Le RGPD est une loi européenne qui encadre la protection des données personnelles.
+
 Ce que le RGPD impose :
+
 - Minimiser les données collectées
 - Informer les utilisateurs
 - Obtenir le consentement
-- Sécuriser les données (techniquement et organisationnelle)
+- Sécuriser les données
 - Déclarer les violations de données
 - Documenter les traitements
 - Respecter les droits : accès, rectification, suppression, portabilité.
@@ -194,7 +205,9 @@ Ce que le RGPD impose :
 ## II.5. Conformité ISO 27001 :
 
 ISO 27001 est une norme internationale qui définit comment mettre en place un SMSI (Système de Management de la Sécurité de l’Information).
+
 Ce que ISO 27001 impose :
+
 - Politique de sécurité
 - Analyse des risques
 - Mesures de sécurité (contrôles)
@@ -207,7 +220,7 @@ Ce que ISO 27001 impose :
 
 ---
 
-## II.8. Automatisation de la gestion avec GLPI :
+## II.6. Automatisation de la gestion avec GLPI :
 
 GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
 
