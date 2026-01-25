@@ -244,7 +244,7 @@ Prérequis à télécharger :
 
 ## Installation VBoxWindowsAdditions :
 
-VBoxWindowsAdditions (appelée aussi Guest Additions) sert à transformer les fichiers et biens d'autres choses encore dans un environnement virtuel.
+VBoxWindowsAdditions (appelée aussi Guest Additions) sert à transformer les fichiers et logiciels dans un environnement virtuel.
 
 <p align="center">
 
@@ -276,6 +276,8 @@ VBoxWindowsAdditions (appelée aussi Guest Additions) sert à transformer les fi
 </p>
 
 ## Installation WampServer :
+
+WampServer est une plateforme de développement web pour Windows. Elle permet de créer et tester des sites web en local (sur ton PC), d'utiliser des technologies comme Apache, MySQL, PHP, de gérer tes bases de données avec phpMyAdmin.
 
 <p align="center">
 
