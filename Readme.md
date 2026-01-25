@@ -193,6 +193,8 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 - OCS Inventory NG version 2.0.5 : https://github.com/fusioninventory/fusioninventory-for-glpi/releases
 - Fusion Inventory Version 10.0.6 + 1.1 : https://github.com/pluginsGLPI/ocsinventoryng/releases/tag/2.0.5
 
+Une fois téléchargé et décompressé, les documents vont être envoyé sur la machine virtuelle.
+
 ## Hyperviseur :
 
 <p align="center">
