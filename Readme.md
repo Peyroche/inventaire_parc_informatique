@@ -185,13 +185,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 ## II.4. Automatisation de la gestion avec GLPI :
 
-GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
-
-ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
-
-## II.4.1. Installations :
-
-Prérequis à télécharger :
+## II.4.1. Prérequis à télécharger :
 
 - WampServer (PHP version 7.4.33) : https://www.wampserver.com
 - Packages Microsoft Visual C++ : https://wampserver.aviatechno.net
@@ -268,5 +262,41 @@ WampServer est une plateforme de développement web pour Windows. Elle permet de
 
 </p>
 
-## Installation GLPI :
+## Installation de GLPI :
+
+GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
+
+ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
+
+<p align="center">
+
+<img src="glpi/01.png" width="400">
+
+<img src="glpi/02.png" width="400">
+
+<img src="glpi/03.png" width="400">
+
+<img src="glpi/04.png" width="400">
+
+<img src="glpi/05.png" width="400">
+
+<img src="glpi/06.png" width="400">
+
+<img src="glpi/07.png" width="400">
+
+<img src="glpi/08.png" width="400">
+
+<img src="glpi/09.png" width="400">
+
+<img src="glpi/10.png" width="400">
+
+<img src="glpi/11.png" width="400">
+
+<img src="glpi/12.png" width="400">
+
+<img src="glpi/13.png" width="400">
+
+<img src="glpi/14.png" width="400">
+
+</p>
 
