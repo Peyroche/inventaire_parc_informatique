@@ -61,6 +61,8 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 
 ## Configuration :
 
+<p align="center">
+
 <img src="pc/10.png" width="400">
 
 <img src="pc/11.png" width="400">   
