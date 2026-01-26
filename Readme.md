@@ -22,15 +22,14 @@ Le projet a pour objectifs :
 
 ## II.1. Configuration des postes clients et serveurs :
 
-Avant de faire un inventaire propre et professionnel, il y a toujours une phase de configuration des postes et des serveurs. C’est même une étape essentielle pour que ton inventaire soit clair, cohérent et exploitable.
+Avant de faire un inventaire propre et professionnel, il y a toujours une phase de configuration des postes et des serveurs. C’est même une étape essentielle pour que l'inventaire soit clair, cohérent et exploitable.
 
-| N° | Code   | Postes   |
-|----|--------|----------|
-| 1  | SRV    | Fixe     |
-| 2  | PC01   | Fixe     |
-| 3  | PC02   | Fixe     |
-| 4  | PC03   | Portable |
-| 5  | PC04   | Portable |
+| N° | Code   | Postes   | Services     |
+|----|--------|----------|--------------|
+| 1  | SRV    | Fixe     |    /         |
+| 2  | PC01   | Fixe     | IT           |  
+| 3  | PC02   | Fixe     | Comptabilité |
+| 4  | PC03   | Portable | Marketing    |
 
 ## Configuration postes clients :
 
@@ -73,20 +72,53 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 <img src="pc/18.png" width="400">   
 
 <img src="pc/19.png" width="400">   
-
-<img src="pc/20.png" width="400">   
                    
 </p>                                                                    
 
 
 ## Configuration serveur :
 
+<p align="center">
 
+<img src="pc/01.png" width="400"> 
+                                                                  
+<img src="pc/02.png" width="400">   
+                                         
+<img src="pc/03.png" width="400">   
 
+<img src="pc/04.png" width="400">   
 
+<img src="pc/05.png" width="400">   
 
+<img src="pc/06.png" width="400">   
 
+<img src="pc/07.png" width="400">   
 
+<img src="pc/08.png" width="400">   
+
+<img src="pc/09.png" width="400">   
+
+<img src="pc/10.png" width="400">   
+
+<img src="pc/11.png" width="400">   
+
+<img src="pc/12.png" width="400">   
+
+<img src="pc/13.png" width="400">   
+
+<img src="pc/14.png" width="400">   
+
+<img src="pc/15.png" width="400">   
+
+<img src="pc/16.png" width="400">   
+
+<img src="pc/17.png" width="400">   
+
+<img src="pc/18.png" width="400">   
+                   
+</p>                                                                    
+
+---
 
 ## II.2. Inventaire :
 
@@ -95,20 +127,26 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| N° | Code   | Postes   | Marques        | Modèles    | N° de série                                                   | CPU       | RAM  |  GPU   | Stockage | Périphériques   |
-|----|--------|----------|----------------|------------|---------------------------------------------------------------|-----------|------|--------|----------|-----------------|
-| 1  | SRV    | Fixe     | innotek GmbH   | VirtuelBox | VirtuelBox-                                                   | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 2  | PC01   | Fixe     | innotek Gmbh   | VirtuelBox | VirtuelBox-23339213-ebd5-420a-beb7-293f83f17b76               | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 3  | PC02   | Fixe     | innotek GmbH   | VirtuelBox | VirtuelBox-95eaa62f-9a26-4918-9f5b-2d5ed35c3299               | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 4  | PC03   | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                                   | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
-| 5  | PC04   | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                                   | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
+| N° | Code   | Postes   | Marques        | Modèles    | N° de série                                       | CPU       | RAM  |  GPU   | Stockage | Périphériques   |
+|----|--------|----------|----------------|------------|---------------------------------------------------|-----------|------|--------|----------|-----------------|
+| 1  | SRV    | Fixe     | innotek GmbH   | VirtuelBox | VirtuelBox-b9835393-e1a5-4857-9b6b-97f2698c9b14   | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 2  | PC01   | Fixe     | innotek Gmbh   | VirtuelBox | VirtuelBox-8b199364-B669-49e4-8303-913e1987b5b9   | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 3  | PC02   | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                       | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
+| 4  | PC03   | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                       | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
 
 <p align="center">
-<img src="configuration/01.png" width="400">                                                                   
-<img src="configuration/02.png" width="400">                                                                    
-</p>                                                                    
 
+<img src="configuration/01.png" width="400"> 
+                                                                  
+<img src="configuration/02.png" width="400"> 
 
+<img src="configuration/03.png" width="400">
+
+<img src="configuration/04.png" width="400">
+                                                              
+</p> 
+
+                                                          
 ## II.2.2. Inventaire Software : 
 
 L'inventaire Software consiste à collecter les données logiciels.
@@ -130,13 +168,12 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 ## II.2.3. Inventaire Globale : 
  
-| N° | Code   | Postes   | Marques      |             Logiciels                           | CPU       | RAM  | GPU | Stockage | Périphériques   | Etats      | Services  | Lieu |
-|----|--------|----------|--------------|-------------------------------------------------|-----------|------|-----|----------|-----------------|------------|-----------|------|
-| 1  | SRV    | Fixe     | innotek GmbH | Windows server 22                               | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | /         | B1   |
-| 2  | PC01   | Fixe     | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT        | B1   |
-| 3  | PC02   | Fixe     | innotek GmbH | Windows pro 10, Libre Office                    | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | Direction | B2   |
-| 4  | PC03   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Comptable | B2   |
-| 5  | PC04   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Marketing | B2   |
+| N° | Code   | Postes   | Marques      |             Logiciels                           | CPU       | RAM  | GPU | Stockage | Périphériques   | Etats      | Services     | Lieu |
+|----|--------|----------|--------------|-------------------------------------------------|-----------|------|-----|----------|-----------------|------------|--------------|------|
+| 1  | SRV    | Fixe     | innotek GmbH | Windows server 22                               | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | /            | B1   |
+| 2  | PC01   | Fixe     | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT           | B1   |
+| 4  | PC02   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Comptabilité | B2   |
+| 5  | PC03   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Marketing    | B2   |
                                                                                            
 ---
 
