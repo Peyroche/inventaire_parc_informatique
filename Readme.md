@@ -58,6 +58,8 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 
 <img src="pc/10.png" width="400">
 
+</p>
+
 
 ## Configuration :
 
@@ -100,12 +102,16 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 
 <img src="srv/08.png" width="400">   
 
-<img src="srv/09.png" width="400">   
+<img src="srv/09.png" width="400"> 
 
-<img src="srv/10.png" width="400">   
+</p>  
 
 
 ## Configuration :
+
+<p align="center">
+
+<img src="srv/10.png" width="400">   
 
 <img src="srv/11.png" width="400">   
 
