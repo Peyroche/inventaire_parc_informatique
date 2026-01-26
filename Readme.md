@@ -12,6 +12,7 @@ Dans le cadre d’un projet réalisé pour une entreprise du nom de MDF sur un r
 
 Le projet a pour objectifs :
 
+- configurer les postes clients et serveurs
 - d’établir un inventaire structuré,
 - de réaliser un diagnostic du système,
 - de définir une politique de sécurité adaptée à l’organisation,
@@ -19,9 +20,78 @@ Le projet a pour objectifs :
 
 ---
 
-## II.1. Inventaire :
+## II.1. Configuration des postes clients et serveurs :
 
-## II.1.1. Inventaire Hardware :
+Avant de faire un inventaire propre et professionnel, il y a toujours une phase de configuration des postes et des serveurs. C’est même une étape essentielle pour que ton inventaire soit clair, cohérent et exploitable.
+
+| N° | Code   | Postes   |
+|----|--------|----------|
+| 1  | SRV    | Fixe     |
+| 2  | PC01   | Fixe     |
+| 3  | PC02   | Fixe     |
+| 4  | PC03   | Portable |
+| 5  | PC04   | Portable |
+
+## Configuration postes clients :
+
+<p align="center">
+
+<img src="pc/01.png" width="400"> 
+                                                                  
+<img src="pc/02.png" width="400">   
+                                         
+<img src="pc/03.png" width="400">   
+
+<img src="pc/04.png" width="400">   
+
+<img src="pc/05.png" width="400">   
+
+<img src="pc/06.png" width="400">   
+
+<img src="pc/07.png" width="400">   
+
+<img src="pc/08.png" width="400">   
+
+<img src="pc/09.png" width="400">   
+
+<img src="pc/10.png" width="400">   
+
+<img src="pc/11.png" width="400">   
+
+<img src="pc/12.png" width="400">   
+
+<img src="pc/13.png" width="400">   
+
+<img src="pc/14.png" width="400">   
+
+<img src="pc/15.png" width="400">   
+
+<img src="pc/16.png" width="400">   
+
+<img src="pc/17.png" width="400">   
+
+<img src="pc/18.png" width="400">   
+
+<img src="pc/19.png" width="400">   
+
+<img src="pc/20.png" width="400">   
+                   
+</p>                                                                    
+
+
+## Configuration serveur :
+
+
+
+
+
+
+
+
+## II.2. Inventaire :
+
+
+## II.2.1. Inventaire Hardware :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
@@ -38,7 +108,8 @@ L'inventaire Hardware consiste à collecter les données matériels.
 <img src="configuration/02.png" width="400">                                                                    
 </p>                                                                    
 
-## II.1.2. Inventaire Software : 
+
+## II.2.2. Inventaire Software : 
 
 L'inventaire Software consiste à collecter les données logiciels.
 
@@ -57,7 +128,7 @@ L'inventaire Software consiste à collecter les données logiciels.
 </p>
 
 
-## II.1.3. Inventaire Globale : 
+## II.2.3. Inventaire Globale : 
  
 | N° | Code   | Postes   | Marques      |             Logiciels                           | CPU       | RAM  | GPU | Stockage | Périphériques   | Etats      | Services  | Lieu |
 |----|--------|----------|--------------|-------------------------------------------------|-----------|------|-----|----------|-----------------|------------|-----------|------|
@@ -69,7 +140,7 @@ L'inventaire Software consiste à collecter les données logiciels.
                                                                                            
 ---
 
-## II.2. Diagnostic du système :
+## II.3. Diagnostic du système :
 
 <p align="center">
 <img src="perfmon/01.png" width="400">
