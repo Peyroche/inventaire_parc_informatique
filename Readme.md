@@ -34,6 +34,8 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 
 ## II.1.1. Configuration postes clients :
 
+## Installation :
+
 <p align="center">
 
 <img src="pc/01.png" width="400"> 
@@ -54,7 +56,10 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 
 <img src="pc/09.png" width="400">   
 
-<img src="pc/10.png" width="400">   
+<img src="pc/10.png" width="400">
+
+
+## Configuration :
 
 <img src="pc/11.png" width="400">   
 
@@ -69,15 +74,13 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 <img src="pc/16.png" width="400">   
 
 <img src="pc/17.png" width="400">   
-
-<img src="pc/18.png" width="400">   
-
-<img src="pc/19.png" width="400">   
                    
 </p>                                                                    
 
 
 ## II.1.2. Configuration serveur :
+
+## Installation :
 
 <p align="center">
 
@@ -100,6 +103,9 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 <img src="srv/09.png" width="400">   
 
 <img src="srv/10.png" width="400">   
+
+
+## Configuration :
 
 <img src="srv/11.png" width="400">   
 
