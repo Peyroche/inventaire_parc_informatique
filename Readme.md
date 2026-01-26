@@ -25,81 +25,64 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| Postes  | Marques | Modèles            | N° de série  | Processeur | RAM  |  GPU   | Stockage | Périphériques   |
-|---------|---------|--------------------|--------------|------------|------|--------|----------|-----------------|
-| PC fixe | Dell    | Optiplex 7070      |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon |       /      | Intel i5   | 2 Go |   /    |  50 GB   |        /        | 
-| PC fixe | HP      | ProDesk 400 G6     |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon |       /      | Intel i5   | 2 Go |   /    |  50 GB   |       /         | 
-| PC fixe | HP      | ProDesk 400 G6     |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| PC fixe | Dell    | Optiplex 7070      |       /      | Intel i5   | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| Laptop  | Lenovo  | ThinkPad X1 Carbon |       /      | Intel i5   | 2 Go |   /    |  50 GB   |      /          |
+| N° | Code   | Postes   | Marques      | Modèles    | N° de série                                      | CPU      | RAM  |  GPU   | Stockage | Périphériques   |
+|----|--------|----------|--------------|------------|--------------------------------------------------|----------|------|--------|----------|-----------------|
+| 1  | SRV-AD | Fixe     | innotek GmbH | VirtuelBox |                                                  | Intel i5 | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 2  | PC01   | Fixe     | innotek GmbH | VirtuelBox | VirtuelBox-23339213-ebd5-420a-beb7-293f83f17b76  | Intel i5 | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 3  | PC02   | Fixe     | innotek GmbH | VirtuelBox | VirtuelBox-95eaa62f-9a26-4918-9f5b-2d5ed35c3299  | Intel i5 | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 4  | PC03   | Portable | innotek GmbH | VirtuelBox |                                                  | Intel i5 | 2 Go |   /    |  50 GB   |        /        | 
+| 5  | PC04   | Portable | innotek GmbH | VirtuelBox |                                                  | Intel i5 | 2 Go |   /    |  50 GB   |        /        | 
 
 <p align="center">
-
-<img src="configuration/01.png" width="400">
-                                                                       
+<img src="configuration/01.png" width="400">                                                                   
 </p>                                                                    
 
+<p align="center">
+<img src="pc/01.png" width="400">                                                                    
+</p>                                                                    
 
 ## II.1.2. Inventaire Software : 
 
 L'inventaire Software consiste à collecter les données logiciels.
 
-| Types de Logiciels | Logiciels          | Licences    |  N° de Licence   | Expiration | Version | Fin de support |
-|--------------------|--------------------|-------------|------------------|------------|---------|----------------|
-| Systèmes           | Windows pro 10     |      /      |       /          |     /      |   21H2  |   13/01/2032   |
-| Applicatifs        | Libre Office       | Open source |       /          |     /      |     /   |       /        |
-| Développements     | Visual Studio code | Open source |       /          |     /      |     /   |       /        |
-| Métiers            | CRM                |      /      |       /          |     /      |     /   |       /        |
-| Serveurs           | Windows server 22  |      /      |       /          |     /      |   21H2  |   13/01/2032   |
+| Types de Logiciels | Logiciels                     | Licences    | N° de Licence | Expiration | Version | Fin de support |
+|--------------------|-------------------------------|-------------|---------------|------------|---------|----------------|
+| Systèmes           | Windows pro 10                |      /      |       /       |     /      |   21H2  |   13/01/2032   |
+| Applicatifs        | Libre Office                  | Open source |       /       |     /      |     /   |       /        |
+| Développements     | Visual Studio code            | Open source |       /       |     /      |     /   |       /        |
+| Métiers            | CRM                           |      /      |       /       |     /      |     /   |       /        |
+| Serveurs           | Windows server 22, WampServer |      /      |       /       |     /      |   21H2  |   13/01/2032   |
 
 
 <p align="center">
-
 <img src="version/01.png" width="400">
-
 <img src="version/02.png" width="400">
-
 </p>
 
 
 ## II.1.3. Inventaire Globale : 
  
-| N° | Code | Postes   | Marques |             Logiciels                  | Processeur | RAM  | GPU | Stockage | Périphériques   |   Etats       | Services     | Localisation |
-|----|------|----------|---------|----------------------------------------|------------|------|-----|----------|-----------------|---------------|--------------|--------------|
-| 1  | PC01 | PC fixe  | Dell    | Windows pro 10, Libre Office           | Intel i5   | 2 Go |  /  |  50 GB   | Souris, Clavier |  En service   | Direction    |   Bureau 1   |
-| 2  | PC02 | Laptop   | Lenovo  | Windows pro 10, Libre Office           | Intel i5   | 2 Go |  /  |  50 GB   |        /        |  En service   | RH           |   Bureau 1   |
-| 3  | PC03 | PC fixe  | HP      | Windows pro 10, Libre Office           | Intel i5   | 2 Go |  /  |  50 GB   | Souris, Clavier |  En service   | Production   |   Bureau 2   |
-| 4  | PC04 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM      | Intel i5   | 2 Go |  /  |  50 GB   | Souris, Clavier |  En service   | Commercial   |   Bureau 2   |
-| 5  | PC05 | Laptop   | Lenovo  | CRM, Visual studio code                | Intel i5   | 2 Go |  /  |  50 GB   |        /        |  En service   | Comptabilité |   Bureau 3   | 
-| 6  | PC06 | PC fixe  | HP      | Windows pro 10,  Visual studio code    | Intel i5   | 2 Go |  /  |  50 GB   | Souris, Clavier |  En service   | Informatique |   Bureau 4   |
-| 7  | PC07 | PC fixe  | Dell    | Windows pro 10, Libre Office, CRM      | Intel i5   | 2 Go |  /  |  50 GB   | Souris, Clavier |  En service   | Marketing    |   Bureau 3   |
-| 8  | PC08 | Laptop   | Lenovo  | Windows server 22                      | Intel i5   | 2 Go |  /  |  50 GB   |        /        |  En service   | Informatique |   Bureau 4   |
+| N° | Code   | Postes   | Marques      |             Logiciels                           | CPU      | RAM  | GPU | Stockage | Périphériques   | Etats      | Services  | Localisation |
+|----|--------|----------|--------------|-------------------------------------------------|----------|------|-----|----------|-----------------|------------|-----------|--------------|
+| 1  | SRV-AD | Fixe     | innotek GmbH | Windows server 22                               | Intel i5 | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT_Admin  | B1           |
+| 2  | PC01   | Fixe     | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5 | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT        | B1           |
+| 3  | PC02   | Fixe     | innotek GmbH | Windows pro 10, Libre Office                    | Intel i5 | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | Direction | B2           |
+| 4  | PC03   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5 | 2 Go |  /  |  50 GB   |        /        | En service | Comptable | B2           |
+| 5  | PC04   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5 | 2 Go |  /  |  50 GB   |        /        | En service | Marketing | B2           |
                                                                                            
 ---
 
 ## II.2. Diagnostic du système :
 
 <p align="center">
-
 <img src="perfmon/01.png" width="400">
-
 <img src="perfmon/02.png" width="400">
-
 <img src="perfmon/03.png" width="400">
-
 <img src="perfmon/04.png" width="400">
-
 <img src="perfmon/05.png" width="400">
-
 <img src="perfmon/06.png" width="400">
-
 <img src="perfmon/07.png" width="400">
-
 <img src="perfmon/08.png" width="400">
-
 </p>
 
 
@@ -108,9 +91,7 @@ Le fait que Windows 10 Enterprise LTSC ne soit pas activé peut indirectement em
 Certains périphériques, comme les contrôleurs PCI virtuels, restent non reconnus car Windows ne télécharge pas leur pilote automatiquement.
 
 <p align="center">
-
 <img src="windows/01.png" width="400">
-
 </p>
 
 
@@ -185,7 +166,7 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 ## II.4. Automatisation de la gestion avec GLPI :
 
-## II.4.1. Prérequis à télécharger :
+Prérequis à télécharger :
 
 - WampServer (PHP version 7.4.33) : https://www.wampserver.com
 - Packages Microsoft Visual C++ : https://wampserver.aviatechno.net
@@ -193,14 +174,12 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 - OCS Inventory NG version 2.0.5 : https://github.com/fusioninventory/fusioninventory-for-glpi/releases
 - Fusion Inventory Version 10.0.6 + 1.1 : https://github.com/pluginsGLPI/ocsinventoryng/releases/tag/2.0.5
 
-Une fois téléchargé et décompressé, les documents vont être envoyé sur la machine virtuelle.
+Une fois téléchargé et décompressé, les documents ont été envoyé sur la machine virtuelle.
 
 ## Hyperviseur :
 
 <p align="center">
-
 <img src="hyperviseur_1/01.png" width="400">
-
 </p>
 
 ## Installation VBoxWindowsAdditions :
@@ -208,32 +187,21 @@ Une fois téléchargé et décompressé, les documents vont être envoyé sur la
 VBoxWindowsAdditions (appelée aussi Guest Additions) sert à transformer les fichiers et logiciels dans un environnement virtuel.
 
 <p align="center">
-
 <img src="vbox/01.png" width="400">
-
 <img src="vbox/02.png" width="400">
-
 <img src="vbox/03.png" width="400">
-
 <img src="vbox/04.png" width="400">
-
 <img src="vbox/05.png" width="400">
-
 <img src="vbox/06.png" width="400">
-
 <img src="vbox/07.png" width="400">
-
 </p>
 
 
 ## Hyperviseur :
 
 <p align="center">
-
 <img src="hyperviseur_2/01.png" width="400">
-
 <img src="hyperviseur_2/02.png" width="400">
-
 </p>
 
 ## Installation WampServer :
@@ -241,64 +209,38 @@ VBoxWindowsAdditions (appelée aussi Guest Additions) sert à transformer les fi
 WampServer est une plateforme de développement web pour Windows. Elle permet de créer et tester des sites web en local (sur ton PC), d'utiliser des technologies comme Apache, MySQL, PHP, de gérer tes bases de données avec phpMyAdmin.
 
 <p align="center">
-
 <img src="wampserver/01.png" width="400">
-
 <img src="wampserver/02.png" width="400">
-
 <img src="wampserver/03.png" width="400">
-
 <img src="wampserver/04.png" width="400">
-
 <img src="wampserver/05.png" width="400">
-
 <img src="wampserver/06.png" width="400">
-
 <img src="wampserver/07.png" width="400">
-
 <img src="wampserver/08.png" width="400">
-
 <img src="wampserver/09.png" width="400">
-
 <img src="wampserver/10.png" width="400">
-
 </p>
 
-## Installation de GLPI :
+## Installation GLPI :
 
 GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
 
 ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
 
 <p align="center">
-
 <img src="glpi/01.png" width="400">
-
 <img src="glpi/02.png" width="400">
-
 <img src="glpi/03.png" width="400">
-
 <img src="glpi/04.png" width="400">
-
 <img src="glpi/05.png" width="400">
-
 <img src="glpi/06.png" width="400">
-
 <img src="glpi/07.png" width="400">
-
 <img src="glpi/08.png" width="400">
-
 <img src="glpi/09.png" width="400">
-
 <img src="glpi/10.png" width="400">
-
 <img src="glpi/11.png" width="400">
-
 <img src="glpi/12.png" width="400">
-
 <img src="glpi/13.png" width="400">
-
 <img src="glpi/14.png" width="400">
-
 </p>
 
