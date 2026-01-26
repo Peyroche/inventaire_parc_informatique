@@ -31,7 +31,7 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 | 3  | PC02   | Fixe     | Comptabilité |
 | 4  | PC03   | Portable | Marketing    |
 
-## Configuration postes clients :
+## Configuration poste client :
 
 <p align="center">
 
@@ -122,7 +122,6 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 
 ## II.2. Inventaire :
 
-
 ## II.2.1. Inventaire Hardware :
 
 L'inventaire Hardware consiste à collecter les données matériels.
@@ -161,8 +160,11 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 
 <p align="center">
+
 <img src="version/01.png" width="400">
+
 <img src="version/02.png" width="400">
+
 </p>
 
 
@@ -179,17 +181,74 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 ## II.3. Diagnostic du système :
 
+## Diagnostic server :
+
 <p align="center">
-<img src="perfmon/01.png" width="400">
-<img src="perfmon/02.png" width="400">
-<img src="perfmon/03.png" width="400">
-<img src="perfmon/04.png" width="400">
-<img src="perfmon/05.png" width="400">
-<img src="perfmon/06.png" width="400">
-<img src="perfmon/07.png" width="400">
-<img src="perfmon/08.png" width="400">
+
+<img src="diagnostic_srv/01.png" width="400">
+
+<img src="diagnostic_srv/02.png" width="400">
+
+<img src="diagnostic_srv/03.png" width="400">
+
+<img src="diagnostic_srv/04.png" width="400">
+
+<img src="diagnostic_srv/05.png" width="400">
+
+<img src="diagnostic_srv/06.png" width="400">
+
+<img src="diagnostic_srv/07.png" width="400">
+
+<img src="diagnostic_srv/08.png" width="400">
+
+<img src="diagnostic_srv/09.png" width="400">
+
+<img src="diagnostic_srv/10.png" width="400">
+
+<img src="diagnostic_srv/11.png" width="400">
+
+<img src="diagnostic_srv/12.png" width="400">
+
+<img src="diagnostic_srv/13.png" width="400">
+
+<img src="diagnostic_srv/14.png" width="400">
+
 </p>
 
+
+## Diagnostic poste client :
+
+<p align="center">
+
+<img src="diagnostic_pc/01.png" width="400">
+
+<img src="diagnostic_pc/02.png" width="400">
+
+<img src="diagnostic_pc/03.png" width="400">
+
+<img src="diagnostic_pc/04.png" width="400">
+
+<img src="diagnostic_pc/05.png" width="400">
+
+<img src="diagnostic_pc/06.png" width="400">
+
+<img src="diagnostic_pc/07.png" width="400">
+
+<img src="diagnostic_pc/08.png" width="400">
+
+<img src="diagnostic_pc/09.png" width="400">
+
+<img src="diagnostic_pc/10.png" width="400">
+
+<img src="diagnostic_pc/11.png" width="400">
+
+<img src="diagnostic_pc/12.png" width="400">
+
+<img src="diagnostic_pc/13.png" width="400">
+
+<img src="diagnostic_pc/14.png" width="400">
+
+</p>
 
 Le fait que Windows 10 Enterprise LTSC ne soit pas activé peut indirectement empêcher l’installation automatique de certains pilotes, surtout dans une machine virtuelle. Windows non activé limite certaines fonctionnalités, notamment : personnalisation, accès complet à Windows Update, téléchargement de pilotes facultatifs ou tiers.
 
