@@ -31,7 +31,8 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 | 3  | PC02   | Fixe     | Comptabilité |
 | 4  | PC03   | Portable | Marketing    |
 
-## Configuration poste client :
+
+## II.1.1. Configuration postes clients :
 
 <p align="center">
 
@@ -76,7 +77,7 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 </p>                                                                    
 
 
-## Configuration serveur :
+## II.1.2. Configuration serveur :
 
 <p align="center">
 
@@ -118,6 +119,39 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
                    
 </p>                                                                    
 
+
+## II.1.3. Installation de VBoxGuestAdditions :
+
+<p align="center">
+
+<img src="hyperviseur/01.png" width="400"> 
+
+<img src="hyperviseur/02.png" width="400"> 
+
+<img src="hyperviseur/03.png" width="400"> 
+
+</p>
+
+On installe VBoxGuestAdditions.iso pour améliorer l’intégration et les performances des machines virtuelles dans VirtualBox.
+
+<p align="center">
+
+<img src="vbox/01.png" width="400"> 
+
+<img src="vbox/02.png" width="400"> 
+
+<img src="vbox/03.png" width="400"> 
+
+<img src="vbox/04.png" width="400"> 
+
+<img src="vbox/05.png" width="400"> 
+
+<img src="vbox/06.png" width="400"> 
+
+<img src="vbox/07.png" width="400"> 
+
+</p>
+
 ---
 
 ## II.2. Inventaire :
@@ -138,10 +172,6 @@ L'inventaire Hardware consiste à collecter les données matériels.
 <img src="configuration/01.png" width="400"> 
                                                                   
 <img src="configuration/02.png" width="400"> 
-
-<img src="configuration/03.png" width="400">
-
-<img src="configuration/04.png" width="400">
                                                               
 </p> 
 
@@ -237,12 +267,6 @@ L'inventaire Software consiste à collecter les données logiciels.
 <img src="diagnostic_pc/10.png" width="400">
 
 <img src="diagnostic_pc/11.png" width="400">
-
-<img src="diagnostic_pc/12.png" width="400">
-
-<img src="diagnostic_pc/13.png" width="400">
-
-<img src="diagnostic_pc/14.png" width="400">
 
 </p>
 
