@@ -80,41 +80,41 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 
 <p align="center">
 
-<img src="pc/01.png" width="400"> 
+<img src="srv/01.png" width="400"> 
                                                                   
-<img src="pc/02.png" width="400">   
+<img src="srv/02.png" width="400">   
                                          
-<img src="pc/03.png" width="400">   
+<img src="srv/03.png" width="400">   
 
-<img src="pc/04.png" width="400">   
+<img src="srv/04.png" width="400">   
 
-<img src="pc/05.png" width="400">   
+<img src="srv/05.png" width="400">   
 
-<img src="pc/06.png" width="400">   
+<img src="srv/06.png" width="400">   
 
-<img src="pc/07.png" width="400">   
+<img src="srv/07.png" width="400">   
 
-<img src="pc/08.png" width="400">   
+<img src="srv/08.png" width="400">   
 
-<img src="pc/09.png" width="400">   
+<img src="srv/09.png" width="400">   
 
-<img src="pc/10.png" width="400">   
+<img src="srv/10.png" width="400">   
 
-<img src="pc/11.png" width="400">   
+<img src="srv/11.png" width="400">   
 
-<img src="pc/12.png" width="400">   
+<img src="srv/12.png" width="400">   
 
-<img src="pc/13.png" width="400">   
+<img src="srv/13.png" width="400">   
 
-<img src="pc/14.png" width="400">   
+<img src="srv/14.png" width="400">   
 
-<img src="pc/15.png" width="400">   
+<img src="srv/15.png" width="400">   
 
-<img src="pc/16.png" width="400">   
+<img src="srv/16.png" width="400">   
 
-<img src="pc/17.png" width="400">   
+<img src="srv/17.png" width="400">   
 
-<img src="pc/18.png" width="400">   
+<img src="srv/18.png" width="400">   
                    
 </p>                                                                    
 
