@@ -25,13 +25,13 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| N° | Code   | Postes   | Marques        | Modèles    | N° de série                                           | CPU       | RAM  |  GPU   | Stockage | Périphériques   |
-|----|--------|----------|----------------|------------|-------------------------------------------------------|-----------|------|--------|----------|-----------------|
-| 1  | SRV-AD | Fixe     | innotek GmbH   | VirtuelBox |                                                       | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 2  | PC01   | Fixe     | innotek Gmbh   | VirtuelBox | VirtuelBox-23339213-ebd5-420a-beb7-293f83f17b76       | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 3  | PC02   | Fixe     | innotek GmbH   | VirtuelBox | VirtuelBox-95eaa62f-9a26-4918-9f5b-2d5ed35c3299       | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 4  | PC03   | Portable | innotek GmbH   | VirtuelBox |                                                       | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
-| 5  | PC04   | Portable | innotek GmbH   | VirtuelBox |                                                       | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
+| N° | Code   | Postes   | Marques        | Modèles    | N° de série                                                   | CPU       | RAM  |  GPU   | Stockage | Périphériques   |
+|----|--------|----------|----------------|------------|---------------------------------------------------------------|-----------|------|--------|----------|-----------------|
+| 1  | SRV    | Fixe     | innotek GmbH   | VirtuelBox |                                                               | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 2  | PC01   | Fixe     | innotek Gmbh   | VirtuelBox | VirtuelBox-23339213-ebd5-420a-beb7-293f83f17b76               | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 3  | PC02   | Fixe     | innotek GmbH   | VirtuelBox | VirtuelBox-95eaa62f-9a26-4918-9f5b-2d5ed35c3299               | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 4  | PC03   | Portable | innotek GmbH   | VirtuelBox |                                                               | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
+| 5  | PC04   | Portable | innotek GmbH   | VirtuelBox |                                                               | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
 
 <p align="center">
 <img src="configuration/01.png" width="400">                                                                   
@@ -59,13 +59,13 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 ## II.1.3. Inventaire Globale : 
  
-| N° | Code   | Postes   | Marques      |             Logiciels                           | CPU      | RAM  | GPU | Stockage | Périphériques   | Etats      | Services  | Localisation |
-|----|--------|----------|--------------|-------------------------------------------------|----------|------|-----|----------|-----------------|------------|-----------|--------------|
-| 1  | SRV-AD | Fixe     | innotek GmbH | Windows server 22                               | Intel i5 | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT_Admin  | B1           |
-| 2  | PC01   | Fixe     | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5 | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT        | B1           |
-| 3  | PC02   | Fixe     | innotek GmbH | Windows pro 10, Libre Office                    | Intel i5 | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | Direction | B2           |
-| 4  | PC03   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5 | 2 Go |  /  |  50 GB   |        /        | En service | Comptable | B2           |
-| 5  | PC04   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5 | 2 Go |  /  |  50 GB   |        /        | En service | Marketing | B2           |
+| N° | Code   | Postes   | Marques      |             Logiciels                           | CPU       | RAM  | GPU | Stockage | Périphériques   | Etats      | Services  | Localisation |
+|----|--------|----------|--------------|-------------------------------------------------|-----------|------|-----|----------|-----------------|------------|-----------|--------------|
+| 1  | SRV    | Fixe     | innotek GmbH | Windows server 22                               | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT_Admin  | B1           |
+| 2  | PC01   | Fixe     | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT        | B1           |
+| 3  | PC02   | Fixe     | innotek GmbH | Windows pro 10, Libre Office                    | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | Direction | B2           |
+| 4  | PC03   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Comptable | B2           |
+| 5  | PC04   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Marketing | B2           |
                                                                                            
 ---
 
