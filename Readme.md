@@ -25,20 +25,17 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| N° | Code   | Postes   | Marques      | Modèles    | N° de série                                      | CPU      | RAM  |  GPU   | Stockage | Périphériques   |
-|----|--------|----------|--------------|------------|--------------------------------------------------|----------|------|--------|----------|-----------------|
-| 1  | SRV-AD | Fixe     | innotek GmbH | VirtuelBox |                                                  | Intel i5 | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 2  | PC01   | Fixe     | innotek GmbH | VirtuelBox | VirtuelBox-23339213-ebd5-420a-beb7-293f83f17b76  | Intel i5 | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 3  | PC02   | Fixe     | innotek GmbH | VirtuelBox | VirtuelBox-95eaa62f-9a26-4918-9f5b-2d5ed35c3299  | Intel i5 | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 4  | PC03   | Portable | innotek GmbH | VirtuelBox |                                                  | Intel i5 | 2 Go |   /    |  50 GB   |        /        | 
-| 5  | PC04   | Portable | innotek GmbH | VirtuelBox |                                                  | Intel i5 | 2 Go |   /    |  50 GB   |        /        | 
+| N° | Code   | Postes   | Marques        | Modèles    | N° de série                                           | CPU       | RAM  |  GPU   | Stockage | Périphériques   |
+|----|--------|----------|----------------|------------|-------------------------------------------------------|-----------|------|--------|----------|-----------------|
+| 1  | SRV-AD | Fixe     | innotek GmbH   | VirtuelBox |                                                       | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 2  | PC01   | Fixe     | innotek Gmbh   | VirtuelBox | VirtuelBox-23339213-ebd5-420a-beb7-293f83f17b76       | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 3  | PC02   | Fixe     | innotek GmbH   | VirtuelBox | VirtuelBox-95eaa62f-9a26-4918-9f5b-2d5ed35c3299       | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
+| 4  | PC03   | Portable | innotek GmbH   | VirtuelBox |                                                       | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
+| 5  | PC04   | Portable | innotek GmbH   | VirtuelBox |                                                       | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
 
 <p align="center">
 <img src="configuration/01.png" width="400">                                                                   
-</p>                                                                    
-
-<p align="center">
-<img src="pc/01.png" width="400">                                                                    
+<img src="configuration/02.png" width="400">                                                                    
 </p>                                                                    
 
 ## II.1.2. Inventaire Software : 
