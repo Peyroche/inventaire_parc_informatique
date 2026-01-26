@@ -209,10 +209,6 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 <img src="diagnostic_srv/12.png" width="400">
 
-<img src="diagnostic_srv/13.png" width="400">
-
-<img src="diagnostic_srv/14.png" width="400">
-
 </p>
 
 
