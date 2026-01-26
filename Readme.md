@@ -20,7 +20,7 @@ Le projet a pour objectifs :
 
 ---
 
-## II.1. Configuration des postes clients et serveurs :
+## II.1. Installation et configuration des postes clients et serveurs :
 
 Avant de faire un inventaire propre et professionnel, il y a toujours une phase de configuration des postes et des serveurs. C’est même une étape essentielle pour que l'inventaire soit clair, cohérent et exploitable.
 
@@ -32,9 +32,9 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 | 4  | PC03   | Portable | Marketing    |
 
 
-## II.1.1. Configuration postes clients :
+## II.1.1. Installation et configuration postes clients :
 
-## Installation :
+## 1. Installation :
 
 <p align="center">
 
@@ -59,7 +59,7 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 </p>
 
 
-## Configuration :
+## 2. Configuration :
 
 <p align="center">
 
@@ -82,9 +82,9 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 </p>                                                                    
 
 
-## II.1.2. Configuration serveur :
+## II.1.2. Installation et configuration serveur :
 
-## Installation :
+## 1. Installation :
 
 <p align="center">
 
@@ -111,7 +111,7 @@ Avant de faire un inventaire propre et professionnel, il y a toujours une phase 
 </p>  
 
 
-## Configuration :
+## 2. Configuration :
 
 <p align="center">
 
