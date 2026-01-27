@@ -12,7 +12,6 @@ Dans le cadre d’un projet réalisé pour une entreprise du nom de MDF sur un r
 
 Le projet a pour objectifs :
 
-- configurer les postes clients et serveurs
 - d’établir un inventaire structuré,
 - de réaliser un diagnostic du système,
 - de définir une politique de sécurité adaptée à l’organisation,
@@ -20,157 +19,9 @@ Le projet a pour objectifs :
 
 ---
 
-## II.1. Installation et configuration des postes clients et serveurs :
+## II.1. Inventaire :
 
-Avant de faire un inventaire propre et professionnel, il y a toujours une phase de configuration des postes et des serveurs. C’est même une étape essentielle pour que l'inventaire soit clair, cohérent et exploitable.
-
-| N° | Code   | Postes   | Services     |
-|----|--------|----------|--------------|
-| 1  | SRV    | Fixe     |    /         |
-| 2  | PC01   | Fixe     | IT           |  
-| 3  | PC02   | Fixe     | Comptabilité |
-| 4  | PC03   | Portable | Marketing    |
-
-
-## II.1.1. Installation et configuration postes clients :
-
-## 1. Installation :
-
-<p align="center">
-
-<img src="pc/01.png" width="400"> 
-                                                                  
-<img src="pc/02.png" width="400">   
-                                         
-<img src="pc/03.png" width="400">   
-
-<img src="pc/04.png" width="400">   
-
-<img src="pc/05.png" width="400">   
-
-<img src="pc/06.png" width="400">   
-
-<img src="pc/07.png" width="400">   
-
-<img src="pc/08.png" width="400">   
-
-<img src="pc/09.png" width="400">   
-
-</p>
-
-
-## 2. Configuration :
-
-<p align="center">
-
-<img src="pc/10.png" width="400">
-
-<img src="pc/11.png" width="400">   
-
-<img src="pc/12.png" width="400">   
-
-<img src="pc/13.png" width="400">   
-
-<img src="pc/14.png" width="400">   
-
-<img src="pc/15.png" width="400">   
-
-<img src="pc/16.png" width="400">   
-
-<img src="pc/17.png" width="400">   
-                   
-</p>                                                                    
-
-
-## II.1.2. Installation et configuration serveur :
-
-## 1. Installation :
-
-<p align="center">
-
-<img src="srv/01.png" width="400"> 
-                                                                  
-<img src="srv/02.png" width="400">   
-                                         
-<img src="srv/03.png" width="400">   
-
-<img src="srv/04.png" width="400">   
-
-<img src="srv/05.png" width="400">   
-
-<img src="srv/06.png" width="400">   
-
-<img src="srv/07.png" width="400">   
-
-<img src="srv/08.png" width="400">   
-
-<img src="srv/09.png" width="400"> 
-
-<img src="srv/10.png" width="400">   
-
-</p>  
-
-
-## 2. Configuration :
-
-<p align="center">
-
-<img src="srv/11.png" width="400">   
-
-<img src="srv/12.png" width="400">   
-
-<img src="srv/13.png" width="400">   
-
-<img src="srv/14.png" width="400">   
-
-<img src="srv/15.png" width="400">   
-
-<img src="srv/16.png" width="400">   
-
-<img src="srv/17.png" width="400">   
-
-<img src="srv/18.png" width="400">   
-                   
-</p>                                                                    
-
-
-## II.1.3. Installation de VBoxGuestAdditions :
-
-<p align="center">
-
-<img src="hyperviseur/01.png" width="400"> 
-
-<img src="hyperviseur/02.png" width="400"> 
-
-<img src="hyperviseur/03.png" width="400"> 
-
-</p>
-
-On installe VBoxGuestAdditions.iso pour améliorer l’intégration et les performances des machines virtuelles dans VirtualBox.
-
-<p align="center">
-
-<img src="vbox/01.png" width="400"> 
-
-<img src="vbox/02.png" width="400"> 
-
-<img src="vbox/03.png" width="400"> 
-
-<img src="vbox/04.png" width="400"> 
-
-<img src="vbox/05.png" width="400"> 
-
-<img src="vbox/06.png" width="400"> 
-
-<img src="vbox/07.png" width="400"> 
-
-</p>
-
----
-
-## II.2. Inventaire :
-
-## II.2.1. Inventaire Hardware :
+## II.1.1. Inventaire Hardware :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
@@ -190,14 +41,13 @@ L'inventaire Hardware consiste à collecter les données matériels.
 </p> 
 
                                                           
-## II.2.2. Inventaire Software : 
+## II.1.2. Inventaire Software : 
 
 L'inventaire Software consiste à collecter les données logiciels.
 
 | Types de Logiciels | Logiciels                     | Licences    | N° de Licence | Expiration | Version | Fin de support |
 |--------------------|-------------------------------|-------------|---------------|------------|---------|----------------|
 | Systèmes           | Windows pro 10                |      /      |       /       |     /      |   21H2  |   13/01/2032   |
-| Applicatifs        | Libre Office                  | Open source |       /       |     /      |     /   |       /        |
 | Développements     | Visual Studio code            | Open source |       /       |     /      |     /   |       /        |
 | Métiers            | CRM                           |      /      |       /       |     /      |     /   |       /        |
 | Serveurs           | Windows server 22, WampServer |      /      |       /       |     /      |   21H2  |   13/01/2032   |
@@ -212,51 +62,18 @@ L'inventaire Software consiste à collecter les données logiciels.
 </p>
 
 
-## II.2.3. Inventaire Globale : 
+## II.1.3. Inventaire Globale : 
  
 | N° | Code   | Postes   | Marques      |             Logiciels                           | CPU       | RAM  | GPU | Stockage | Périphériques   | Etats      | Services     | Lieu |
 |----|--------|----------|--------------|-------------------------------------------------|-----------|------|-----|----------|-----------------|------------|--------------|------|
 | 1  | SRV    | Fixe     | innotek GmbH | Windows server 22                               | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | /            | B1   |
 | 2  | PC01   | Fixe     | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT           | B1   |
-| 4  | PC02   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Comptabilité | B2   |
-| 5  | PC03   | Portable | innotek GmbH | Windows pro 10, Libre Office, CRM               | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Marketing    | B2   |
+| 4  | PC02   | Portable | innotek GmbH | Windows pro 10, WampServer, CRM                 | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Comptabilité | B2   |
+| 5  | PC03   | Portable | innotek GmbH | Windows pro 10, WampServer, CRM                 | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Marketing    | B2   |
                                                                                            
 ---
 
-## II.3. Diagnostic du système :
-
-## Diagnostic server :
-
-<p align="center">
-
-<img src="diagnostic_srv/01.png" width="400">
-
-<img src="diagnostic_srv/02.png" width="400">
-
-<img src="diagnostic_srv/03.png" width="400">
-
-<img src="diagnostic_srv/04.png" width="400">
-
-<img src="diagnostic_srv/05.png" width="400">
-
-<img src="diagnostic_srv/06.png" width="400">
-
-<img src="diagnostic_srv/07.png" width="400">
-
-<img src="diagnostic_srv/08.png" width="400">
-
-<img src="diagnostic_srv/09.png" width="400">
-
-<img src="diagnostic_srv/10.png" width="400">
-
-<img src="diagnostic_srv/11.png" width="400">
-
-<img src="diagnostic_srv/12.png" width="400">
-
-</p>
-
-
-## Diagnostic poste client :
+## II.2. Diagnostic du système :
 
 <p align="center">
 
@@ -283,33 +100,6 @@ L'inventaire Software consiste à collecter les données logiciels.
 <img src="diagnostic_pc/11.png" width="400">
 
 </p>
-
-Le fait que Windows 10 Enterprise LTSC ne soit pas activé peut indirectement empêcher l’installation automatique de certains pilotes, surtout dans une machine virtuelle. Windows non activé limite certaines fonctionnalités, notamment : personnalisation, accès complet à Windows Update, téléchargement de pilotes facultatifs ou tiers.
-
-Certains périphériques, comme les contrôleurs PCI virtuels, restent non reconnus car Windows ne télécharge pas leur pilote automatiquement.
-
-<p align="center">
-<img src="windows/01.png" width="400">
-</p>
-
-
-La solution dans tout ça serait d'activer une clé MAK ou une clé KMS.
-
-Pour rappel une clé MAK est une clé de produit Windows utilisée dans les entreprises pour activer définitivement un certain nombre de machines. 
-
-Fonctionnement : 
-
-- elle active Windows une seule fois par machine, 
-- l’activation se fait via Internet directement auprès de Microsoft, 
-- une fois activé, le PC reste activé à vie, même hors réseau.
-
-Tandis qu'une clé KMS est une clé utilisée pour activer Windows via un serveur d’activation interne dans une organisation. 
-
-Fonctionnement :
-
-- le PC contacte un serveur KMS interne, 
-- l’activation est temporaire : 180 jours, 
-- le PC doit renouveler son activation régulièrement en restant sur le réseau de l’entreprise.
 
 ---
 
@@ -371,36 +161,6 @@ Prérequis à télécharger :
 - GLPI version 10.0.6 : https://www.glpi-project.org/en/new-version-glpi-10-0-6/
 - OCS Inventory NG version 2.0.5 : https://github.com/fusioninventory/fusioninventory-for-glpi/releases
 - Fusion Inventory Version 10.0.6 + 1.1 : https://github.com/pluginsGLPI/ocsinventoryng/releases/tag/2.0.5
-
-Une fois téléchargé et décompressé, les documents ont été envoyé sur la machine virtuelle.
-
-## Hyperviseur :
-
-<p align="center">
-<img src="hyperviseur_1/01.png" width="400">
-</p>
-
-## Installation VBoxWindowsAdditions :
-
-VBoxWindowsAdditions (appelée aussi Guest Additions) sert à transformer les fichiers et logiciels dans un environnement virtuel.
-
-<p align="center">
-<img src="vbox/01.png" width="400">
-<img src="vbox/02.png" width="400">
-<img src="vbox/03.png" width="400">
-<img src="vbox/04.png" width="400">
-<img src="vbox/05.png" width="400">
-<img src="vbox/06.png" width="400">
-<img src="vbox/07.png" width="400">
-</p>
-
-
-## Hyperviseur :
-
-<p align="center">
-<img src="hyperviseur_2/01.png" width="400">
-<img src="hyperviseur_2/02.png" width="400">
-</p>
 
 ## Installation WampServer :
 
