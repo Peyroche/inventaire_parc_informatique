@@ -1,10 +1,10 @@
-# PROJET 1 : INVENTAIRE PARC INFORMATIQUE
+# PROJET 3 : INVENTAIRE PARC INFORMATIQUE
 
 ---
 
 ## I. Contexte :
 
-Dans le cadre d’un projet réalisé pour une entreprise du nom de MDF sur un réseau virtuel, l’organisation ne dispose d’aucun inventaire structuré. Les équipements sont dispersés et les informations utilisateurs ne sont ni centralisées ni mises à jour. Cette situation rend nécessaire la mise en place d’une démarche professionnelle visant à optimiser la gestion des ressources de l'entreprise.
+Dans la continuité de mon projet 1 réalisé sur un environnement virtuel, l’organisation MDF ne dispose d’aucun inventaire structuré. Les équipements sont dispersés et les informations utilisateurs ne sont ni centralisées ni mises à jour. Cette situation rend nécessaire la mise en place d’une démarche professionnelle visant à optimiser la gestion des ressources de l'entreprise.
 
 ---
 
