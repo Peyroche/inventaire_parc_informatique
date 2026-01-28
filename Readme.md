@@ -25,12 +25,13 @@ Le projet a pour objectifs :
 
 L'inventaire Hardware consiste à collecter les données matériels.
 
-| N° | Code   | Postes   | Marques        | Modèles    | N° de série                                       | CPU       | RAM  |  GPU   | Stockage | Périphériques   |
-|----|--------|----------|----------------|------------|---------------------------------------------------|-----------|------|--------|----------|-----------------|
-| 1  | SRV    | Fixe     | innotek GmbH   | VirtuelBox | VirtuelBox-b9835393-e1a5-4857-9b6b-97f2698c9b14   | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 2  | PC01   | Fixe     | innotek Gmbh   | VirtuelBox | VirtuelBox-8b199364-B669-49e4-8303-913e1987b5b9   | Intel i5  | 2 Go |   /    |  50 GB   | Souris, Clavier | 
-| 3  | PC02   | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                       | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
-| 4  | PC03   | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                       | Intel i5  | 2 Go |   /    |  50 GB   |        /        | 
+| N° | Code     | Postes   | Marques        | Modèles    | N° de série                                       | CPU       | RAM  | Stockage | 
+|----|----------|----------|----------------|------------|---------------------------------------------------|-----------|------|----------|
+| 1  | SRV-AD   | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-b9835393-e1a5-4857-9b6b-97f2698c9b14   | Intel i5  | 2 Go |  50 GB   |  
+| 2  | SRV-GLPI | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-888e8ced-feso-4e5d-8b5d-31fa7afd31ff   | Intel i5  | 2 Go |  50 GB   | 
+| 3  | PC01     | Portable | innotek Gmbh   | VirtuelBox | VirtuelBox-8b199364-B669-49e4-8303-913e1987b5b9   | Intel i5  | 2 Go |  50 GB   | 
+| 4  | PC02     | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                       | Intel i5  | 2 Go |  50 GB   |        
+| 5  | PC03     | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                       | Intel i5  | 2 Go |  50 GB   |        
 
 <p align="center">
 
@@ -64,13 +65,13 @@ L'inventaire Software consiste à collecter les données logiciels.
 
 ## II.1.3. Inventaire Globale : 
  
-| N° | Code   | Postes   | Marques      |             Logiciels                           | CPU       | RAM  | GPU | Stockage | Périphériques   | Etats      | Services     | Lieu |
-|----|--------|----------|--------------|-------------------------------------------------|-----------|------|-----|----------|-----------------|------------|--------------|------|
-| 1  | SRV    | Fixe     | innotek GmbH | Windows server 22                               | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | /            | B1   |
-| 2  | PC01   | Fixe     | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5  | 2 Go |  /  |  50 GB   | Souris, Clavier | En service | IT           | B1   |
-| 4  | PC02   | Portable | innotek GmbH | Windows pro 10, WampServer, CRM                 | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Comptabilité | B2   |
-| 5  | PC03   | Portable | innotek GmbH | Windows pro 10, WampServer, CRM                 | Intel i5  | 2 Go |  /  |  50 GB   |        /        | En service | Marketing    | B2   |
-                                                                                           
+| N° | Code     | Postes   | Marques      |             Logiciels                           | CPU       | RAM  | Stockage | Etats      | Services         | Lieu |
+|----|----------|----------|--------------|-------------------------------------------------|-----------|------|----------|------------|------------------|------|
+| 1  | SRV-AD   | Portable | innotek GmbH | Windows server 22                               | Intel i5  | 2 Go |  50 GB   | En service | /                | B1   |
+| 2  | SRV-GLPI | Portable | innotek GmbH | Windows pro 10, WampServer                      | Intel i5  | 2 Go |  50 GB   | En service | /                | B1   |
+| 3  | PC01     | Portable | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5  | 2 Go |  50 GB   | En service | Informatique (IT)| B2   |
+| 4  | PC02     | Portable | innotek GmbH | Windows pro 10, WampServer, CRM                 | Intel i5  | 2 Go |  50 GB   | En service | Comptabilité     | B2   |
+| 5  | PC03     | Portable | innotek Gmbh | Windows pro 10, WampServer, CRM                 | Intel i5  | 2 Go |  50 GB   | En service | Marketing        | B2   |                                                                                           
 ---
 
 ## II.2. Diagnostic du système :
@@ -156,49 +157,74 @@ La Politique de Sécurité des Systèmes d’Information (PSSI) définit les rè
 
 Prérequis à télécharger :
 
-- WampServer (PHP version 7.4.33) : https://www.wampserver.com
-- Packages Microsoft Visual C++ : https://wampserver.aviatechno.net
-- GLPI version 10.0.6 : https://www.glpi-project.org/en/new-version-glpi-10-0-6/
-- OCS Inventory NG version 2.0.5 : https://github.com/fusioninventory/fusioninventory-for-glpi/releases
-- Fusion Inventory Version 10.0.6 + 1.1 : https://github.com/pluginsGLPI/ocsinventoryng/releases/tag/2.0.5
+- WampServer (PHP version 7.4.33) 
+- Packages Microsoft Visual C++ 
+- GLPI version 10.0.6
+- Agent GLPI. 
 
 ## Installation WampServer :
 
-WampServer est une plateforme de développement web pour Windows. Elle permet de créer et tester des sites web en local (sur ton PC), d'utiliser des technologies comme Apache, MySQL, PHP, de gérer tes bases de données avec phpMyAdmin.
+WampServer est une plateforme de développement web pour Windows. Elle permet : de créer et tester des sites web en local, d'utiliser des technologies comme (Apache, MySQL, PHP), de gérer les bases de données avec phpMyAdmin.
 
 <p align="center">
+
 <img src="wampserver/01.png" width="400">
+
 <img src="wampserver/02.png" width="400">
+
 <img src="wampserver/03.png" width="400">
+
 <img src="wampserver/04.png" width="400">
+
 <img src="wampserver/05.png" width="400">
+
 <img src="wampserver/06.png" width="400">
+
 <img src="wampserver/07.png" width="400">
+
 <img src="wampserver/08.png" width="400">
+
 <img src="wampserver/09.png" width="400">
+
 <img src="wampserver/10.png" width="400">
+
 </p>
 
 ## Installation GLPI :
 
-GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
+GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer : un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
 
 ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
 
 <p align="center">
+
 <img src="glpi/01.png" width="400">
+
 <img src="glpi/02.png" width="400">
+
 <img src="glpi/03.png" width="400">
+
 <img src="glpi/04.png" width="400">
+
 <img src="glpi/05.png" width="400">
+
 <img src="glpi/06.png" width="400">
+
 <img src="glpi/07.png" width="400">
+
 <img src="glpi/08.png" width="400">
+
 <img src="glpi/09.png" width="400">
+
 <img src="glpi/10.png" width="400">
+
 <img src="glpi/11.png" width="400">
+
 <img src="glpi/12.png" width="400">
+
 <img src="glpi/13.png" width="400">
+
 <img src="glpi/14.png" width="400">
+
 </p>
 
