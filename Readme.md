@@ -70,8 +70,9 @@ L'inventaire Software consiste à collecter les données logiciels.
 | 1  | SRV-AD   | Portable | innotek GmbH | Windows server 22                               | Intel i5  | 2 Go |  50 GB   | En service | /                | B1   |
 | 2  | SRV-GLPI | Portable | innotek GmbH | Windows pro 10, WampServer                      | Intel i5  | 2 Go |  50 GB   | En service | /                | B1   |
 | 3  | PC01     | Portable | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5  | 2 Go |  50 GB   | En service | Informatique (IT)| B2   |
-| 4  | PC02     | Portable | innotek GmbH | Windows pro 10, WampServer, CRM                 | Intel i5  | 2 Go |  50 GB   | En service | Comptabilité     | B2   |
-| 5  | PC03     | Portable | innotek Gmbh | Windows pro 10, WampServer, CRM                 | Intel i5  | 2 Go |  50 GB   | En service | Marketing        | B2   |                                                                                           
+| 4  | PC02     | Portable | innotek GmbH | Windows pro 10, CRM                             | Intel i5  | 2 Go |  50 GB   | En service | Comptabilité     | B2   |
+| 5  | PC03     | Portable | innotek Gmbh | Windows pro 10, CRM                             | Intel i5  | 2 Go |  50 GB   | En service | Marketing        | B2   |                                                                                           
+
 ---
 
 ## II.2. Diagnostic du système :
