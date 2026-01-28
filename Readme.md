@@ -30,8 +30,8 @@ L'inventaire Hardware consiste à collecter les données matériels.
 | 1  | SRV-AD   | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-b9835393-e1a5-4857-9b6b-97f2698c9b14   | Intel i5  | 2 Go |  50 GB   |  
 | 2  | SRV-GLPI | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-888e8ced-feso-4e5d-8b5d-31fa7afd31ff   | Intel i5  | 2 Go |  50 GB   | 
 | 3  | PC01     | Portable | innotek Gmbh   | VirtuelBox | VirtuelBox-8b199364-B669-49e4-8303-913e1987b5b9   | Intel i5  | 2 Go |  50 GB   | 
-| 4  | PC02     | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                       | Intel i5  | 2 Go |  50 GB   |        
-| 5  | PC03     | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-                                       | Intel i5  | 2 Go |  50 GB   |        
+| 4  | PC02     | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-8b199364-B669-49e4-8303-913e1987b5b9   | Intel i5  | 2 Go |  50 GB   |        
+| 5  | PC03     | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-kg144364-BZ69-49e4-8113-513e1287b5b9   | Intel i5  | 2 Go |  50 GB   |        
 
 <p align="center">
 
