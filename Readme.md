@@ -35,9 +35,9 @@ L'inventaire Hardware consiste à collecter les données matériels.
 
 <p align="center">
 
-<img src="configuration/01.png" width="400"> 
+<img src="verification/01.png" width="400"> 
                                                                   
-<img src="configuration/02.png" width="400"> 
+<img src="verification/02.png" width="400"> 
                                                               
 </p> 
 
