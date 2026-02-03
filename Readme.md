@@ -122,8 +122,6 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 
 <img src="mises_à_jour/02.png" width="400">
 
-<img src="mises_à_jour/03.png" width="400">
-
 </p>
 
 ## 4. Installation des correctifs de sécurité
