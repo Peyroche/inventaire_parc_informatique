@@ -76,6 +76,13 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 
 ## Cahier de charge essentiel :
 
+- Installation ou réinstallation de Windows
+- Activation de Windows
+- Installation des mises à jours
+- Installation d'un antivirus
+- Installation des nouveaux périphériques (périphériques de sauvegardes, webcam, micro, etc ...)
+- Diagnostic de tout problème matériel
+
 ## 1. Installation de Windows
 
 <p align="center">
@@ -106,15 +113,7 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 
 </p>
 
-## 2. Activation de Windows
-
-<p align="center">
-
-<img src="activation/01.png" width="400">
-
-</p>
-
-## 3. Installation des mises à jour
+## 2. Installation des mises à jour
 
 <p align="center">
 
@@ -124,9 +123,7 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 
 </p>
 
-## 4. Installation des correctifs de sécurité
-
-## 5. Installation d'un antivirus
+## 3. Installation d'un antivirus
 
 La plupart des entreprises disposent d'une licence pour un antivirus. Si tel est le cas, c'est vers celui là qu'il faudra se diriger. Si ce n'est pas le cas, l'installation d'un antivirus gratuit, tel qu'Avast, Kaspersky ou AVG peut être envisagée.
 
@@ -136,7 +133,7 @@ La plupart des entreprises disposent d'une licence pour un antivirus. Si tel est
 
 </p>
 
-## 6. Installation des nouveaux périphériques
+## 4. Installation des nouveaux périphériques
 
 Il est courant de se retrouver avec des périphériques non reconnus lors d'une nouvelle installation de Windows. Il est important de résoudre tous les problèmes des la première configuration du système afin que le futur installateur ne rencontre aucune difficulté par la suite.
 
@@ -150,7 +147,7 @@ Il est courant de se retrouver avec des périphériques non reconnus lors d'une 
 
 </p>
 
-## 7. Diagnostic de tous problèmes matériels
+## 5. Diagnostic de tous problèmes matériels
 
 
 
