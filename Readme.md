@@ -1,197 +1,114 @@
-# PROJET 3 : INVENTAIRE PARC INFORMATIQUE
+# PROJET 1 : INVENTAIRE INTRANET PARC INFORMATIQUE
 
 ---
 
-## I. Contexte :
+## I. Introduction :
 
-Dans la continuité de mon projet 1 réalisé sur un environnement virtuel, l’organisation MDF ne dispose d’aucun inventaire structuré. Les équipements sont dispersés et les informations utilisateurs ne sont ni centralisées ni mises à jour. Cette situation rend nécessaire la mise en place d’une démarche professionnelle visant à optimiser la gestion des ressources de l'entreprise.
+Dans le cadre de la gestion d’un parc informatique, il est essentiel pour une organisation de disposer d’une vision précise et centralisée de l’ensemble de ses équipements. Pour répondre à cet enjeu, j’ai mis en place une solution d’inventaire automatisé au sein d’un réseau intranet, permettant de collecter et de remonter les informations matérielles et logicielles des postes utilisateurs vers un serveur centralisé.
 
----
+Ce projet repose sur l’installation d’un serveur GLPI hébergé en local, ainsi que sur le déploiement de l’agent GLPI sur les postes du réseau. L’utilisation de l’intranet garantit un environnement sécurisé, rapide et totalement maîtrisé, sans dépendance à Internet. L’objectif est d’automatiser l’inventaire, de fiabiliser les données du parc et de faciliter le travail du support informatique grâce à une base d’informations toujours à jour.
 
-## II. Objectifs du projet :
-
-Le projet a pour objectifs :
-
-- d’établir un inventaire structuré,
-- de réaliser un diagnostic du système,
-- de définir une politique de sécurité adaptée à l’organisation,
-- d’intégrer un outil automatisé GLPI.
+Cette solution permet à l’entreprise d’améliorer la maintenance, d’optimiser le suivi du matériel et de renforcer la traçabilité des équipements, tout en s’intégrant parfaitement dans les bonnes pratiques de gestion informatique.
 
 ---
 
-## II.1. Inventaire :
+## II. Problématique :
 
-## II.1.1. Inventaire Hardware :
-
-L'inventaire Hardware consiste à collecter les données matériels.
-
-| N° | Code     | Postes   | Marques        | Modèles    | N° de série                                     | CPU       | RAM  | Stockage | 
-|----|----------|----------|----------------|------------|-------------------------------------------------|-----------|------|----------|
-| 1  | SRV-AD   | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-b9835393-e1a5-4857-9b6b-97f2698c9b14 | Intel i5  | 2 Go |  50 GB   |  
-| 2  | SRV-GLPI | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-888e8ced-feso-4e5d-8b5d-31fa7afd31ff | Intel i5  | 2 Go |  50 GB   | 
-| 3  | PC01     | Portable | innotek Gmbh   | VirtuelBox | VirtuelBox-8b199364-B669-49e4-8303-913e1987b5b9 | Intel i5  | 2 Go |  50 GB   | 
-| 4  | PC02     | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-8b199364-B669-49e4-8303-913e1987b5b9 | Intel i5  | 2 Go |  50 GB   |        
-| 5  | PC03     | Portable | innotek GmbH   | VirtuelBox | VirtuelBox-kg144364-BZ69-49e4-8113-513e1287b5b9 | Intel i5  | 2 Go |  50 GB   |        
-
-<p align="center">
-
-<img src="verification/01.png" width="400"> 
-                                                                  
-<img src="verification/02.png" width="400"> 
-                                                              
-</p> 
-
-                                                          
-## II.1.2. Inventaire Software : 
-
-L'inventaire Software consiste à collecter les données logiciels.
-
-| Types de Logiciels | Logiciels                     | Licences    | N° de Licence | Expiration | Version | Fin de support |
-|--------------------|-------------------------------|-------------|---------------|------------|---------|----------------|
-| Systèmes           | Windows pro 10                |      /      |       /       |     /      |   21H2  |   13/01/2032   |
-| Développements     | Visual Studio code            | Open source |       /       |     /      |     /   |       /        |
-| Métiers            | CRM                           |      /      |       /       |     /      |     /   |       /        |
-| Serveurs           | Windows server 22, WampServer |      /      |       /       |     /      |   21H2  |   13/01/2032   |
-
-
-<p align="center">
-
-<img src="version/01.png" width="400">
-
-<img src="version/02.png" width="400">
-
-</p>
-
-
-## II.1.3. Inventaire Globale : 
- 
-| N° | Code     | Postes   | Marques      |             Logiciels                           | CPU       | RAM  | Stockage | Etats      | Services         | Lieu |
-|----|----------|----------|--------------|-------------------------------------------------|-----------|------|----------|------------|------------------|------|
-| 1  | SRV-AD   | Portable | innotek GmbH | Windows server 22                               | Intel i5  | 2 Go |  50 GB   | En service | /                | B1   |
-| 2  | SRV-GLPI | Portable | innotek GmbH | Windows pro 10, WampServer                      | Intel i5  | 2 Go |  50 GB   | En service | /                | B1   |
-| 3  | PC01     | Portable | innotek GmbH | Windows pro 10, WampServer, Visuel Studio code  | Intel i5  | 2 Go |  50 GB   | En service | Informatique (IT)| B2   |
-| 4  | PC02     | Portable | innotek GmbH | Windows pro 10, CRM                             | Intel i5  | 2 Go |  50 GB   | En service | Comptabilité     | B2   |
-| 5  | PC03     | Portable | innotek Gmbh | Windows pro 10, CRM                             | Intel i5  | 2 Go |  50 GB   | En service | Marketing        | B2   |                                                                                           
+Dans un contexte où le parc informatique évolue constamment, l’entreprise doit disposer d’une vision fiable et centralisée de ses équipements pour assurer une maintenance efficace et une gestion optimale des ressources. Or, sans outil d’inventaire automatisé, les informations matérielles et logicielles deviennent rapidement obsolètes, ce qui complique le suivi des postes, augmente les risques d’incidents et ralentit le support technique.
+La problématique est donc la suivante : comment mettre en place une solution d’inventaire automatisée, sécurisée et accessible via l’intranet, permettant de collecter et d’actualiser en continu les données du parc informatique ?
 
 ---
 
-## II.2. Diagnostic du système :
+## III. Objectifs :
 
-<p align="center">
+La mise en place d’un inventaire automatisé en intranet poursuit plusieurs objectifs essentiels pour la gestion du parc informatique :
 
-<img src="diagnostic_pc/01.png" width="400">
+1. Centraliser l’ensemble des informations du parc
+Rassembler dans une base unique toutes les données matérielles et logicielles des postes de travail afin de disposer d’une vision globale, fiable et constamment à jour.
 
-<img src="diagnostic_pc/02.png" width="400">
+2. Automatiser la collecte des inventaires
+Éliminer les relevés manuels, sources d’erreurs et de perte de temps, en déployant un agent capable d’envoyer automatiquement les informations vers le serveur GLPI.
 
-<img src="diagnostic_pc/03.png" width="400">
+3. Améliorer la maintenance et le support
+Faciliter le diagnostic des incidents, anticiper les pannes et optimiser les interventions grâce à des fiches machines complètes et actualisées.
 
-<img src="diagnostic_pc/04.png" width="400">
+4. Renforcer la traçabilité et le suivi du matériel
+Assurer un suivi précis du cycle de vie des équipements : installation, affectation, mises à jour, remplacement.
 
-<img src="diagnostic_pc/05.png" width="400">
+5. Sécuriser les échanges en restant dans un environnement intranet
+Garantir que toutes les communications entre les agents et le serveur GLPI se font dans un réseau interne maîtrisé, sans exposition à Internet.
 
-<img src="diagnostic_pc/06.png" width="400">
-
-<img src="diagnostic_pc/07.png" width="400">
-
-<img src="diagnostic_pc/08.png" width="400">
-
-<img src="diagnostic_pc/09.png" width="400">
-
-<img src="diagnostic_pc/10.png" width="400">
-
-<img src="diagnostic_pc/11.png" width="400">
-
-</p>
+6. Optimiser la gestion des licences et des ressources
+Identifier les logiciels installés, vérifier leur conformité et mieux planifier les achats ou renouvellements.
 
 ---
 
-## II.3. Politique de sécurité :
+IV. Enjeux :
 
-La Politique de Sécurité des Systèmes d’Information (PSSI) définit les règles permettant d’assurer la confidentialité, l’intégrité et la disponibilité des données et services informatiques de l’organisation.
+La mise en place d’un inventaire automatisé au sein de l’intranet représente un enjeu stratégique pour la gestion du parc informatique. Elle permet d’améliorer la fiabilité des informations, de renforcer la sécurité du système d’information et d’optimiser les ressources matérielles et logicielles.
+L’enjeu principal est de garantir une maîtrise complète du parc informatique, en disposant de données centralisées, actualisées et accessibles uniquement depuis un environnement interne sécurisé.
 
-### Principes généraux :
-
-- La sécurité est l’affaire de tous les utilisateurs.
-- Toute action doit respecter les lois en vigueur (RGPD, propriété intellectuelle).
-- Les accès sont attribués selon le principe du moindre privilège.
-- Les données sensibles doivent être protégées contre toute divulgation non autorisée.
-
-
-### Gestion des comptes et habilitations :
-
-- Chaque utilisateur dispose d’un compte nominatif.
-- Les droits sont attribués via le modèle AGDLP.
-- Les comptes administrateurs sont strictement réservés au personnel IT.
-- Les comptes inactifs sont désactivés après 30 jours.
-
-
-### Gestion des mots de passe :
-
-- Longueur minimale : 12 caractères.
-- Complexité obligatoire (majuscules, minuscules, chiffres, caractères spéciaux).
-- Renouvellement tous les 90 jours.
-- Interdiction de partager un mot de passe.
-
-
-### Sauvegardes :
-
-- Sauvegarde quotidienne des serveurs critiques.
-- Conservation 30 jours.
-- Tests de restauration trimestriels.
-
-
-### Postes de travail :
-
-- Verrouillage automatique après 10 minutes.
-- Installation de logiciels interdite sans validation IT.
-- Windows Defender Antivirus obligatoire.
-
-
-### Réseau :
-
-- Segmentation par VLAN.
-- Filtrage via firewall Fortinet.
+Sur le plan opérationnel, ce projet vise à réduire les interventions manuelles, limiter les erreurs de saisie et faciliter le travail des équipes techniques grâce à une meilleure visibilité sur l’état des équipements.
+Sur le plan organisationnel, il contribue à optimiser les coûts, à anticiper les besoins de renouvellement et à assurer la conformité des logiciels installés.
+Enfin, sur le plan sécuritaire, l’utilisation de l’intranet permet de protéger les échanges de données sensibles, en évitant toute exposition du serveur GLPI sur Internet.
 
 ---
 
-## II.4. Automatisation de la gestion avec GLPI :
+V. Contexte :
 
-## Installation GLPI :
+L’entreprise dispose d’un parc informatique composé de plusieurs postes de travail, périphériques et logiciels utilisés quotidiennement par les collaborateurs. Jusqu’à présent, la gestion de ces équipements reposait sur des relevés manuels ou des informations partielles, ce qui rendait difficile le suivi précis du matériel, l’identification des configurations installées et la planification des opérations de maintenance.
 
-GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer : un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
+Dans ce contexte, la direction informatique souhaite moderniser et fiabiliser la gestion du parc en mettant en place une solution d’inventaire automatisée, accessible uniquement via l’intranet de l’organisation. Le choix s’est porté sur GLPI, une plateforme open source de gestion de parc et de support, installée localement sur un serveur interne. Pour compléter cette solution, l’agent GLPI est déployé sur les postes du réseau afin de remonter automatiquement les informations matérielles et logicielles.
 
-ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
+Ce projet s’inscrit dans une démarche d’amélioration continue du système d’information, avec pour objectif de renforcer la visibilité sur les équipements, d’optimiser les interventions techniques et de garantir une meilleure maîtrise des ressources informatiques
 
-<p align="center">
+---
 
-<img src="glpi/01.png" width="400">
+VI. Méthodologie :
 
-<img src="glpi/02.png" width="400">
+La réalisation de ce projet d’inventaire intranet s’est appuyée sur une démarche structurée en plusieurs étapes, permettant d’assurer une mise en place progressive, fiable et conforme aux besoins de l’organisation.
 
-<img src="glpi/03.png" width="400">
+1. Analyse des besoins et définition du périmètre
+La première étape a consisté à identifier les équipements concernés par l’inventaire (postes de travail, périphériques, logiciels) ainsi que les attentes du service informatique en matière de centralisation, de mise à jour et de sécurité des données. Cette phase a permis de définir le périmètre fonctionnel et technique du projet.
 
-<img src="glpi/04.png" width="400">
+2. Installation et configuration du serveur GLPI
+Un serveur GLPI a été déployé sur l’intranet via WampServer, incluant Apache, PHP et Maria DB. L’environnement a été configuré pour accueillir les inventaires, avec la création de la base de données, l’installation de GLPI et la vérification des modules PHP nécessaires.
 
-<img src="glpi/05.png" width="400">
+3. Mise en place de l’inventaire natif
+GLPI 10 intégrant nativement le module d’inventaire, la configuration du serveur a consisté à activer les options d’inventaire, vérifier les droits d’accès et préparer l’URL d’inventaire destinée aux agents.
 
-<img src="glpi/06.png" width="400">
+4. Déploiement de l’agent GLPI sur les postes
+L’agent GLPI a été installé sur les postes du réseau intranet. Lors de l’installation, l’URL d’inventaire du serveur GLPI a été renseignée afin de permettre la remontée automatique des informations. Des tests ont été réalisés pour valider la communication entre les agents et le serveur.
 
-<img src="glpi/07.png" width="400">
+5. Tests de remontée et validation des inventaires
+Des inventaires manuels ont été déclenchés pour vérifier la bonne transmission des données. Les fiches machines générées dans GLPI ont été analysées afin de contrôler la qualité et l’exhaustivité des informations collectées.
 
-<img src="glpi/08.png" width="400">
+6. Documentation et mise en production
+Une documentation technique a été rédigée pour décrire les étapes d’installation, de configuration et de maintenance. Une fois les tests validés, la solution a été déployée en production sur l’ensemble du parc concerné.
 
-<img src="glpi/09.png" width="400">
+---
 
-<img src="glpi/10.png" width="400">
+VII. Déroulement :
 
-<img src="glpi/11.png" width="400">
+Le projet d’inventaire intranet s’est déroulé en plusieurs phases successives, permettant une mise en place progressive, testée et maîtrisée de la solution. Chaque étape a été réalisée de manière méthodique afin d’assurer la fiabilité du système et la cohérence des données collectées.
 
-<img src="glpi/12.png" width="400">
+1. Préparation de l’environnement technique
+La première étape a consisté à installer et configurer l’environnement serveur nécessaire au fonctionnement de GLPI. WampServer a été déployé sur une machine du réseau intranet afin de fournir les services Apache, PHP et Maria DB. Une base de données dédiée a été créée, puis GLPI a été installé et initialisé.
 
-<img src="glpi/13.png" width="400">
+2. Configuration de GLPI et activation de l’inventaire
+Une fois GLPI opérationnel, les paramètres essentiels ont été configurés : création des comptes administratifs, définition des entités, vérification des modules PHP requis et activation de l’inventaire natif intégré à GLPI 10. L’URL d’inventaire a été identifiée et testée pour préparer la communication avec les agents.
 
-<img src="glpi/14.png" width="400">
+3. Installation et paramétrage de l’agent GLPI sur les postes
+L’agent GLPI a été téléchargé puis installé sur les postes du réseau intranet. Lors de l’installation, l’URL d’inventaire du serveur GLPI a été renseignée afin de permettre la remontée automatique des informations. Des tests ont été réalisés pour valider la bonne communication entre les agents et le serveur.
 
-</p>
+4. Tests de remontée et validation des données
+Des inventaires manuels ont été déclenchés depuis les postes afin de vérifier la transmission correcte des informations. Les fiches machines générées dans GLPI ont été analysées pour contrôler la cohérence des données matérielles et logicielles. Les éventuels ajustements de configuration ont été effectués à cette étape.
+
+5. Documentation et finalisation
+Une documentation complète a été rédigée pour décrire l’installation, la configuration et l’utilisation de la solution. Une fois les tests validés, le système a été considéré comme opérationnel et prêt à être utilisé pour la gestion quotidienne du parc informatique.
+
+
+
+
 
 
