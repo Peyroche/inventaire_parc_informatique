@@ -43,7 +43,7 @@ Identifier les logiciels installés, vérifier leur conformité et mieux planifi
 
 ---
 
-IV. Enjeux :
+## IV. Enjeux :
 
 La mise en place d’un inventaire automatisé au sein de l’intranet représente un enjeu stratégique pour la gestion du parc informatique. Elle permet d’améliorer la fiabilité des informations, de renforcer la sécurité du système d’information et d’optimiser les ressources matérielles et logicielles.
 L’enjeu principal est de garantir une maîtrise complète du parc informatique, en disposant de données centralisées, actualisées et accessibles uniquement depuis un environnement interne sécurisé.
@@ -54,7 +54,7 @@ Enfin, sur le plan sécuritaire, l’utilisation de l’intranet permet de prot�
 
 ---
 
-V. Contexte :
+## V. Contexte :
 
 L’entreprise dispose d’un parc informatique composé de plusieurs postes de travail, périphériques et logiciels utilisés quotidiennement par les collaborateurs. Jusqu’à présent, la gestion de ces équipements reposait sur des relevés manuels ou des informations partielles, ce qui rendait difficile le suivi précis du matériel, l’identification des configurations installées et la planification des opérations de maintenance.
 
@@ -64,7 +64,7 @@ Ce projet s’inscrit dans une démarche d’amélioration continue du système 
 
 ---
 
-VI. Méthodologie :
+## VI. Méthodologie :
 
 La réalisation de ce projet d’inventaire intranet s’est appuyée sur une démarche structurée en plusieurs étapes, permettant d’assurer une mise en place progressive, fiable et conforme aux besoins de l’organisation.
 
@@ -88,7 +88,7 @@ Une documentation technique a été rédigée pour décrire les étapes d’inst
 
 ---
 
-VII. Déroulement :
+## VII. Déroulement :
 
 Le projet d’inventaire intranet s’est déroulé en plusieurs phases successives, permettant une mise en place progressive, testée et maîtrisée de la solution. Chaque étape a été réalisée de manière méthodique afin d’assurer la fiabilité du système et la cohérence des données collectées.
 
