@@ -76,7 +76,7 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 
 ## Cahier de charge essentiel :
 
-1. Installation de Windows 10
+## 1. Installation de Windows 10
 
 <p align="center">
 
@@ -106,13 +106,13 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 
 </p>
 
-2. Activer Windows 10
+## 2. Activer Windows 10
 
-3. Installation des mises à jour
+## 3. Installation des mises à jour
 
-4. Installation des correctifs de sécurité
+## 4. Installation des correctifs de sécurité
 
-5. Installation d'un antivirus
+## 5. Installation d'un antivirus
 
 La plupart des entreprises disposent d'une licence pour un antivirus. Si tel est le cas, c'est vers celui là qu'il faudra se diriger. Si ce n'est pas le cas, l'installation d'un antivirus gratuit, tel qu'Avast, Kaspersky ou AVG peut être envisagée.
 
@@ -122,9 +122,9 @@ La plupart des entreprises disposent d'une licence pour un antivirus. Si tel est
 
 </p>
 
-6. Installation des nouveaux périphériques
+## 6. Installation des nouveaux périphériques
 
-7. Diagnostic de tous problèmes matériels
+## 7. Diagnostic de tous problèmes matériels
 
 
 
