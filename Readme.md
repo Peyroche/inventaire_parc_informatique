@@ -234,6 +234,22 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 <img src="GLPI/10.png" width="400">
 
+<img src="GLPI/11.png" width="400">
+
+<img src="GLPI/12.png" width="400">
+
+<img src="GLPI/13.png" width="400">
+
+<img src="GLPI/14.png" width="400">
+
+<img src="GLPI/15.png" width="400">
+
+<img src="GLPI/16.png" width="400">
+
+<img src="GLPI/17.png" width="400">
+
+<img src="GLPI/18.png" width="400">
+
 </p>
 
 ---
