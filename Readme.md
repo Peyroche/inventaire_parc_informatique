@@ -76,8 +76,7 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 - Activation de Windows
 - Installation des mises à jours
 - Installation d'un antivirus
-- Installation des nouveaux périphériques
-- Diagnostic de tout problème matériel
+- Diagnostic de tout problème matériel.
 
 ## 1. Installation de Windows 10
 
@@ -143,11 +142,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-## 5. Installation des nouveaux périphériques
-
-
-
-## 6. Diagnostic de tous problèmes matériels
+## 5. Diagnostic de tous problèmes matériels
 
 
 
