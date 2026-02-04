@@ -1,4 +1,4 @@
-# PROJET 1 : INVENTAIRE INTRANET PARC INFORMATIQUE
+## PROJET 1 : INVENTAIRE INTRANET PARC INFORMATIQUE
 
 ---
 
@@ -64,7 +64,7 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 
 3. Configuration de GLPI et activation de l’inventaire
 
-4. Installation et paramétrage de l’agent GLPI sur les postes
+4. Installation et paramétrage de l’agent GLPI sur le poste
 
 5. Tests de remontée et validation des données
 
@@ -182,7 +182,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## VII. Installation du Serveur GLPI
+## VII. Installation WampServer (Serveur GLPI)
 
 <p align="center">
 
@@ -212,7 +212,33 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ## VIII. Configuration GLPI
 
+<p align="center">
 
+<img src="GLPI/01.png" width="400">
+
+<img src="GLPI/02.png" width="400">
+
+<img src="GLPI/03.png" width="400">
+
+<img src="GLPI/04.png" width="400">
+
+<img src="GLPI/05.png" width="400">
+
+<img src="GLPI/06.png" width="400">
+
+<img src="GLPI/07.png" width="400">
+
+<img src="GLPI/08.png" width="400">
+
+<img src="GLPI/09.png" width="400">
+
+<img src="GLPI/10.png" width="400">
+
+</p>
+
+---
+
+## IX. Installation de l'agent GLPI
 
 
 
