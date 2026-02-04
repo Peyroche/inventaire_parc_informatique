@@ -70,10 +70,6 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 
 ## V.1. Préparation de l'environnement technique :
 
-Dans certaines entreprises, la configuration d'un nouveau poste peut être automatisé avec un serveur de déploiement par exemple, mais la plupart des entreprises n'ont pas forcement les compétences en interne ou l'infrastructure nécessaire à la mise en place d'un tel dispositif.
-
-Dans ce cadre là, un cahier des charges est une alternative intéressante : l'idée consiste à mettre en place une liste de toutes les taches à effectuer lors de chaque configuration d'un nouveau poste. Une telle liste offre de nombreux avantages, par exemple le fait que n'importe qu'elle personne de l'entreprise puisse s'y référer en cas d'indisponibilité du responsable ainsi que l'assurance de n'oublier aucune étape.
-
 ## Cahier de charge essentiel :
 
 - Installation ou réinstallation de Windows
@@ -83,7 +79,7 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 - Installation des nouveaux périphériques
 - Diagnostic de tout problème matériel
 
-## 1. Installation de Windows
+## 1. Installation de Windows 10
 
 <p align="center">
 
@@ -113,36 +109,13 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 
 </p>
 
-## 2. Installation des mises à jour
+## 2. Activation de Windows 10
 
-Dans la grande majorité des cas, les mises à jour nécessitent une connexion Internet, mais il existe quelques nuances importantes selon le type de mise à jour et l’environnement dans lequel on travaille.
+Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer GLPI, WampServer, agents, etc.
 
-- Mises à jour classiques (Windows Update)
+## 3. Installation des mises à jour
 
-Pour un poste standard (Windows 10 / 11), les mises à jour proviennent directement des serveurs Microsoft. Elles nécessitent une connexion Internet pour : télécharger les correctifs de sécurité, récupérer les mises à jour de fonctionnalités, mettre à jour les pilotes certifiés, installer les définitions antivirus (Microsoft Defender).
-
-- En entreprise (WSUS, SCCM, MDT)
-
-Dans un réseau professionnel, les mises à jour peuvent être distribuées depuis un serveur interne. 
-
-Par exemple : 
-
-- WSUS (Windows Server Update Services),
-- SCCM / MECM,
-- MDT (Microsoft Deployment Toolkit),
-- Serveur de déploiement FOG.
-
-Dans ce cas, le poste client n’a pas besoin d’Internet, c’est le serveur interne qui télécharge les mises à jour depuis Internet tandis que les postes récupèrent les mises à jour en intranet.
-
-- Mises à jour hors‑ligne (cas particuliers)
-
-Il existe des méthodes pour mettre à jour un poste sans Internet. 
-
-Par exemples : 
-
-- Télécharger les mises à jour sur une autre machine,
-- Les mettre sur une clé USB, 
-- Utiliser un pack hors‑ligne (ex : WSUS Offline Update).
+L'iso Windows installé sur le poste est récent de version 21H2, il contient déjà des correctifs, des versions .NET, des composants système mis à jour. Donc après installation, Windows peut afficher les mises à jour prête à être appliquée sans avoir besoin d'internet.
 
 <p align="center">
 
@@ -152,31 +125,29 @@ Par exemples :
 
 </p>
 
-## 3. Installation d'un antivirus
-
-La plupart des entreprises disposent d'une licence pour un antivirus. Si tel est le cas, c'est vers celui là qu'il faudra se diriger. Si ce n'est pas le cas, l'installation d'un antivirus gratuit, tel qu'Avast, Kaspersky ou AVG peut être envisagée.
+## 4. Installation d'un antivirus
 
 <p align="center">
 
 <img src="antivirus/01.png" width="400">
 
-</p>
+<img src="antivirus/02.png" width="400">
 
-## 4. Installation des nouveaux périphériques
+<img src="antivirus/03.png" width="400">
 
-Il est courant de se retrouver avec des périphériques non reconnus lors d'une nouvelle installation de Windows. Il est important de résoudre tous les problèmes des la première configuration du système afin que le futur installateur ne rencontre aucune difficulté par la suite.
+<img src="antivirus/04.png" width="400">
 
-<p align="center">
+<img src="antivirus/05.png" width="400">
 
-<img src="périphérie/01.png" width="400">
-
-<img src="périphérie/02.png" width="400">
-
-<img src="périphérie/03.png" width="400">
+<img src="antivirus/06.png" width="400">
 
 </p>
 
-## 5. Diagnostic de tous problèmes matériels
+## 5. Installation des nouveaux périphériques
+
+
+
+## 6. Diagnostic de tous problèmes matériels
 
 
 
