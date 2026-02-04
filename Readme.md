@@ -182,7 +182,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## VII. Installation WampServer (Serveur GLPI)
+## VII. Installation WampServer (Serveur GLPI) 
 
 <p align="center">
 
@@ -210,7 +210,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## VIII. Configuration GLPI
+## VIII. Configuration GLPI et activation de l’inventaire
 
 <p align="center">
 
@@ -250,12 +250,35 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 <img src="GLPI/18.png" width="400">
 
+<img src="GLPI/19.png" width="400">
+
 </p>
 
 ---
 
 ## IX. Installation de l'agent GLPI
 
+<p align="center">
 
+<img src="agent_GLPI/01.png" width="400">
 
+<img src="agent_GLPI/02.png" width="400">
+
+<img src="agent_GLPI/03.png" width="400">
+
+<img src="agent_GLPI/04.png" width="400">
+
+<img src="agent_GLPI/05.png" width="400">
+
+<img src="agent_GLPI/06.png" width="400">
+
+<img src="agent_GLPI/07.png" width="400">
+
+<img src="agent_GLPI/08.png" width="400">
+
+</p>
+
+---
+
+## X. Tests de remontée et validation des données
 
