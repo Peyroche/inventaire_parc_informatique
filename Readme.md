@@ -184,5 +184,36 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ## V.II. Installation du Serveur GLPI
 
+<p align="center">
+
+<img src="serveur_GLPI/01.png" width="400">
+
+<img src="serveur_GLPI/02.png" width="400">
+
+<img src="serveur_GLPI/03.png" width="400">
+
+<img src="serveur_GLPI/04.png" width="400">
+
+<img src="serveur_GLPI/05.png" width="400">
+
+<img src="serveur_GLPI/06.png" width="400">
+
+<img src="serveur_GLPI/07.png" width="400">
+
+<img src="serveur_GLPI/08.png" width="400">
+
+<img src="serveur_GLPI/09.png" width="400">
+
+<img src="serveur_GLPI/10.png" width="400">
+
+</p>
+
+---
+
+## V.III. Configuration GLPI
+
+
+
+
 
 
