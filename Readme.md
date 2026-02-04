@@ -70,9 +70,9 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 
 ---
 
-## V.1. Préparation de l'environnement technique 
+## VI. Préparation de l'environnement technique 
 
-#### Cahier de charge essentiel :
+### Cahier de charge essentiel :
 
 - Installation ou réinstallation de Windows
 - Activation de Windows
@@ -80,7 +80,7 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 - Installation d'un antivirus
 - Diagnostic de tout problème matériel.
 
-#### 1. Installation de Windows 10
+### 1. Installation de Windows 10
 
 <p align="center">
 
@@ -110,7 +110,7 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 
 </p>
 
-#### 2. Activation de Windows 10
+### 2. Activation de Windows 10
 
 Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer GLPI, WampServer, l'agent GLPI, etc.
 
@@ -120,7 +120,7 @@ Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le p
 
 </p>
 
-#### 3. Installation des mises à jour
+### 3. Installation des mises à jour
 
 L'iso Windows installé sur le poste est récent de version 21H2, il contient déjà des correctifs, des versions .NET, des composants système mis à jour. Donc après installation, Windows peut afficher les mises à jour prête à être appliquée sans avoir besoin d'internet.
 
@@ -132,7 +132,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-#### 4. Installation d'un antivirus
+### 4. Installation d'un antivirus
 
 <p align="center">
 
@@ -150,7 +150,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-#### 5. Diagnostic de tous problèmes matériels
+### 5. Diagnostic de tous problèmes matériels
 
 Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
 
@@ -182,7 +182,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## V.II. Installation du Serveur GLPI
+## VII. Installation du Serveur GLPI
 
 <p align="center">
 
@@ -210,7 +210,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## V.III. Configuration GLPI
+## VIII. Configuration GLPI
 
 
 
