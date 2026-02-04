@@ -78,6 +78,8 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 - Activation de Windows
 - Installation des mises à jours
 - Installation d'un antivirus
+- Changement du nom du PC
+- Configuration réseau
 - Diagnostic de tout problème matériel.
 
 ### 1. Installation de Windows 10
@@ -251,6 +253,8 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 <img src="GLPI/18.png" width="400">
 
 <img src="GLPI/19.png" width="400">
+
+<img src="GLPI/20.png" width="400">
 
 </p>
 
