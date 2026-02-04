@@ -2,7 +2,7 @@
 
 ---
 
-## I. Introduction :
+## I. Introduction 
 
 Dans le cadre de la gestion d’un parc informatique, il est essentiel pour une organisation de disposer d’une vision précise et centralisée de l’ensemble de ses équipements. Pour répondre à cet enjeu, j’ai mis en place une solution d’inventaire automatisé au sein d’un réseau intranet, permettant de collecter et de remonter les informations matérielles et logicielles d'un poste utilisateur vers un serveur centralisé.
 
@@ -12,14 +12,14 @@ Cette solution permet à l’entreprise d’améliorer la maintenance, d’optim
 
 ---
 
-## II. Problématique :
+## II. Problématique 
 
 Dans un contexte où le parc informatique évolue constamment, l’entreprise doit disposer d’une vision fiable et centralisée de ses équipements pour assurer une maintenance efficace et une gestion optimale des ressources. Or, sans outil d’inventaire automatisé, les informations matérielles et logicielles deviennent rapidement obsolètes, ce qui complique le suivi des postes, augmente les risques d’incidents et ralentit le support technique.
 La problématique est donc la suivante : comment mettre en place une solution d’inventaire automatisée, sécurisée et accessible via l’intranet, permettant de collecter et d’actualiser en continu les données du parc informatique ?
 
 ---
 
-## III. Objectifs :
+## III. Objectifs 
 
 La mise en place d’un inventaire automatisé en intranet poursuit plusieurs objectifs essentiels pour la gestion du parc informatique :
 
@@ -43,7 +43,7 @@ Identifier les logiciels installés, vérifier leur conformité et mieux planifi
 
 ---
 
-## IV. Enjeux :
+## IV. Enjeux 
 
 La mise en place d’un inventaire automatisé au sein de l’intranet représente un enjeu stratégique pour la gestion du parc informatique. Elle permet d’améliorer la fiabilité des informations, de renforcer la sécurité du système d’information et d’optimiser les ressources matérielles et logicielles.
 L’enjeu principal est de garantir une maîtrise complète du parc informatique, en disposant de données centralisées, actualisées et accessibles uniquement depuis un environnement interne sécurisé.
@@ -54,23 +54,25 @@ Enfin, sur le plan sécuritaire, l’utilisation de l’intranet permet de prot�
 
 ---
 
-## V. Déroulement du projet :
+## V. Déroulement du projet 
 
 Le projet d’inventaire intranet s’est déroulé en plusieurs phases successives, permettant une mise en place progressive, testée et maîtrisée de la solution. Chaque étape a été réalisée de manière méthodique afin d’assurer la fiabilité du système et la cohérence des données collectées.
 
 1. Préparation de l’environnement technique
 
-2. Configuration de GLPI et activation de l’inventaire
+2. Installation du Serveur GLPI
 
-3. Installation et paramétrage de l’agent GLPI sur les postes
+3. Configuration de GLPI et activation de l’inventaire
 
-4. Tests de remontée et validation des données
+4. Installation et paramétrage de l’agent GLPI sur les postes
+
+5. Tests de remontée et validation des données
 
 ---
 
-## V.1. Préparation de l'environnement technique :
+## V.1. Préparation de l'environnement technique 
 
-### Cahier de charge essentiel :
+#### Cahier de charge essentiel :
 
 - Installation ou réinstallation de Windows
 - Activation de Windows
@@ -78,7 +80,7 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 - Installation d'un antivirus
 - Diagnostic de tout problème matériel.
 
-### 1. Installation de Windows 10
+#### 1. Installation de Windows 10
 
 <p align="center">
 
@@ -108,7 +110,7 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 
 </p>
 
-### 2. Activation de Windows 10
+#### 2. Activation de Windows 10
 
 Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer GLPI, WampServer, l'agent GLPI, etc.
 
@@ -118,7 +120,7 @@ Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le p
 
 </p>
 
-### 3. Installation des mises à jour
+#### 3. Installation des mises à jour
 
 L'iso Windows installé sur le poste est récent de version 21H2, il contient déjà des correctifs, des versions .NET, des composants système mis à jour. Donc après installation, Windows peut afficher les mises à jour prête à être appliquée sans avoir besoin d'internet.
 
@@ -130,7 +132,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-### 4. Installation d'un antivirus
+#### 4. Installation d'un antivirus
 
 <p align="center">
 
@@ -148,7 +150,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-### 5. Diagnostic de tous problèmes matériels
+#### 5. Diagnostic de tous problèmes matériels
 
 Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
 
@@ -180,7 +182,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## V.II. Configuration de GLPI :
+## V.II. Installation du Serveur GLPI
 
 
 
