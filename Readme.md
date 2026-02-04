@@ -80,7 +80,7 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 - Activation de Windows
 - Installation des mises à jours
 - Installation d'un antivirus
-- Installation des nouveaux périphériques (périphériques de sauvegardes, webcam, micro, etc ...)
+- Installation des nouveaux périphériques
 - Diagnostic de tout problème matériel
 
 ## 1. Installation de Windows
@@ -114,6 +114,35 @@ Dans ce cadre là, un cahier des charges est une alternative intéressante : l'i
 </p>
 
 ## 2. Installation des mises à jour
+
+Dans la grande majorité des cas, les mises à jour nécessitent une connexion Internet, mais il existe quelques nuances importantes selon le type de mise à jour et l’environnement dans lequel on travaille.
+
+- Mises à jour classiques (Windows Update)
+
+Pour un poste standard (Windows 10 / 11), les mises à jour proviennent directement des serveurs Microsoft. Elles nécessitent une connexion Internet pour : télécharger les correctifs de sécurité, récupérer les mises à jour de fonctionnalités, mettre à jour les pilotes certifiés, installer les définitions antivirus (Microsoft Defender).
+
+- En entreprise (WSUS, SCCM, MDT)
+
+Dans un réseau professionnel, les mises à jour peuvent être distribuées depuis un serveur interne. 
+
+Par exemple : 
+
+- WSUS (Windows Server Update Services),
+- SCCM / MECM,
+- MDT (Microsoft Deployment Toolkit),
+- Serveur de déploiement FOG.
+
+Dans ce cas, le poste client n’a pas besoin d’Internet, c’est le serveur interne qui télécharge les mises à jour depuis Internet tandis que les postes récupèrent les mises à jour en intranet.
+
+- Mises à jour hors‑ligne (cas particuliers)
+
+Il existe des méthodes pour mettre à jour un poste sans Internet. 
+
+Par exemples : 
+
+- Télécharger les mises à jour sur une autre machine,
+- Les mettre sur une clé USB, 
+- Utiliser un pack hors‑ligne (ex : WSUS Offline Update).
 
 <p align="center">
 
