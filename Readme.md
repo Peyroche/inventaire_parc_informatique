@@ -71,7 +71,11 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 - Activation de Windows
 - Installation des mises à jours
 - Installation d'un antivirus
-- Diagnostic de tout problème matériel.
+- Diagnostic de tout problème matériel
+- Installation de WampServer (Serveur GLPI)
+- Configuration de GLPI et activation de l'inventaire
+- Installation de l'agent GLPI
+- Test de remonté et de validation des données.
 
 ### 1. Installation de Windows 10
 
