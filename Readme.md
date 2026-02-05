@@ -56,33 +56,31 @@ Enfin, sur le plan sécuritaire, l’utilisation de l’intranet permet de prot�
 
 ## V. Déroulement du projet 
 
-Le projet s’est déroulé en plusieurs phases successives, chacune définie dans un cahier des charges initial. Ce document a permis de structurer les actions à mener, d’assurer une progression maîtrisée et de garantir la cohérence de l’ensemble du système mis en place.
+Le projet d’inventaire intranet s’est déroulé en plusieurs phases successives, permettant une mise en place progressive, testée et maîtrisée de la solution. Chaque étape a été réalisée de manière méthodique afin d’assurer la fiabilité du système et la cohérence des données collectées.
 
-- Installation de Windows
+1. Préparation de l’environnement technique
 
-- Activation de Windows
+2. Installation du Serveur GLPI
 
-- Installation des mises à jours
+3. Configuration de GLPI et activation de l’inventaire
 
-- Installation d'un antivirus
+4. Installation et paramétrage de l’agent GLPI sur le poste
 
-- Changement du nom du PC
-
-- Configuration réseau
-
-- Diagnostic complet du matériel
-
-- Installation du Serveur GLPI
-
-- Configuration de GLPI et activation de l’inventaire
-
-- Installation et paramétrage de l’agent GLPI sur le poste
-
-- Tests de remontée et validation des données
+5. Tests de remontée et validation des données
 
 ---
 
-## 1. Installation de Windows 10
+## VI. Préparation de l'environnement technique 
+
+### Cahier de charge essentiel :
+
+- Installation ou réinstallation de Windows
+- Activation de Windows
+- Installation des mises à jours
+- Installation d'un antivirus
+- Diagnostic de tout problème matériel.
+
+### 1. Installation de Windows 10
 
 <p align="center">
 
@@ -112,9 +110,7 @@ Le projet s’est déroulé en plusieurs phases successives, chacune définie da
 
 </p>
 
----
-
-## 2. Activation de Windows 10
+### 2. Activation de Windows 10
 
 Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer GLPI, WampServer, l'agent GLPI, etc.
 
@@ -124,9 +120,7 @@ Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le p
 
 </p>
 
----
-
-## 3. Installation des mises à jour
+### 3. Installation des mises à jour
 
 L'iso Windows installé sur le poste est récent de version 21H2, il contient déjà des correctifs, des versions .NET, des composants système mis à jour. Donc après installation, Windows peut afficher les mises à jour prête à être appliquée sans avoir besoin d'internet.
 
@@ -138,9 +132,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
----
-
-## 4. Installation d'un antivirus
+### 4. Installation d'un antivirus
 
 <p align="center">
 
@@ -158,9 +150,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
----
-
-## 5. Diagnostic de tous problèmes matériels
+### 5. Diagnostic de tous problèmes matériels
 
 Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
 
@@ -192,7 +182,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## 6. Installation WampServer (Serveur GLPI) 
+## VII. Installation WampServer (Serveur GLPI) 
 
 <p align="center">
 
@@ -220,7 +210,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## 7. Configuration GLPI et activation de l’inventaire
+## VIII. Configuration GLPI et activation de l’inventaire
 
 <p align="center">
 
@@ -268,7 +258,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## 8. Installation de l'agent GLPI
+## IX. Installation de l'agent GLPI
 
 <p align="center">
 
@@ -292,5 +282,5 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ---
 
-## 9. Tests de remontée et validation des données
+## X. Tests de remontée et validation des données
 
