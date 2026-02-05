@@ -169,7 +169,7 @@ Changement de nom du PC
 
 </p>
 
-Configuration réseau
+Configuration du réseau
 
 <p align="center">
 
