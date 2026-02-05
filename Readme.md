@@ -62,8 +62,8 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 | Machine      | Nommage    |       Adresse IPv4         |   Masque de sous-réseau     |    Serveur DNS     |
 |--------------|------------|----------------------------|-----------------------------|--------------------|
-| VirtualBox   | PC         |       10.0.0.20            |     255.255.255.0           |     10.0.0.10      |
-| VirtualBox   | SRV-GLPI   |       10.0.0.10            |     255.255.255.0           |     10.0.0.10      |
+| VirtualBox   | PC         |       10.0.0.20            |     255.255.255.0           |     10.0.0.30      |
+| VirtualBox   | SRV-GLPI   |       10.0.0.30            |     255.255.255.0           |     10.0.0.30      |
 
 ### Cahier de charge :
 
@@ -131,7 +131,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 ### 4. Installation d'un antivirus
 
-Nous avons prévu installer Avast. C'est un antivirus gratuit utilisé en France, offrant une protection en temps réel contre les virus, malwares, phishing et arnaques en ligne. 
+Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utilisé en France, offrant une protection en temps réel contre les virus, malwares, phishing et arnaques en ligne. 
 
 <p align="center">
 
