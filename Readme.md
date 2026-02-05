@@ -56,8 +56,6 @@ Enfin, sur le plan sécuritaire, l’utilisation de l’intranet permet de prot�
 
 ## V. Déroulement du projet 
 
-Le projet d’inventaire intranet s’est déroulé en plusieurs phases successives, permettant une mise en place progressive, testée et maîtrisée de la solution. Chaque étape a été réalisée de manière méthodique afin d’assurer la fiabilité du système et la cohérence des données collectées.
-
 1. Préparation de l’environnement technique
 
 2. Installation du Serveur GLPI
@@ -72,13 +70,15 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 
 ## VI. Préparation de l'environnement technique 
 
+La préparation de l'environnement technique s’est déroulé en plusieurs phases successives, chacune définie dans un cahier des charges initial. Ce document a permis de structurer les actions à mener, d’assurer une progression maîtrisée et de garantir la cohérence de l’ensemble du système mis en place
+
 ### Cahier de charge essentiel :
 
 - Installation de Windows
 - Activation de Windows
 - Installation des mises à jours
 - Installation d'un antivirus
-- Configuration du poste client
+- Configuration du poste
 - Diagnostic de tout problème matériel.
 
 ### 1. Installation de Windows 10
@@ -151,7 +151,9 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-### 5. Changement de nom du PC
+### 5. Configuration du poste
+
+Changement de nom du PC
 
 <p align="center">
 
@@ -167,7 +169,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-### 6. Configuration du réseau
+Configuration du réseau
 
 <p align="center">
 
@@ -185,7 +187,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-### 7. Diagnostic de tous problèmes matériels
+### 6. Diagnostic de tous problèmes matériels
 
 Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
 
