@@ -151,9 +151,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-### 5. Configuration du poste
-
-Changement de nom du PC
+### 5. Changement de nom du PC
 
 <p align="center">
 
@@ -169,7 +167,7 @@ Changement de nom du PC
 
 </p>
 
-Configuration du réseau
+### 6. Configuration du réseau
 
 <p align="center">
 
@@ -187,7 +185,7 @@ Configuration du réseau
 
 </p>
 
-### 6. Diagnostic de tous problèmes matériels
+### 7. Diagnostic de tous problèmes matériels
 
 Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
 
