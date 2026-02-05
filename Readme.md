@@ -153,6 +153,8 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 ### 5. Configuration du poste
 
+Changement de nom du PC
+
 <p align="center">
 
 <img src="config_PC/01.png" width="400">
@@ -164,6 +166,24 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 <img src="config_PC/04.png" width="400">
 
 <img src="config_PC/05.png" width="400">
+
+</p>
+
+Configuration réseau
+
+<p align="center">
+
+<img src="reseau_PC/01.png" width="400">
+
+<img src="reseau_PC/02.png" width="400">
+
+<img src="reseau_PC/03.png" width="400">
+
+<img src="reseau_PC/04.png" width="400">
+
+<img src="reseau_PC/05.png" width="400">
+
+<img src="reseau_PC/06.png" width="400">
 
 </p>
 
