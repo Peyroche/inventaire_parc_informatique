@@ -60,10 +60,10 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 ### Adressage :
 
-| Nommage    |       Adresse IP           | 
-|------------|----------------------------|
-| PC         |       10.0.0.20            |  
-| SRV-GLPI   |       10.0.0.10            | 
+| Nommage    |       Adresse IPv4         |   Masque de sous-réseau     |    Serveur DNS     |
+|------------|----------------------------|-----------------------------|--------------------|
+| PC         |       10.0.0.20            |     255.255.255.0           |     10.0.0.10      |
+| SRV-GLPI   |       10.0.0.10            |     255.255.255.0           |     10.0.0.10      |
 
 ### Cahier de charge essentiel :
 
