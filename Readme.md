@@ -78,7 +78,7 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 - Activation de Windows
 - Installation des mises à jours
 - Installation d'un antivirus
-- Configuration du poste
+- Configuration du poste client
 - Diagnostic de tout problème matériel.
 
 ### 1. Installation de Windows 10
