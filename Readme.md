@@ -65,7 +65,7 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 | VirtualBox   | PC         |       10.0.0.20            |     255.255.255.0           |     10.0.0.10      |
 | VirtualBox   | SRV-GLPI   |       10.0.0.10            |     255.255.255.0           |     10.0.0.10      |
 
-### Cahier de charge essentiel :
+### Cahier de charge :
 
 - Installation de Windows
 - Activation de Windows
@@ -77,7 +77,7 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 - Installation de l'agent GLPI
 - Test de remonté et de validation des données.
 
-### 1. Installation de Windows 10
+### 1. Installation de Windows 10 Entreprise
 
 <p align="center">
 
@@ -130,6 +130,8 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 </p>
 
 ### 4. Installation d'un antivirus
+
+Nous avons prévu installer Avast. C'est un antivirus gratuit utilisé en France, offrant une protection en temps réel contre les virus, malwares, phishing et arnaques en ligne. 
 
 <p align="center">
 
