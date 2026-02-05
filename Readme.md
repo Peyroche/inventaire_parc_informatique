@@ -56,21 +56,14 @@ Enfin, sur le plan sécuritaire, l’utilisation de l’intranet permet de prot�
 
 ## V. Déroulement du projet 
 
-1. Préparation de l’environnement technique
+La préparation de l'environnement technique s’est déroulé en plusieurs phases successives, chacune définie dans un cahier des charges initial. Ce document a permis de structurer les actions à mener, d’assurer une progression maîtrisée et de garantir la cohérence de l’ensemble du système mis en place.
 
-2. Installation du Serveur GLPI
+### Adressage :
 
-3. Configuration de GLPI et activation de l’inventaire
-
-4. Installation et paramétrage de l’agent GLPI sur le poste
-
-5. Tests de remontée et validation des données
-
----
-
-## VI. Préparation de l'environnement technique 
-
-La préparation de l'environnement technique s’est déroulé en plusieurs phases successives, chacune définie dans un cahier des charges initial. Ce document a permis de structurer les actions à mener, d’assurer une progression maîtrisée et de garantir la cohérence de l’ensemble du système mis en place
+| Nommage    |       Adresse IP           | 
+|------------|----------------------------|
+| PC         |       10.0.0.20            |  
+| SRV-GLPI   |       10.0.0.10            | 
 
 ### Cahier de charge essentiel :
 
@@ -180,9 +173,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 </p>
 
----
-
-## VII. Installation WampServer (Serveur GLPI) 
+### 6. Installation WampServer (Serveur GLPI) 
 
 <p align="center">
 
@@ -208,9 +199,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 </p>
 
----
-
-## VIII. Configuration GLPI et activation de l’inventaire
+### 7. Configuration GLPI et activation de l’inventaire
 
 <p align="center">
 
@@ -256,9 +245,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 </p>
 
----
-
-## IX. Installation de l'agent GLPI
+### 8. Installation de l'agent GLPI
 
 <p align="center">
 
@@ -280,7 +267,5 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 </p>
 
----
-
-## X. Tests de remontée et validation des données
+### 9. Tests de remontée et validation des données
 
