@@ -74,10 +74,11 @@ Le projet d’inventaire intranet s’est déroulé en plusieurs phases successi
 
 ### Cahier de charge essentiel :
 
-- Installation ou réinstallation de Windows
+- Installation de Windows
 - Activation de Windows
 - Installation des mises à jours
 - Installation d'un antivirus
+- Configuration du poste
 - Diagnostic de tout problème matériel.
 
 ### 1. Installation de Windows 10
@@ -150,7 +151,23 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-### 5. Diagnostic de tous problèmes matériels
+### 5. Configuration du poste
+
+<p align="center">
+
+<img src="config_PC/01.png" width="400">
+
+<img src="config_PC/02.png" width="400">
+
+<img src="config_PC/03.png" width="400">
+
+<img src="config_PC/04.png" width="400">
+
+<img src="config_PC/05.png" width="400">
+
+</p>
+
+### 6. Diagnostic de tous problèmes matériels
 
 Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
 
