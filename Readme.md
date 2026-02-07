@@ -62,20 +62,38 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 | Machine      | Nommage    |       Adresse IPv4         |   Masque de sous-réseau     |    Serveur DNS     |
 |--------------|------------|----------------------------|-----------------------------|--------------------|
-| VirtualBox   | PC         |       10.0.0.20            |     255.255.255.0           |     10.0.0.30      |
-| VirtualBox   | SRV-GLPI   |       10.0.0.30            |     255.255.255.0           |     10.0.0.30      |
+| VirtualBox   | PC         |       10.0.0.30            |     255.255.255.0           |     8.8.8.8        |
 
 ### Cahier de charge :
 
-- Installation de Windows
-- Activation de Windows
-- Installation des mises à jours
-- Installation d'un antivirus
-- Diagnostic de tout problème matériel
-- Installation de WampServer (Serveur GLPI)
-- Configuration de GLPI et activation de l'inventaire
-- Installation de l'agent GLPI
-- Test de remonté et de validation des données.
+1. Installation du système
+
+- Installation de Windows,
+- Activation de Windows,
+- Installation des mises à jours.
+
+2. Sécurité
+
+- Installation et configuration d'un antivirus,
+- Vérification de l'intégrité du système,
+- Activation du Pare-feu Windows.
+
+3. Configuration du poste
+
+- Changement du nom du PC,
+- Paramétrage du compte utilisateur,
+- Configuration réseau,
+- Installation des logiciels essentiels.
+
+4. Maintenance et Diagnostic
+
+- Diagnostic complet du matériel,
+- Vérification du stockage, RAM, température, état SMART du disque
+- Rapport final d'intervention.
+
+---
+
+## VI. Installation du système
 
 ### 1. Installation de Windows 10 Entreprise
 
@@ -129,7 +147,11 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
-### 4. Installation d'un antivirus
+---
+
+## VII. Sécurité
+
+### 1. Installation et configuration d'un antivirus
 
 Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utilisé en France, offrant une protection en temps réel contre les virus, malwares, phishing et arnaques en ligne. 
 
@@ -148,6 +170,35 @@ Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utili
 <img src="antivirus/06.png" width="400">
 
 </p>
+
+### 2. Vérification de l'intégrité du système
+
+### Vérification de l'intégrité du système Windows
+
+<p align="center">
+
+<img src="integrite_windows/01.png" width="400">
+
+<img src="integrite_windows/02.png" width="400">
+
+</p>
+
+### Vérification de l'intégrité du magasin de composants (DISM)
+
+<p align="center">
+
+<img src="integrite_magasin/01.png" width="400">
+
+</p>
+
+### 3. Activation du pare-feu Windows
+
+
+
+
+
+
+
 
 ### 5. Diagnostic de tous problèmes matériels
 
