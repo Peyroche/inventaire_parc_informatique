@@ -62,31 +62,30 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 | Machine      | Nommage    |       Adresse IPv4         |   Masque de sous-réseau     |    Serveur DNS     |
 |--------------|------------|----------------------------|-----------------------------|--------------------|
-| VirtualBox   | PC         |       10.0.0.30            |     255.255.255.0           |     8.8.8.8        |
+| VirtualBox   | SRV-DNS    |       10.0.0.10            |     255.255.255.0           |    10.0.0.10       |
+| VirtualBox   | PC-RH1     |       10.0.0.20            |     255.255.255.0           |     8.8.8.8        |
+| VirtualBox   | SRV-GLPI   |       10.0.0.30            |     255.255.255.0           |     8.8.8.8        |
+| VirtualBox   | PC-IT1     |       10.0.0.40            |     255.255.255.0           |     8.8.8.8        |
 
 ### Cahier de charge :
 
 1. Installation du système
-
 - Installation de Windows,
 - Activation de Windows,
 - Installation des mises à jours.
 
 2. Sécurité
-
 - Installation et configuration d'un antivirus,
 - Vérification de l'intégrité du système,
 - Activation du Pare-feu Windows.
 
 3. Configuration du poste
-
 - Changement du nom du PC,
 - Paramétrage du compte utilisateur,
 - Configuration réseau,
 - Installation des logiciels essentiels.
 
 4. Maintenance et Diagnostic
-
 - Diagnostic complet du matériel,
 - Vérification du stockage, RAM, température, état SMART du disque
 - Rapport final d'intervention.
