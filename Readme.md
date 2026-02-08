@@ -62,7 +62,7 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 | Machine      | Nommage    |       Adresse IPv4         |   Masque de sous-réseau     |    Serveur DNS     |
 |--------------|------------|----------------------------|-----------------------------|--------------------|
-| VirtualBox   | PC         |       10.0.0.30            |     255.255.255.0           |     8.8.8.8        |
+| VirtualBox   | PC01       |       10.0.0.30            |     255.255.255.0           |     8.8.8.8        |
 
 ### Cahier de charge :
 
@@ -347,7 +347,25 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 </p>
 
-### 4. Diagnostic de tous problèmes matériels
+### Vérifier l'état de l'agent sur la machine
+
+<p align="center">
+
+<img src="verifier_agent_GLPI/01.png" width="400">
+
+<img src="verifier_agent_GLPI/02.png" width="400">
+
+<img src="verifier_agent_GLPI/03.png" width="400">
+
+<img src="verifier_agent_GLPI/04.png" width="400">
+
+<img src="verifier_agent_GLPI/05.png" width="400">
+
+</p>
+
+### 4. Maintenance et Diagnostic
+
+### Diagnostic de tous problèmes matériels
 
 Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
 
