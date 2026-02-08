@@ -347,19 +347,19 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 </p>
 
-### Vérifier l'état de l'agent sur la machine
+### Automatisation de l'inventaire
 
 <p align="center">
 
-<img src="verifier_agent_GLPI/01.png" width="400">
+<img src="automatisation/01.png" width="400">
 
-<img src="verifier_agent_GLPI/02.png" width="400">
+<img src="automatisation/02.png" width="400">
 
-<img src="verifier_agent_GLPI/03.png" width="400">
+<img src="automatisation/03.png" width="400">
 
-<img src="verifier_agent_GLPI/04.png" width="400">
+<img src="automatisation/04.png" width="400">
 
-<img src="verifier_agent_GLPI/05.png" width="400">
+<img src="automatisation/05.png" width="400">
 
 </p>
 
@@ -392,5 +392,29 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 <img src="diagnostic/10.png" width="400">
 
 <img src="diagnostic/11.png" width="400">
+
+</p>
+
+### Vérification du stockage
+
+<p align="center">
+
+<img src="stockage/01.png" width="400">
+
+</p>
+
+### Vérification de la RAM Total
+
+<p align="center">
+
+<img src="RAM_total/01.png" width="400">
+
+</p>
+
+### Vérification de la RAM Libre
+
+<p align="center">
+
+<img src="RAM_libre/01.png" width="400">
 
 </p>
