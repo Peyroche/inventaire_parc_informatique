@@ -178,6 +178,7 @@ Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utili
 </p>
 
 ### Vérification de l'intégrité du système
+L'intégrité consiste à démontrer que les données et fichiers n'ont pas été modifiées, alertés, corrompu ou compromis.
 
 ### Vérification de l'intégrité du système Windows
 
@@ -199,8 +200,11 @@ Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utili
 
 ### Activation du pare-feu Windows
 
+<p align="center">
 
+<img src="pare-feu/01.png" width="400">
 
+</p>
 
 ### 5. Diagnostic de tous problèmes matériels
 
