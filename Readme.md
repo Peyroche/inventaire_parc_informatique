@@ -78,7 +78,6 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 3. Configuration du poste
 - Changement du nom du poste,
-- Paramétrage du compte utilisateur,
 - Configuration réseau,
 - Installation des logiciels essentiels.
 
@@ -250,37 +249,9 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 </p>
 
-### 5. Diagnostic de tous problèmes matériels
+### Installation des logiciels essentiels :
 
-Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
-
-<p align="center">
-
-<img src="diagnostic/01.png" width="400">
-
-<img src="diagnostic/02.png" width="400">
-
-<img src="diagnostic/03.png" width="400">
-
-<img src="diagnostic/04.png" width="400">
-
-<img src="diagnostic/05.png" width="400">
-
-<img src="diagnostic/06.png" width="400">
-
-<img src="diagnostic/07.png" width="400">
-
-<img src="diagnostic/08.png" width="400">
-
-<img src="diagnostic/09.png" width="400">
-
-<img src="diagnostic/10.png" width="400">
-
-<img src="diagnostic/11.png" width="400">
-
-</p>
-
-### 6. Installation WampServer (Serveur GLPI) 
+### Installation WampServer (Serveur GLPI) 
 
 <p align="center">
 
@@ -306,7 +277,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 </p>
 
-### 7. Configuration GLPI et activation de l’inventaire
+### Configuration GLPI et activation de l’inventaire
 
 <p align="center">
 
@@ -348,11 +319,9 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 <img src="GLPI/19.png" width="400">
 
-<img src="GLPI/20.png" width="400">
-
 </p>
 
-### 8. Installation de l'agent GLPI
+### Installation de l'agent GLPI
 
 <p align="center">
 
@@ -372,7 +341,38 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 <img src="agent_GLPI/08.png" width="400">
 
+<img src="agent_GLPI/09.png" width="400">
+
+<img src="agent_GLPI/10.png" width="400">
+
 </p>
 
-### 9. Tests de remontée et validation des données
+### 4. Diagnostic de tous problèmes matériels
 
+Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
+
+<p align="center">
+
+<img src="diagnostic/01.png" width="400">
+
+<img src="diagnostic/02.png" width="400">
+
+<img src="diagnostic/03.png" width="400">
+
+<img src="diagnostic/04.png" width="400">
+
+<img src="diagnostic/05.png" width="400">
+
+<img src="diagnostic/06.png" width="400">
+
+<img src="diagnostic/07.png" width="400">
+
+<img src="diagnostic/08.png" width="400">
+
+<img src="diagnostic/09.png" width="400">
+
+<img src="diagnostic/10.png" width="400">
+
+<img src="diagnostic/11.png" width="400">
+
+</p>
