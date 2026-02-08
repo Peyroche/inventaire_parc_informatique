@@ -62,10 +62,7 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 | Machine      | Nommage    |       Adresse IPv4         |   Masque de sous-réseau     |    Serveur DNS     |
 |--------------|------------|----------------------------|-----------------------------|--------------------|
-| VirtualBox   | SRV-DNS    |       10.0.0.10            |     255.255.255.0           |    10.0.0.10       |
-| VirtualBox   | PC-RH1     |       10.0.0.20            |     255.255.255.0           |     8.8.8.8        |
-| VirtualBox   | SRV-GLPI   |       10.0.0.30            |     255.255.255.0           |     8.8.8.8        |
-| VirtualBox   | PC-IT1     |       10.0.0.40            |     255.255.255.0           |     8.8.8.8        |
+| VirtualBox   | PC         |       10.0.0.30            |     255.255.255.0           |     8.8.8.8        |
 
 ### Cahier de charge :
 
@@ -92,9 +89,11 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 ---
 
-## VI. Installation du système
+## VI. Résolution
 
-### 1. Installation de Windows 10 Entreprise
+### 1. Installation du système
+
+### Installation de Windows 10 Entreprise
 
 <p align="center">
 
@@ -124,7 +123,7 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 </p>
 
-### 2. Activation de Windows 10
+### Activation de Windows 10
 
 Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer GLPI, WampServer, l'agent GLPI, etc.
 
@@ -134,7 +133,7 @@ Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le p
 
 </p>
 
-### 3. Installation des mises à jour
+### Installation des mises à jour
 
 L'iso Windows installé sur le poste est récent de version 21H2, il contient déjà des correctifs, des versions .NET, des composants système mis à jour. Donc après installation, Windows peut afficher les mises à jour prête à être appliquée sans avoir besoin d'internet.
 
@@ -146,11 +145,9 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
----
+## 2. Sécurité
 
-## VII. Sécurité
-
-### 1. Installation et configuration d'un antivirus
+### Installation et configuration d'un antivirus
 
 Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utilisé en France, offrant une protection en temps réel contre les virus, malwares, phishing et arnaques en ligne. 
 
@@ -170,7 +167,7 @@ Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utili
 
 </p>
 
-### 2. Vérification de l'intégrité du système
+### Vérification de l'intégrité du système
 
 ### Vérification de l'intégrité du système Windows
 
@@ -190,11 +187,7 @@ Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utili
 
 </p>
 
-### 3. Activation du pare-feu Windows
-
-
-
-
+### Activation du pare-feu Windows
 
 
 
