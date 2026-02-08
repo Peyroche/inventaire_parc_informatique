@@ -163,6 +163,18 @@ Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utili
 
 <img src="antivirus/06.png" width="400">
 
+<img src="antivirus/07.png" width="400">
+
+<img src="antivirus/08.png" width="400">
+
+<img src="antivirus/09.png" width="400">
+
+<img src="antivirus/10.png" width="400">
+
+<img src="antivirus/11.png" width="400">
+
+<img src="antivirus/12.png" width="400">
+
 </p>
 
 ### Vérification de l'intégrité du système
