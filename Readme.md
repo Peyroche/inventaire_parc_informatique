@@ -141,11 +141,9 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 <img src="mises_à_jour/01.png" width="400">
 
-<img src="mises_à_jour/02.png" width="400">
-
 </p>
 
-## 2. Sécurité
+### 2. Sécurité
 
 ### Installation et configuration d'un antivirus
 
