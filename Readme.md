@@ -202,7 +202,7 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 <p align="center">
 
-<img src="pare-feu/01.png" width="400">
+<img src="pare_feu/01.png" width="400">
 
 </p>
 
