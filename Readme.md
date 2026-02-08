@@ -77,7 +77,7 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 - Activation du Pare-feu Windows.
 
 3. Configuration du poste
-- Changement du nom du PC,
+- Changement du nom du poste,
 - Paramétrage du compte utilisateur,
 - Configuration réseau,
 - Installation des logiciels essentiels.
@@ -97,29 +97,29 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 <p align="center">
 
-<img src="install_PC/01.png" width="400">
+<img src="install_windows/01.png" width="400">
 
-<img src="install_PC/02.png" width="400">
+<img src="install_windows/02.png" width="400">
 
-<img src="install_PC/03.png" width="400">
+<img src="install_windows/03.png" width="400">
 
-<img src="install_PC/04.png" width="400">
+<img src="install_windows/04.png" width="400">
 
-<img src="install_PC/05.png" width="400">
+<img src="install_windows/05.png" width="400">
 
-<img src="install_PC/06.png" width="400">
+<img src="install_windows/06.png" width="400">
 
-<img src="install_PC/07.png" width="400">
+<img src="install_windows/07.png" width="400">
 
-<img src="install_PC/08.png" width="400">
+<img src="install_windows/08.png" width="400">
 
-<img src="install_PC/09.png" width="400">
+<img src="install_windows/09.png" width="400">
 
-<img src="install_PC/10.png" width="400">
+<img src="install_windows/10.png" width="400">
 
-<img src="install_PC/11.png" width="400">
+<img src="install_windows/11.png" width="400">
 
-<img src="install_PC/12.png" width="400">
+<img src="install_windows/12.png" width="400">
 
 </p>
 
@@ -129,7 +129,7 @@ Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le p
 
 <p align="center">
 
-<img src="activation/01.png" width="400">
+<img src="activation_windows/01.png" width="400">
 
 </p>
 
@@ -151,29 +151,29 @@ Nous avons prévu installer Avast sur le poste. C'est un antivirus gratuit utili
 
 <p align="center">
 
-<img src="antivirus/01.png" width="400">
+<img src="antivirus_avast/01.png" width="400">
 
-<img src="antivirus/02.png" width="400">
+<img src="antivirus_avast/02.png" width="400">
 
-<img src="antivirus/03.png" width="400">
+<img src="antivirus_avast/03.png" width="400">
 
-<img src="antivirus/04.png" width="400">
+<img src="antivirus_avast/04.png" width="400">
 
-<img src="antivirus/05.png" width="400">
+<img src="antivirus_avast/05.png" width="400">
 
-<img src="antivirus/06.png" width="400">
+<img src="antivirus_avast/06.png" width="400">
 
-<img src="antivirus/07.png" width="400">
+<img src="antivirus_avast/07.png" width="400">
 
-<img src="antivirus/08.png" width="400">
+<img src="antivirus_avast/08.png" width="400">
 
-<img src="antivirus/09.png" width="400">
+<img src="antivirus_avast/09.png" width="400">
 
-<img src="antivirus/10.png" width="400">
+<img src="antivirus_avast/10.png" width="400">
 
-<img src="antivirus/11.png" width="400">
+<img src="antivirus_avast/11.png" width="400">
 
-<img src="antivirus/12.png" width="400">
+<img src="antivirus_avast/12.png" width="400">
 
 </p>
 
@@ -205,6 +205,32 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 <img src="pare_feu/01.png" width="400">
 
 </p>
+
+### 3. Configuration du poste
+
+### Changement de nom du Poste
+
+<p align="center">
+
+<img src="config_PC/01.png" width="400">
+
+<img src="config_PC/02.png" width="400">
+
+<img src="config_PC/03.png" width="400">
+
+<img src="config_PC/04.png" width="400">
+
+<img src="config_PC/05.png" width="400">
+
+<img src="config_PC/06.png" width="400">
+
+<img src="config_PC/07.png" width="400">
+
+<img src="config_PC/08.png" width="400">
+
+<img src="config_PC/09.png" width="400">
+
+
 
 ### 5. Diagnostic de tous problèmes matériels
 
