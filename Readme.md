@@ -427,7 +427,7 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 </p>
 
-### Vérification des es 20 dernières erreurs du système
+### Vérification des 20 dernières erreurs du système
 
 <p align="center">
 
