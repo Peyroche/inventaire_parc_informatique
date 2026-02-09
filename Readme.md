@@ -437,9 +437,9 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 
 ### Rapport final d'intervention
 
-| Élément vérifié    | Résultat obtenu                  | État      | Commentaire                                                                    |  
-|--------------------|----------------------------------|-----------|--------------------------------------------------------------------------------|
-| RAM                | 2 Go total / 581 Mo libres       | Limite    | La RAM disponible représente ~28 %. Fonctionnement correct mais marge réduite  |   
-| Stockage           | 53 Go total / 26 Go libres       | Suffisant | Aucun signe de saturation. Espace libre > 25 %.                                |
-| Services Windows   | Tous Running sauf Windows Update | Normal    | Windows Update arrêté = comportement normal hors mise à jour.                  | 
-| Erreurs système    | Aucune erreur Disk/Ntfs/StorPort | Sain      | Erreurs DCOM/WSearch non critiques, typiques d’une VM.                         |
+| Éléments vérifiés     | Résultat obtenu                  | État      | Commentaire                                                                    |  
+|-----------------------|----------------------------------|-----------|--------------------------------------------------------------------------------|
+| RAM                   | 2 Go total / 581 Mo libres       | Limite    | La RAM disponible représente ~28 %. Fonctionnement correct mais marge réduite  |   
+| Stockage              | 53 Go total / 26 Go libres       | Suffisant | Aucun signe de saturation. Espace libre > 25 %.                                |
+| Services Windows      | Tous Running sauf Windows Update | Normal    | Windows Update arrêté = comportement normal hors mise à jour.                  | 
+| Erreurs système       | Aucune erreur Disk/Ntfs/StorPort | Sain      | Erreurs DCOM/WSearch non critiques, typiques d’une VM.                         |
