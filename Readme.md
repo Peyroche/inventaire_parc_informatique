@@ -418,3 +418,19 @@ Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’a
 <img src="RAM_libre/01.png" width="400">
 
 </p>
+
+### Vérification des services Windows important
+
+<p align="center">
+
+<img src="service_windows/01.png" width="400">
+
+</p>
+
+### Vérification des es 20 dernières erreurs du système
+
+<p align="center">
+
+<img src="20_erreurs/01.png" width="400">
+
+</p>
