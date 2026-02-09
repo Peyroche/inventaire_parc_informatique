@@ -1,4 +1,4 @@
-## PROJET 1 : INVENTAIRE INTRANET PARC INFORMATIQUE
+## PROJET 1 : INVENTAIRE DU PARC INFORMATIQUE
 
 ---
 
@@ -88,7 +88,7 @@ La préparation de l'environnement technique s’est déroulé en plusieurs phas
 
 ---
 
-## VI. Résolution
+## VI. Réalisation
 
 ### 1. Installation du système
 
