@@ -249,8 +249,6 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 </p>
 
-### Installation des logiciels essentiels :
-
 ### Installation WampServer (Serveur GLPI) 
 
 <p align="center">
