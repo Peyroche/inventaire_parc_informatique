@@ -60,8 +60,8 @@
 Ce document a permis de structurer les actions à mener pour une gestion informatique efficace.
 
 <p><b>1. Installation du système :</b></p>
-<p>Installation de Windows sur le poste client</p>
-<p>Activation de Windows sur le poste client</p>
+<p>Installation de Windows 10 Entreprise sur le poste client</p>
+<p>Activation de Windows 10 Entreprise sur le poste client</p>
 <p>Installation des mises à jours du poste client.</p>
 
 <p><b>2. Sécurité :</b></p>
