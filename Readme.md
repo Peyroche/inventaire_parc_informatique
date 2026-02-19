@@ -431,6 +431,11 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 </p>
 
+<p>L’analyse initiale signalait une évaluation mémoire médiocre, indiquant que le système était fortement sollicité au moment du diagnostic. Cependant, une vérification ultérieure via PowerShell montre que la machine dispose d’une quantité très importante de mémoire physique libre (plus de 500 Go).</p>
+
+<p>Cela confirme que la dégradation des performances observée n’est pas liée à un manque de RAM, mais à une surcharge temporaire due à des applications ou processus actifs au moment de l’analyse. Le système ne présente donc pas de limitation matérielle, mais un pic d’utilisation ponctuel.</p>
+
+
 ### Vérification des 20 dernières erreurs du système
 
 <p align="center">
@@ -439,7 +444,15 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 </p>
 
-### Rapport final d'intervention
+<p>Le journal Système met en évidence plusieurs erreurs récurrentes liées à des services qui ne démarrent pas correctement (GLPI Agent, Avast Antivirus) ainsi que des délais d’expiration gérés par le Service Control Manager. Ces erreurs peuvent provoquer des ralentissements ponctuels au démarrage, mais ne traduisent pas une défaillance matérielle.</p>
+
+<p>On observe également des erreurs volmgr indiquant un arrêt système précédent non propre, ce qui peut être lié à une coupure brutale ou un redémarrage forcé.</p>
+
+<p>Combiné au diagnostic mémoire initial, il apparaît que les problèmes de performance constatés proviennent davantage de processus ou services momentanément bloqués que d’un manque de ressources matérielles. La seconde analyse PowerShell confirme en effet que la machine dispose d’une quantité très importante de mémoire libre, excluant une insuffisance de RAM.</p>
+
+<p>En résumé, le système n’a pas de problème matériel, mais présente des dysfonctionnements logiciels ponctuels (services, antivirus, agent GLPI) pouvant entraîner des ralentissements temporaires.</p>
+
+### 5. Rapport final d'intervention
 
 | Éléments vérifiés     | Résultat obtenu                  | État      | Commentaire                                                                    |  
 |-----------------------|----------------------------------|-----------|--------------------------------------------------------------------------------|
