@@ -140,7 +140,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 ### Installation et configuration d'un antivirus
 
-Avast a été installé sur le poste client. Avast est un antivirus gratuit utilisé en France, offrant une protection en temps réel contre les virus, malwares, phishing et arnaques en ligne. 
+Avast a été installé sur le poste client. Avast est un antivirus gratuit offrant une protection en temps réel contre les virus, malwares, phishing et arnaques en ligne. 
 
 <p align="center">
 
@@ -203,6 +203,8 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 <img src="pare_feu/01.png" width="400">
 
 </p>
+
+<p>Windows ne reconnaît pas le réseau, il applique automatiquement les règles les plus strictes. Activer le pare‑feu dans ce cas est obligatoire pour éviter les risques.</p>
 
 ### 3. Configuration du poste
 
