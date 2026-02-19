@@ -394,6 +394,11 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 </p>
 
+<p>Le diagnostic système met en évidence un fonctionnement globalement stable du poste de travail : le processeur, le disque, les pilotes et les services système ne présentent aucune anomalie. En revanche, l’analyse signale une évaluation mémoire très faible, susceptible d’entraîner des ralentissements et une dégradation des performances.</p>
+
+<p>Il est recommandé de réduire le nombre d’applications ouvertes simultanément, de désactiver les programmes inutiles au démarrage et, si les problèmes persistent, d’envisager une mise à niveau de la mémoire RAM.</p>
+
+
 ### Vérification du stockage
 
 <p align="center">
