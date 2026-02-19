@@ -24,22 +24,22 @@ Cette solution permet à l’entreprise d’améliorer la maintenance, d’optim
 
 La mise en place d’un inventaire automatisé en intranet poursuit plusieurs objectifs essentiels pour la gestion du parc informatique :
 
-<p>1. Centraliser l’ensemble des informations du parc :</p>
+###<p>1. Centraliser l’ensemble des informations du parc :</p>
 <p>Rassembler dans une base unique toutes les données matérielles et logicielles des postes de travail afin de disposer d’une vision globale, fiable et constamment à jour.</p>
 
-<p>2. Automatiser la collecte des inventaires :</p>
+###<p>2. Automatiser la collecte des inventaires :</p>
 <p>Éliminer les relevés manuels, sources d’erreurs et de perte de temps, en déployant un agent capable d’envoyer automatiquement les informations vers le serveur GLPI.</p>
 
-<p>3. Améliorer la maintenance et le support :</p>
+###<p>3. Améliorer la maintenance et le support :</p>
 <p>Faciliter le diagnostic des incidents, anticiper les pannes et optimiser les interventions grâce à des fiches machines complètes et actualisées.</p>
 
-<p>4. Renforcer la traçabilité et le suivi du matériel :</p>
+###<p>4. Renforcer la traçabilité et le suivi du matériel :</p>
 <p>Assurer un suivi précis du cycle de vie des équipements : installation, affectation, mises à jour, remplacement.</p>
 
-<p>5. Sécuriser les échanges en restant dans un environnement intranet :</p>
+###<p>5. Sécuriser les échanges en restant dans un environnement intranet :</p>
 <p>Garantir que toutes les communications entre les agents et le serveur GLPI se font dans un réseau interne maîtrisé, sans exposition à Internet.</p>
 
-<p>6. Optimiser la gestion des licences et des ressources :</p>
+###<p>6. Optimiser la gestion des licences et des ressources :</p>
 <p>Identifier les logiciels installés, vérifier leur conformité et mieux planifier les achats ou renouvellements.</p>
 
 ---
