@@ -364,9 +364,9 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 ### 4. Maintenance et Diagnostic
 
-### Diagnostic de tous problèmes matériels
+### Diagnostic du poste client
 
-Pour la réalisation du diagnostic, nous avons utilisé PerfMon. Il permet d’analyser en profondeur : l’utilisation du CPU, la consommation de RAM, l’activité du disque, les performances du réseau, les processus gourmands, les goulots d’étranglement du système.
+PerfMon a été utilisé pour diagnostiquer le poste client.
 
 <p align="center">
 
