@@ -20,7 +20,7 @@
 
 ---
 
-## III. Objectifs du projet
+## III. Objectifs
 
 <p>La mise en place d’un inventaire automatisé en intranet poursuit plusieurs objectifs essentiels pour la gestion du parc informatique :</p>
 
@@ -44,7 +44,7 @@
 
 ---
 
-## IV. Enjeux du projet
+## IV. Enjeux
 
 <p>La mise en place d’un inventaire automatisé au sein de l’intranet représente un enjeu stratégique pour la gestion du parc informatique. Elle permet d’améliorer la fiabilité des informations, de renforcer la sécurité du système d’information et d’optimiser les ressources matérielles et logicielles.</p>
 <p>L’enjeu principal est de garantir une maîtrise complète du parc informatique, en disposant de données centralisées, actualisées et accessibles uniquement depuis un environnement interne sécurisé.</p>
@@ -55,41 +55,29 @@
 
 ---
 
-## V. Procédure de déroulement du projet
+## V. Procédure
 
 Ce document a permis de structurer les actions à mener pour une gestion informatique efficace.
 
 <p><b>1. Installation du système</b></p>
-
-<al>
-   <li>Installation de Windows</li>
-   <li>Activation de Windows</li>
-   <li>Installation des mises à jours.</li>
-</al>
+<p>Installation de Windows</p>
+<p>Activation de Windows</p>
+<p>Installation des mises à jours.</p>
 
 <p><b>2. Sécurité</b></p>
-
-<al>
-   <li>Installation et configuration d'un antivirus</li>
-   <li>Vérification de l'intégrité du système</li>
-   <li>Activation du Pare-feu Windows.</li>
-</al>
+<p>Installation et configuration d'un antivirus</p>
+<p>Vérification de l'intégrité du système</p>
+<p>Activation du Pare-feu Windows.</p>
 
 <p><b>3. Configuration du poste</b></p>
-
-<al>
-   <li>Changement du nom du poste</li>
-   <li>Configuration réseau</li>
-   <li>Installation des logiciels essentiels.</li>
-</al>
+<p>Changement du nom du poste</p>
+<p>Configuration réseau</p>
+<p>Installation des logiciels essentiels.</p>
 
 <p><b>4. Maintenance et Diagnostic</b></p>
-
-<al>
-   <li>Diagnostic complet du matériel</li>
-   <li>Vérification du Stockage, RAM, Service Windows, erreurs systèmes</li>
-   <li>Rapport final d'intervention.</li>
-</al>
+<p>Diagnostic complet du matériel</p>
+<p>Vérification du Stockage, RAM, Service Windows, erreurs systèmes</p>
+<p>Rapport final d'intervention.</p>
 
 ---
 
