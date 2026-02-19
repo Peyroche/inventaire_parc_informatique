@@ -59,37 +59,37 @@
 
 Ce document a permis de structurer les actions à mener pour une gestion informatique efficace.
 
-<p>1. Installation du système</p>
+<p><b>1. Installation du système</b></p>
 
-<ol>
+<al>
    <li>Installation de Windows</li>
    <li>Activation de Windows</li>
    <li>Installation des mises à jours.</li>
-</ol>
+</al>
 
-<p>2. Sécurité</p>
+<p><b>2. Sécurité</b></p>
 
-<ol>
+<al>
    <li>Installation et configuration d'un antivirus</li>
    <li>Vérification de l'intégrité du système</li>
    <li>Activation du Pare-feu Windows.</li>
-</ol>
+</al>
 
-<p>3. Configuration du poste</p>
+<p><b>3. Configuration du poste</b></p>
 
-<ol>
+<al>
    <li>Changement du nom du poste</li>
    <li>Configuration réseau</li>
    <li>Installation des logiciels essentiels.</li>
-</ol>
+</al>
 
-<p>4. Maintenance et Diagnostic</p>
+<p><b>4. Maintenance et Diagnostic</b></p>
 
-<ol>
+<al>
    <li>Diagnostic complet du matériel</li>
    <li>Vérification du Stockage, RAM, Service Windows, erreurs systèmes</li>
    <li>Rapport final d'intervention.</li>
-</ol>
+</al>
 
 ---
 
