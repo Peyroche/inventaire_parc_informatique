@@ -14,8 +14,9 @@ Cette solution permet à l’entreprise d’améliorer la maintenance, d’optim
 
 ## II. Problématique 
 
-Dans un contexte où le parc informatique évolue constamment, l’entreprise doit disposer d’une vision fiable et centralisée de ses équipements pour assurer une maintenance efficace et une gestion optimale des ressources. Or, sans outil d’inventaire automatisé, les informations matérielles et logicielles deviennent rapidement obsolètes, ce qui complique le suivi des postes, augmente les risques d’incidents et ralentit le support technique.
-La problématique est donc la suivante : comment mettre en place une solution d’inventaire automatisée, sécurisée et accessible via l’intranet, permettant de collecter et d’actualiser en continu les données du parc informatique ?
+<p>Dans un contexte où le parc informatique évolue constamment, l’entreprise doit disposer d’une vision fiable et centralisée de ses équipements pour assurer une maintenance efficace et une gestion optimale des ressources. Or, sans outil d’inventaire automatisé, les informations matérielles et logicielles deviennent rapidement obsolètes, ce qui complique le suivi des postes, augmente les risques d’incidents et ralentit le support technique.</p>
+
+<p>La problématique est donc la suivante : comment mettre en place une solution d’inventaire automatisée, sécurisée et accessible via l’intranet, permettant de collecter et d’actualiser en continu les données du parc informatique ?</p>
 
 ---
 
@@ -56,13 +57,7 @@ Enfin, sur le plan sécuritaire, l’utilisation de l’intranet permet de prot�
 
 ## V. Déroulement du projet 
 
-La préparation de l'environnement technique s’est déroulé en plusieurs phases successives, chacune définie dans un cahier des charges initial. Ce document a permis de structurer les actions à mener, d’assurer une progression maîtrisée et de garantir la cohérence de l’ensemble du système mis en place.
-
-### Adressage :
-
-| Machine      | Nommage    |       Adresse IPv4         |   Masque de sous-réseau     |    Serveur DNS     |
-|--------------|------------|----------------------------|-----------------------------|--------------------|
-| VirtualBox   | PC01       |       10.0.0.30            |     255.255.255.0           |     8.8.8.8        |
+Le projet se présente en plusieurs phases successives, chacune définie dans un cahier des charges initial. Ce document a permis de structurer les actions à mener, d’assurer une progression maîtrisée et de garantir la cohérence de l’ensemble du système mis en place.
 
 ### Cahier de charge :
 
