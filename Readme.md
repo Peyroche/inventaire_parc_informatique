@@ -118,7 +118,7 @@ Ce document a permis de structurer les actions à mener pour une gestion informa
 
 ### Activation de Windows 10
 
-Dans la réalisation de ce projet, nous n'avons pas prévu activer Windows. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer GLPI, WampServer, l'agent GLPI, etc.
+Dans la réalisation de ce projet, nous n'avons pu activer Windows par manque de clé. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer GLPI, WampServer, l'agent GLPI, etc.
 
 <p align="center">
 
