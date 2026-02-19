@@ -194,6 +194,8 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 </p>
 
+<p>Aucun endommagement du magasin de composants n'a été détecté. L'opération a donc réussi.</p>
+
 ### Activation du pare-feu Windows
 
 <p align="center">
