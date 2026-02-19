@@ -28,7 +28,7 @@
 <p>Rassembler dans une base unique toutes les données matérielles et logicielles des postes de travail afin de disposer d’une vision globale, fiable et constamment à jour.</p>
 
 <p><b>2. Automatiser la collecte des inventaires :</b></p>
-<p>Éliminer les relevés manuels, sources d’erreurs et de perte de temps, en déployant un agent capable d’envoyer automatiquement les informations vers le serveur GLPI.</p>
+<p>Éliminer les relevés manuels, sources d’erreurs et de perte de temps, en déployant un agent capable d’envoyer automatiquement les informations vers le Serveur Windows GLPI.</p>
 
 <p><b>3. Améliorer la maintenance et le support :</b></p>
 <p>Faciliter le diagnostic des incidents, anticiper les pannes et optimiser les interventions grâce à des fiches machines complètes et actualisées.</p>
@@ -60,19 +60,19 @@
 Ce document a permis de structurer les actions à mener pour une gestion informatique efficace.
 
 <p><b>1. Installation du système :</b></p>
-<p>Installation de Windows</p>
-<p>Activation de Windows</p>
-<p>Installation des mises à jours.</p>
+<p>Installation de Windows sur le poste client</p>
+<p>Activation de Windows sur le poste client</p>
+<p>Installation des mises à jours du poste client.</p>
 
 <p><b>2. Sécurité :</b></p>
-<p>Installation et configuration d'un antivirus</p>
+<p>Installation et configuration d'un antivirus sur le poste client</p>
 <p>Vérification de l'intégrité du système</p>
 <p>Activation du Pare-feu Windows.</p>
 
 <p><b>3. Configuration du poste :</b></p>
 <p>Changement du nom du poste</p>
 <p>Configuration réseau</p>
-<p>Installation des logiciels essentiels.</p>
+<p>Installation des logiciels essentiels (WampServer, GLPI et de son agent GLPI)</p>
 
 <p><b>4. Maintenance et Diagnostic :</b></p>
 <p>Diagnostic complet du matériel</p>
