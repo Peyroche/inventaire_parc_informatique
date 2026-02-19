@@ -76,9 +76,7 @@
 
 <p><b>4. Maintenance et Diagnostic :</b></p>
 <p>Diagnostic complet du matériel</p>
-<p>Vérification du Stockage, RAM, Service Windows, erreurs systèmes</p>
-
-<p><b>5. Rapport final d'intervention.</b></p>
+<p>Vérification du Stockage, RAM, Service Windows, erreurs systèmes.</p>
 
 ---
 
