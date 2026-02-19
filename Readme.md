@@ -20,7 +20,7 @@
 
 ---
 
-## III. Objectifs 
+## III. Objectifs du projet
 
 <p>La mise en place d’un inventaire automatisé en intranet poursuit plusieurs objectifs essentiels pour la gestion du parc informatique :</p>
 
@@ -44,7 +44,7 @@
 
 ---
 
-## IV. Enjeux 
+## IV. Enjeux du projet
 
 <p>La mise en place d’un inventaire automatisé au sein de l’intranet représente un enjeu stratégique pour la gestion du parc informatique. Elle permet d’améliorer la fiabilité des informations, de renforcer la sécurité du système d’information et d’optimiser les ressources matérielles et logicielles.</p>
 <p>L’enjeu principal est de garantir une maîtrise complète du parc informatique, en disposant de données centralisées, actualisées et accessibles uniquement depuis un environnement interne sécurisé.</p>
@@ -55,31 +55,41 @@
 
 ---
 
-## V. Déroulement du projet 
+## V. Procédure de déroulement du projet
 
-Le projet se présente en plusieurs phases successives, chacune définie dans un cahier des charges initial. Ce document a permis de structurer les actions à mener, d’assurer une progression maîtrisée et de garantir la cohérence de l’ensemble du système mis en place.
+Ce document a permis de structurer les actions à mener pour une gestion informatique efficace.
 
-### Cahier de charge :
+<p>1. Installation du système</p>
 
-1. Installation du système
-- Installation de Windows,
-- Activation de Windows,
-- Installation des mises à jours.
+<ol>
+   <li>Installation de Windows</li>
+   <li>Activation de Windows</li>
+   <li>Installation des mises à jours.</li>
+</ol>
 
-2. Sécurité
-- Installation et configuration d'un antivirus,
-- Vérification de l'intégrité du système,
-- Activation du Pare-feu Windows.
+<p>2. Sécurité</p>
 
-3. Configuration du poste
-- Changement du nom du poste,
-- Configuration réseau,
-- Installation des logiciels essentiels.
+<ol>
+   <li>Installation et configuration d'un antivirus</li>
+   <li>Vérification de l'intégrité du système</li>
+   <li>Activation du Pare-feu Windows.</li>
+</ol>
 
-4. Maintenance et Diagnostic
-- Diagnostic complet du matériel,
-- Vérification du Stockage, RAM, Service Windows, erreurs systèmes,
-- Rapport final d'intervention.
+<p>3. Configuration du poste</p>
+
+<ol>
+   <li>Changement du nom du poste</li>
+   <li>Configuration réseau</li>
+   <li>Installation des logiciels essentiels.</li>
+</ol>
+
+<p>4. Maintenance et Diagnostic</p>
+
+<ol>
+   <li>Diagnostic complet du matériel</li>
+   <li>Vérification du Stockage, RAM, Service Windows, erreurs systèmes</li>
+   <li>Rapport final d'intervention.</li>
+</ol>
 
 ---
 
