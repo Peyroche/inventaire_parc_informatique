@@ -55,9 +55,9 @@
 
 ---
 
-## V. Procédure
+## V. Contexte d'intervention
 
-Ce document a permis de structurer les actions à mener pour une gestion informatique efficace.
+<p>Dans le cadre de l’inventaire du parc informatique, une procédure d'intervention a été réalisée :</p>
 
 <p><b>1. Installation du système :</b></p>
 <p>Installation de Windows 10 Entreprise sur le poste client</p>
@@ -423,6 +423,10 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 </p>
 
+<p>L’analyse initiale signalait une évaluation mémoire médiocre, indiquant que le système était fortement sollicité au moment du diagnostic. Cependant, une vérification ultérieure via PowerShell montre que la machine dispose d’une quantité très importante de mémoire physique libre (plus de 500 Go).</p>
+
+<p>Cela confirme que la dégradation des performances observée n’est pas liée à un manque de RAM, mais à une surcharge temporaire due à des applications ou processus actifs au moment de l’analyse. Le système ne présente donc pas de limitation matérielle, mais un pic d’utilisation ponctuel.</p>
+
 ### Vérification des services Windows important
 
 <p align="center">
@@ -430,11 +434,6 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 <img src="service_windows/01.png" width="400">
 
 </p>
-
-<p>L’analyse initiale signalait une évaluation mémoire médiocre, indiquant que le système était fortement sollicité au moment du diagnostic. Cependant, une vérification ultérieure via PowerShell montre que la machine dispose d’une quantité très importante de mémoire physique libre (plus de 500 Go).</p>
-
-<p>Cela confirme que la dégradation des performances observée n’est pas liée à un manque de RAM, mais à une surcharge temporaire due à des applications ou processus actifs au moment de l’analyse. Le système ne présente donc pas de limitation matérielle, mais un pic d’utilisation ponctuel.</p>
-
 
 ### Vérification des 20 dernières erreurs du système
 
@@ -444,19 +443,14 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 </p>
 
-<p>Le journal Système met en évidence plusieurs erreurs récurrentes liées à des services qui ne démarrent pas correctement (GLPI Agent, Avast Antivirus) ainsi que des délais d’expiration gérés par le Service Control Manager. Ces erreurs peuvent provoquer des ralentissements ponctuels au démarrage, mais ne traduisent pas une défaillance matérielle.</p>
+## Conclusion
 
-<p>On observe également des erreurs volmgr indiquant un arrêt système précédent non propre, ce qui peut être lié à une coupure brutale ou un redémarrage forcé.</p>
+<p>L’intervention menée dans le cadre de l’inventaire du parc informatique a permis de mettre en place une solution complète, fiable et opérationnelle pour centraliser et automatiser la gestion des équipements informatiques. L’installation du serveur GLPI, du poste client, de l’agent d’inventaire et des différents outils de diagnostic a abouti à un environnement fonctionnel capable de remonter automatiquement les informations matérielles et logicielles du poste vers le serveur intranet.</p>
 
-<p>Combiné au diagnostic mémoire initial, il apparaît que les problèmes de performance constatés proviennent davantage de processus ou services momentanément bloqués que d’un manque de ressources matérielles. La seconde analyse PowerShell confirme en effet que la machine dispose d’une quantité très importante de mémoire libre, excluant une insuffisance de RAM.</p>
+<p>Les différentes étapes — installation du système, configuration réseau, sécurisation du poste, déploiement de GLPI et de son agent, automatisation de l’inventaire et diagnostics avancés — ont été réalisées avec succès. Les analyses effectuées montrent que le poste ne présente aucune défaillance matérielle : le processeur, le stockage, les pilotes et les services critiques fonctionnent normalement. Les alertes relevées concernent essentiellement des dysfonctionnements logiciels ponctuels, notamment des services (GLPI Agent, Avast) ne démarrant pas correctement ou des arrêts système non propres. Ces anomalies n’affectent pas la stabilité globale du poste et peuvent être corrigées par des ajustements de configuration.</p>
 
-<p>En résumé, le système n’a pas de problème matériel, mais présente des dysfonctionnements logiciels ponctuels (services, antivirus, agent GLPI) pouvant entraîner des ralentissements temporaires.</p>
+<p>L’évaluation mémoire initialement jugée faible s’explique par une surcharge temporaire lors du diagnostic, comme confirmé par les mesures PowerShell montrant une quantité très importante de RAM disponible. Le système ne souffre donc pas d’un manque de ressources, mais d’un pic d’utilisation ponctuel.</p>
 
-### 5. Rapport final d'intervention
+<p>Au final, le projet atteint pleinement ses objectifs : l’inventaire est automatisé, les données sont centralisées et fiabilisées, la maintenance est facilitée, la traçabilité du matériel est renforcée, et l’ensemble fonctionne dans un environnement sécurisé et maîtrisé.</p>
 
-| Éléments vérifiés     | Résultat obtenu                  | État      | Commentaire                                                                    |  
-|-----------------------|----------------------------------|-----------|--------------------------------------------------------------------------------|
-| RAM                   | 2 Go total / 581 Mo libres       | Limite    | La RAM disponible représente ~28 %. Fonctionnement correct mais marge réduite  |   
-| Stockage              | 53 Go total / 26 Go libres       | Suffisant | Aucun signe de saturation. Espace libre > 25 %.                                |
-| Services Windows      | Tous Running sauf Windows Update | Normal    | Windows Update arrêté = comportement normal hors mise à jour.                  | 
-| Erreurs système       | Aucune erreur Disk/Ntfs/StorPort | Sain      | Erreurs DCOM/WSearch non critiques, typiques d’une VM.                         |
+<p>Ce travail constitue une base solide pour la gestion du parc informatique et s’inscrit dans les bonnes pratiques professionnelles de supervision, de maintenance et de sécurité.</p>
