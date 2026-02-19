@@ -77,7 +77,8 @@ Ce document a permis de structurer les actions à mener pour une gestion informa
 <p><b>4. Maintenance et Diagnostic :</b></p>
 <p>Diagnostic complet du matériel</p>
 <p>Vérification du Stockage, RAM, Service Windows, erreurs systèmes</p>
-<p>Rapport final d'intervention.</p>
+
+<p><b>5. Rapport final d'intervention.</b></p>
 
 ---
 
