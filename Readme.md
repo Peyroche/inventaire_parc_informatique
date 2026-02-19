@@ -206,9 +206,9 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 <p>Windows ne reconnaît pas le réseau, il applique automatiquement les règles les plus strictes. Activer le pare‑feu dans ce cas est obligatoire pour éviter les risques.</p>
 
-### 3. Configuration du poste
+### 3. Configuration du poste client
 
-### Changement de nom du Poste
+### Changement de nom du poste client
 
 <p align="center">
 
@@ -232,7 +232,7 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 </p>
 
-### Configuration réseau
+### Configuration réseau du poste client
 
 <p align="center">
 
