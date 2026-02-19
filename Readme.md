@@ -183,6 +183,9 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 </p>
 
+<p>Le programme de protection des ressources Windows n'a trouvé aucune violation d'intégrité.</p>
+
+
 ### Vérification de l'intégrité du magasin de composants (DISM)
 
 <p align="center">
