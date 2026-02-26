@@ -66,7 +66,7 @@
 <p>- Diagnostic complet du matériel</p>
 <p>- Vérification du Stockage, RAM, Service Windows, erreurs systèmes.</p>
 
-<p><b>Automatisation de l'inventaire</b></p>
+<p><b>5. Automatisation de l'inventaire</b></p>
 <p>- Installation du server linux (debian)</p>
 <p>- Installation ocs inventory</p>
 <p>- Installation agent ocs sur les postes clients.</p>
@@ -390,14 +390,6 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 <img src="install_debian/28.png" width="400">
 
 <img src="install_debian/29.png" width="400">
-
-<img src="install_debian/30.png" width="400">
-
-<img src="install_debian/31.png" width="400">
-
-<img src="install_debian/32.png" width="400">
-
-<img src="install_debian/33.png" width="400">
 
 </p>
 
