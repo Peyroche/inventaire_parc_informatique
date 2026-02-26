@@ -114,37 +114,35 @@ En image, un test IPv4 du serveur ocs.
 
 <p align="center">
 
-<img src="install_windows/01.png" width="400">
+<img src="windows/01.png" width="400">
 
-<img src="install_windows/02.png" width="400">
+<img src="windows/02.png" width="400">
 
-<img src="install_windows/03.png" width="400">
+<img src="windows/03.png" width="400">
 
-<img src="install_windows/04.png" width="400">
+<img src="windows/04.png" width="400">
 
-<img src="install_windows/05.png" width="400">
+<img src="windows/05.png" width="400">
 
-<img src="install_windows/06.png" width="400">
+<img src="windows/06.png" width="400">
 
-<img src="install_windows/07.png" width="400">
+<img src="windows/07.png" width="400">
 
-<img src="install_windows/08.png" width="400">
+<img src="windows/08.png" width="400">
 
-<img src="install_windows/09.png" width="400">
+<img src="windows/09.png" width="400">
 
-<img src="install_windows/10.png" width="400">
+<img src="windows/10.png" width="400">
 
-<img src="install_windows/11.png" width="400">
+<img src="windows/11.png" width="400">
 
-<img src="install_windows/12.png" width="400">
-
-<img src="install_windows/13.png" width="400">
+<img src="windows/12.png" width="400">
 
 </p>
 
 ### Activation de Windows 10 Entreprise
 
-Dans la réalisation de ce projet, nous n'avons pu activer Windows par manque de clé. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer GLPI, WampServer, l'agent GLPI, etc.
+Dans la réalisation de ce projet, nous n'avons pu activer Windows par manque de clé. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer l'agent ocs, l'antivirus avast, etc...
 
 <p align="center">
 
@@ -154,7 +152,15 @@ Dans la réalisation de ce projet, nous n'avons pu activer Windows par manque de
 
 ### Installation des mises à jour
 
-L'iso Windows installé sur le poste est récent de version 21H2, il contient déjà des correctifs, des versions .NET, des composants système mis à jour. Donc après installation, Windows peut afficher les mises à jour prête à être appliquée sans avoir besoin d'internet.
+L'iso wndows installé sur le poste est récent de version 21H2, il contient déjà des correctifs, des versions .NET, des composants système mis à jour. 
+
+<p align="center">
+
+<img src="version/01.png" width="400">
+
+</p>
+
+<p>Donc après installation, Windows peut afficher les mises à jour prête à être appliquée sans avoir besoin d'internet.</p>
 
 <p align="center">
 
