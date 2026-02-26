@@ -46,7 +46,9 @@
 
 ## IV. Architecture
 
-| Machines  | Adresses IP   | Masque de sous-réseau  | Passerelle    |                    
+<div align="center">
+
+| Machines  | Adresses IPv4 | Masque de sous-réseau  | Passerelle    |                    
 |-----------|---------------|------------------------|---------------|
 | SRV-OCS   | 192.168.1.124 | 255.255.255.0          | 192.168.1.1   |
 | SRV-AD    | 192.168.1.122 | 255.255.255.0          | 192.168.1.1   |
@@ -55,9 +57,21 @@
 | PC02      | 192.168.1.130 | 255.255.255.0          | 192.168.1.1   |
 | PC03      | 192.168.1.170 | 255.255.255.0          | 192.168.1.1   |
 
+</div>
+
+En image, un test IPv4 du poste client PC03.
+
 <p align="center">
 
 <img src="ip/01.png" width="400">
+
+</p>
+
+En image, un test IPv4 du serveur ocs.
+
+<p align="center">
+
+<img src="ip/02.png" width="400">
 
 </p>
 
@@ -79,7 +93,6 @@
 
 <p><b>3. Configuration des postes</b></p>
 <p>- Changement de nom des postes clients</p>
-<p>- Configuration réseau.</p>
 
 <p><b>4. Maintenance et Diagnostic</b></p>
 <p>- Diagnostic complet du matériel</p>
@@ -149,6 +162,7 @@ L'iso Windows installé sur le poste est récent de version 21H2, il contient d�
 
 </p>
 
+
 ### 2. Sécurité
 
 ### Installation et configuration d'un antivirus
@@ -191,7 +205,6 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 <p>Le programme de protection des ressources Windows n'a trouvé aucune violation d'intégrité.</p>
 
-
 ### Vérification de l'intégrité du magasin de composants (DISM)
 
 <p align="center">
@@ -211,6 +224,7 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 </p>
 
 <p>Windows ne reconnaît pas le réseau, il applique automatiquement les règles les plus strictes. Activer le pare‑feu dans ce cas est obligatoire pour éviter les risques.</p>
+
 
 ### 3. Configuration du poste client
 
@@ -238,23 +252,6 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 </p>
 
-### Configuration réseau du poste client
-
-<p align="center">
-
-<img src="reseau_PC01/01.png" width="400">
-
-<img src="reseau_PC01/02.png" width="400">
-
-<img src="reseau_PC01/03.png" width="400">
-
-<img src="reseau_PC01/04.png" width="400">
-
-<img src="reseau_PC01/05.png" width="400">
-
-<img src="reseau_PC01/06.png" width="400">
-
-</p>
 
 ### 4. Maintenance
 
@@ -419,7 +416,13 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 </p>
 
 
-### 
+### Vérification automatisation de l'inventaire
+
+<p align="center">
+
+<img src="agent_ocs/01.png" width="400">
+
+</p>
 
 ---
 
