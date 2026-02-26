@@ -453,4 +453,4 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 <p>Au final, le projet atteint pleinement ses objectifs : l’inventaire est automatisé, les données sont centralisées et fiabilisées, la maintenance est facilitée, la traçabilité du matériel est renforcée, et l’ensemble fonctionne dans un environnement sécurisé et maîtrisé.</p>
 
-<p>Ce travail constitue une base solide pour la gestion du parc informatique et s’inscrit dans les bonnes pratiques professionnelles de supervision, de maintenance et de sécurité.</p>
+<p>Ce travail constitue une base solide pour la gestion du parc informatique et s’inscrit dans les bonnes pratiques professionnelles de supervision, de maintenance et de sécurité.</p>"# inventaire_parc_informatique" 
