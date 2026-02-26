@@ -331,65 +331,65 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 <p align="center">
 
-<img src="install_debian/01.png" width="400">
+<img src="debian/01.png" width="400">
 
-<img src="install_debian/02.png" width="400">
+<img src="debian/02.png" width="400">
 
-<img src="install_debian/03.png" width="400">
+<img src="debian/03.png" width="400">
 
-<img src="install_debian/04.png" width="400">
+<img src="debian/04.png" width="400">
 
-<img src="install_debian/05.png" width="400">
+<img src="debian/05.png" width="400">
 
-<img src="install_debian/06.png" width="400">
+<img src="debian/06.png" width="400">
 
-<img src="install_debian/07.png" width="400">
+<img src="debian/07.png" width="400">
 
-<img src="install_debian/08.png" width="400">
+<img src="debian/08.png" width="400">
 
-<img src="install_debian/09.png" width="400">
+<img src="debian/09.png" width="400">
 
-<img src="install_debian/10.png" width="400">
+<img src="debian/10.png" width="400">
 
-<img src="install_debian/11.png" width="400">
+<img src="debian/11.png" width="400">
 
-<img src="install_debian/12.png" width="400">
+<img src="debian/12.png" width="400">
 
-<img src="install_debian/13.png" width="400">
+<img src="debian/13.png" width="400">
 
-<img src="install_debian/14.png" width="400">
+<img src="debian/14.png" width="400">
 
-<img src="install_debian/15.png" width="400">
+<img src="debian/15.png" width="400">
 
-<img src="install_debian/16.png" width="400">
+<img src="debian/16.png" width="400">
 
-<img src="install_debian/17.png" width="400">
+<img src="debian/17.png" width="400">
 
-<img src="install_debian/18.png" width="400">
+<img src="debian/18.png" width="400">
 
-<img src="install_debian/18.png" width="400">
+<img src="debian/18.png" width="400">
 
-<img src="install_debian/19.png" width="400">
+<img src="debian/19.png" width="400">
 
-<img src="install_debian/20.png" width="400">
+<img src="debian/20.png" width="400">
 
-<img src="install_debian/21.png" width="400">
+<img src="debian/21.png" width="400">
 
-<img src="install_debian/22.png" width="400">
+<img src="debian/22.png" width="400">
 
-<img src="install_debian/23.png" width="400">
+<img src="debian/23.png" width="400">
 
-<img src="install_debian/24.png" width="400">
+<img src="debian/24.png" width="400">
 
-<img src="install_debian/25.png" width="400">
+<img src="debian/25.png" width="400">
 
-<img src="install_debian/26.png" width="400">
+<img src="debian/26.png" width="400">
 
-<img src="install_debian/27.png" width="400">
+<img src="debian/27.png" width="400">
 
-<img src="install_debian/28.png" width="400">
+<img src="debian/28.png" width="400">
 
-<img src="install_debian/29.png" width="400">
+<img src="debian/29.png" width="400">
 
 </p>
 
