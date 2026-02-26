@@ -441,6 +441,8 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 </p>
 
+---
+
 ## VI. Conclusion
 
 <p>L’intervention menée dans le cadre de l’inventaire du parc informatique a permis de mettre en place une solution complète, fiable et opérationnelle pour centraliser et automatiser la gestion des équipements informatiques. L’installation du serveur GLPI, du poste client, de l’agent d’inventaire et des différents outils de diagnostic a abouti à un environnement fonctionnel capable de remonter automatiquement les informations matérielles et logicielles du poste vers le serveur intranet.</p>
