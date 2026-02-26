@@ -420,7 +420,8 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 <p align="center">
 
-<img src="agent_ocs/01.png" width="400">
+<img src="automatisation/01.png" width="400">
+<img src="automatisation/02.png" width="400">
 
 </p>
 
