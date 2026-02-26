@@ -437,5 +437,3 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 <p>L’évaluation mémoire initialement jugée faible s’explique par une surcharge temporaire lors du diagnostic, comme confirmé par les mesures PowerShell montrant une quantité très importante de RAM disponible. Le système ne souffre donc pas d’un manque de ressources, mais d’un pic d’utilisation ponctuel.</p>
 
 <p>Au final, le projet atteint pleinement ses objectifs : l’inventaire est automatisé, les données sont centralisées et fiabilisées, la maintenance est facilitée, la traçabilité du matériel est renforcée, et l’ensemble fonctionne dans un environnement sécurisé et maîtrisé.</p>
-
-<p>Ce travail constitue une base solide pour la gestion du parc informatique et s’inscrit dans les bonnes pratiques professionnelles de supervision, de maintenance et de sécurité.</p>
