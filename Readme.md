@@ -232,23 +232,21 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 <p align="center">
 
-<img src="config_PC01/01.png" width="400">
+<img src="configuration/01.png" width="400">
 
-<img src="config_PC01/02.png" width="400">
+<img src="configuration/02.png" width="400">
 
-<img src="config_PC01/03.png" width="400">
+<img src="configuration/03.png" width="400">
 
-<img src="config_PC01/04.png" width="400">
+<img src="configuration/04.png" width="400">
 
-<img src="config_PC01/05.png" width="400">
+<img src="configuration/05.png" width="400">
 
-<img src="config_PC01/06.png" width="400">
+<img src="configuration/06.png" width="400">
 
-<img src="config_PC01/07.png" width="400">
+<img src="configuration/07.png" width="400">
 
-<img src="config_PC01/08.png" width="400">
-
-<img src="config_PC01/09.png" width="400">
+<img src="configuration/08.png" width="400">
 
 </p>
 
@@ -421,6 +419,7 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 <p align="center">
 
 <img src="automatisation/01.png" width="400">
+
 <img src="automatisation/02.png" width="400">
 
 </p>
