@@ -2,7 +2,7 @@
 
 ---
 
-## I. Introduction 
+## I. Présentation du projet
 
 <p>Dans le cadre de la gestion d’un parc informatique, il est essentiel pour une organisation de disposer d’une vision précise et centralisée de l’ensemble de ses équipements. Pour répondre à cet enjeu, j’ai mis en place une solution d’inventaire automatisé au sein d’un réseau, permettant de collecter et de remonter les informations matérielles et logicielles d'un poste utilisateur vers un serveur centralisé.</p>
 
@@ -249,10 +249,6 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 <img src="configuration/05.png" width="400">
 
 <img src="configuration/06.png" width="400">
-
-<img src="configuration/07.png" width="400">
-
-<img src="configuration/08.png" width="400">
 
 </p>
 
