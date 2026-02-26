@@ -359,8 +359,6 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 <img src="debian/14.png" width="400">
 
-<img src="debian/15.png" width="400">
-
 <img src="debian/16.png" width="400">
 
 <img src="debian/17.png" width="400">
@@ -388,8 +386,6 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 <img src="debian/27.png" width="400">
 
 <img src="debian/28.png" width="400">
-
-<img src="debian/29.png" width="400">
 
 </p>
 
