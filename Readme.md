@@ -24,22 +24,22 @@
 
 <p>La mise en place d’un inventaire automatisé en intranet poursuit plusieurs objectifs essentiels pour la gestion du parc informatique :</p>
 
-<p><b>1. Centraliser l’ensemble des informations du parc :</b></p>
+<p><b>1. Centraliser l’ensemble des informations du parc</b></p>
 <p>Rassembler dans une base unique toutes les données matérielles et logicielles des postes de travail afin de disposer d’une vision globale, fiable et constamment à jour.</p>
 
-<p><b>2. Automatiser la collecte des inventaires :</b></p>
+<p><b>2. Automatiser la collecte des inventaires</b></p>
 <p>Éliminer les relevés manuels, sources d’erreurs et de perte de temps, en déployant un agent capable d’envoyer automatiquement les informations vers le Serveur Windows GLPI.</p>
 
-<p><b>3. Améliorer la maintenance et le support :</b></p>
+<p><b>3. Améliorer la maintenance et le support</b></p>
 <p>Faciliter le diagnostic des incidents, anticiper les pannes et optimiser les interventions grâce à des fiches machines complètes et actualisées.</p>
 
-<p><b>4. Renforcer la traçabilité et le suivi du matériel :</b></p>
+<p><b>4. Renforcer la traçabilité et le suivi du matériel</b></p>
 <p>Assurer un suivi précis du cycle de vie des équipements : installation, affectation, mises à jour, remplacement.</p>
 
-<p><b>5. Sécuriser les échanges en restant dans un environnement intranet :</b></p>
+<p><b>5. Sécuriser les échanges en restant dans un environnement intranet</b></p>
 <p>Garantir que toutes les communications entre les agents et le serveur GLPI se font dans un réseau interne maîtrisé, sans exposition à Internet.</p>
 
-<p><b>6. Optimiser la gestion des licences et des ressources :</b></p>
+<p><b>6. Optimiser la gestion des licences et des ressources</b></p>
 <p>Identifier les logiciels installés, vérifier leur conformité et mieux planifier les achats ou renouvellements.</p>
 
 ---
@@ -48,21 +48,21 @@
 
 <p>Dans le cadre de l’inventaire du parc informatique, une procédure d'intervention a été réalisée :</p>
 
-<p><b>1. Installation du système :</b></p>
+<p><b>1. Installation système</b></p>
 <p>Installation de Windows 10 Entreprise sur les postes clients</p>
 <p>Activation de Windows 10 Entreprise sur les postes clients</p>
 <p>Installation des mises à jours des postes clients.</p>
 
-<p><b>2. Sécurité :</b></p>
+<p><b>2. Sécurité</b></p>
 <p>Installation et configuration antivirus sur les postes clients</p>
 <p>Vérification de l'intégrité du système</p>
 <p>Activation pare-feu.</p>
 
-<p><b>3. Configuration des postes :</b></p>
+<p><b>3. Configuration des postes</b></p>
 <p>Changement de nom des postes clients</p>
 <p>Configuration réseau.</p>
 
-<p><b>4. Maintenance et Diagnostic :</b></p>
+<p><b>4. Maintenance et Diagnostic</b></p>
 <p>Diagnostic complet du matériel</p>
 <p>Vérification du Stockage, RAM, Service Windows, erreurs systèmes.</p>
 
@@ -75,7 +75,7 @@
 
 ## V. Réalisations
 
-### 1. Installation du système
+### 1. Installation système
 
 ### Installation de Windows 10 Entreprise
 
@@ -324,6 +324,89 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 <img src="20_erreurs/01.png" width="400">
 
 </p>
+
+### 5. Automatisation de l'inventaire
+
+### Installation du Serveur Linux (Debian)
+
+<p align="center">
+
+<img src="install_debian/01.png" width="400">
+
+<img src="install_debian/02.png" width="400">
+
+<img src="install_debian/03.png" width="400">
+
+<img src="install_debian/04.png" width="400">
+
+<img src="install_debian/05.png" width="400">
+
+<img src="install_debian/06.png" width="400">
+
+<img src="install_debian/07.png" width="400">
+
+<img src="install_debian/08.png" width="400">
+
+<img src="install_debian/09.png" width="400">
+
+<img src="install_debian/10.png" width="400">
+
+<img src="install_debian/11.png" width="400">
+
+<img src="install_debian/12.png" width="400">
+
+<img src="install_debian/13.png" width="400">
+
+<img src="install_debian/14.png" width="400">
+
+<img src="install_debian/15.png" width="400">
+
+<img src="install_debian/16.png" width="400">
+
+<img src="install_debian/17.png" width="400">
+
+<img src="install_debian/18.png" width="400">
+
+<img src="install_debian/18.png" width="400">
+
+<img src="install_debian/19.png" width="400">
+
+<img src="install_debian/20.png" width="400">
+
+<img src="install_debian/21.png" width="400">
+
+<img src="install_debian/22.png" width="400">
+
+<img src="install_debian/23.png" width="400">
+
+<img src="install_debian/24.png" width="400">
+
+<img src="install_debian/25.png" width="400">
+
+<img src="install_debian/26.png" width="400">
+
+<img src="install_debian/27.png" width="400">
+
+<img src="install_debian/28.png" width="400">
+
+<img src="install_debian/29.png" width="400">
+
+<img src="install_debian/30.png" width="400">
+
+<img src="install_debian/31.png" width="400">
+
+<img src="install_debian/33.png" width="400">
+
+</p>
+
+
+
+
+
+
+
+
+
 
 ---
 
