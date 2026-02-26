@@ -49,27 +49,27 @@
 <p>Dans le cadre de l’inventaire du parc informatique, une procédure d'intervention a été réalisée :</p>
 
 <p><b>1. Installation système</b></p>
-<p>Installation de Windows 10 Entreprise sur les postes clients</p>
-<p>Activation de Windows 10 Entreprise sur les postes clients</p>
-<p>Installation des mises à jours des postes clients.</p>
+<p>- Installation de Windows 10 Entreprise sur les postes clients</p>
+<p>- Activation de Windows 10 Entreprise sur les postes clients</p>
+<p>- Installation des mises à jours des postes clients.</p>
 
 <p><b>2. Sécurité</b></p>
-<p>Installation et configuration antivirus sur les postes clients</p>
-<p>Vérification de l'intégrité du système</p>
-<p>Activation pare-feu.</p>
+<p>- Installation et configuration antivirus sur les postes clients</p>
+<p>- Vérification de l'intégrité du système</p>
+<p>- Activation pare-feu.</p>
 
 <p><b>3. Configuration des postes</b></p>
-<p>Changement de nom des postes clients</p>
-<p>Configuration réseau.</p>
+<p>- Changement de nom des postes clients</p>
+<p>- Configuration réseau.</p>
 
 <p><b>4. Maintenance et Diagnostic</b></p>
-<p>Diagnostic complet du matériel</p>
-<p>Vérification du Stockage, RAM, Service Windows, erreurs systèmes.</p>
+<p>- Diagnostic complet du matériel</p>
+<p>- Vérification du Stockage, RAM, Service Windows, erreurs systèmes.</p>
 
 <p><b>Automatisation de l'inventaire</b></p>
-<p>Installation du server linux (debian)</p>
-<p>Installation ocs inventory</p>
-<p>Installation agent ocs sur les postes clients.</p>
+<p>- Installation du server linux (debian)</p>
+<p>- Installation ocs inventory</p>
+<p>- Installation agent ocs sur les postes clients.</p>
 
 ---
 
