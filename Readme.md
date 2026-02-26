@@ -44,7 +44,26 @@
 
 ---
 
-## IV. Procédures
+## IV. Architecture
+
+| Machines  | Adresses IP   | Masque de sous-réseau  | Passerelle    |                    
+|-----------|---------------|------------------------|---------------|
+| SRV-OCS   | 192.168.1.124 | 255.255.255.0          | 192.168.1.1   |
+| SRV-AD    | 192.168.1.122 | 255.255.255.0          | 192.168.1.1   |
+| SRV-GLPI  | 192.168.1.120 | 255.255.255.0          | 192.168.1.1   |
+| PC01      | 192.168.1.110 | 255.255.255.0          | 192.168.1.1   |
+| PC02      | 192.168.1.130 | 255.255.255.0          | 192.168.1.1   |
+| PC03      | 192.168.1.170 | 255.255.255.0          | 192.168.1.1   |
+
+<p align="center">
+
+<img src="ip/01.png" width="400">
+
+</p>
+
+---
+
+## V. Procédures
 
 <p>Dans le cadre de l’inventaire du parc informatique, une procédure d'intervention a été réalisée :</p>
 
@@ -69,7 +88,8 @@
 <p><b>5. Automatisation de l'inventaire</b></p>
 <p>- Installation du server linux (debian)</p>
 <p>- Installation ocs inventory</p>
-<p>- Installation agent ocs sur les postes clients.</p>
+<p>- Installation agent ocs sur les postes clients</p>
+<p>- Vérification automatisation de l'inventaire.</p>
 
 ---
 
@@ -152,14 +172,6 @@ Avast a été installé sur le poste client. Avast est un antivirus gratuit offr
 <img src="antivirus_avast/07.png" width="400">
 
 <img src="antivirus_avast/08.png" width="400">
-
-<img src="antivirus_avast/09.png" width="400">
-
-<img src="antivirus_avast/10.png" width="400">
-
-<img src="antivirus_avast/11.png" width="400">
-
-<img src="antivirus_avast/12.png" width="400">
 
 </p>
 
@@ -405,6 +417,9 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 <img src="agent_ocs/10.png" width="400">
 
 </p>
+
+
+### 
 
 ---
 
