@@ -110,7 +110,7 @@ En image, un test IPv4 du serveur ocs.
 
 ### 1. Installation système
 
-### Installation de Windows 10 Entreprise
+### Installation de windows 10 Entreprise
 
 <p align="center">
 
@@ -140,7 +140,7 @@ En image, un test IPv4 du serveur ocs.
 
 </p>
 
-### Activation de Windows 10 Entreprise
+### Activation de windows 10 Entreprise
 
 Dans la réalisation de ce projet, nous n'avons pu activer Windows par manque de clé. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer l'agent ocs, l'antivirus avast, etc...
 
@@ -160,7 +160,7 @@ L'iso wndows installé sur le poste est récent de version 21H2, il contient dé
 
 </p>
 
-<p>Donc après installation, Windows peut afficher les mises à jour prête à être appliquée sans avoir besoin d'internet.</p>
+<p>Donc après installation, windows peut afficher les mises à jour prête à être appliquée sans avoir besoin d'internet.</p>
 
 <p align="center">
 
@@ -232,9 +232,9 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 <p>Windows ne reconnaît pas le réseau, il applique automatiquement les règles les plus strictes. Activer le pare‑feu dans ce cas est obligatoire pour éviter les risques.</p>
 
 
-### 3. Configuration du poste client
+### 3. Configuration des postes clients
 
-### Changement de nom du poste client
+### Changement de noms des postes clients
 
 <p align="center">
 
@@ -259,7 +259,7 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 ### 4. Maintenance
 
-### Diagnostic du poste client
+### Diagnostic des postes clients
 
 PerfMon a été utilisé pour diagnostiquer le poste client.
 
@@ -434,9 +434,9 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 ## VI. Conclusion
 
-<p>L’intervention menée dans le cadre de l’inventaire du parc informatique a permis de mettre en place une solution complète, fiable et opérationnelle pour centraliser et automatiser la gestion des équipements informatiques. L’installation du serveur GLPI, du poste client, de l’agent d’inventaire et des différents outils de diagnostic a abouti à un environnement fonctionnel capable de remonter automatiquement les informations matérielles et logicielles du poste vers le serveur intranet.</p>
+<p>L’intervention menée dans le cadre de l’inventaire du parc informatique a permis de mettre en place une solution complète, fiable et opérationnelle pour centraliser et automatiser la gestion des équipements informatiques. L’installation du serveur et agent ocs, du poste client et des différents outils de diagnostic a abouti à un environnement fonctionnel capable de remonter automatiquement les informations matérielles et logicielles du poste vers le serveur intranet.</p>
 
-<p>Les différentes étapes : installation du système, configuration réseau, sécurisation du poste, déploiement de GLPI et de son agent, automatisation de l’inventaire et diagnostics avancés  ont été réalisées avec succès. Les analyses effectuées montrent que le poste ne présente aucune défaillance matérielle : le processeur, le stockage, les pilotes et les services critiques fonctionnent normalement. Les alertes relevées concernent essentiellement des dysfonctionnements logiciels ponctuels, notamment des services (GLPI Agent, Avast) ne démarrant pas correctement ou des arrêts système non propres. Ces anomalies n’affectent pas la stabilité globale du poste et peuvent être corrigées par des ajustements de configuration.</p>
+<p>Les différentes étapes : installation du système, configuration réseau, sécurisation du poste, déploiement de ocs et de son agent, automatisation de l’inventaire et diagnostics avancés  ont été réalisées avec succès. Les analyses effectuées montrent que le poste ne présente aucune défaillance matérielle : le processeur, le stockage, les pilotes et les services critiques fonctionnent normalement. Les alertes relevées concernent essentiellement des dysfonctionnements logiciels ponctuels, notamment des services ne démarrant pas correctement ou des arrêts système non propres. Ces anomalies n’affectent pas la stabilité globale du poste et peuvent être corrigées par des ajustements de configuration.</p>
 
 <p>L’évaluation mémoire initialement jugée faible s’explique par une surcharge temporaire lors du diagnostic, comme confirmé par les mesures PowerShell montrant une quantité très importante de RAM disponible. Le système ne souffre donc pas d’un manque de ressources, mais d’un pic d’utilisation ponctuel.</p>
 
