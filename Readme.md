@@ -426,7 +426,7 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 <img src="agent_ocs/10.png" width="400">
 
-</P>
+</p>
 
 ---
 
