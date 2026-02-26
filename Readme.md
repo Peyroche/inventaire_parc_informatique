@@ -1,12 +1,12 @@
-## PROJET 1 : INVENTAIRE DU PARC INFORMATIQUE
+## PROJET 1 : Inventaire du parc informatique d'une PME
 
 ---
 
 ## I. Introduction 
 
-<p>Dans le cadre de la gestion d’un parc informatique, il est essentiel pour une organisation de disposer d’une vision précise et centralisée de l’ensemble de ses équipements. Pour répondre à cet enjeu, j’ai mis en place une solution d’inventaire automatisé au sein d’un réseau intranet, permettant de collecter et de remonter les informations matérielles et logicielles d'un poste utilisateur vers un serveur centralisé.</p>
+<p>Dans le cadre de la gestion d’un parc informatique, il est essentiel pour une organisation de disposer d’une vision précise et centralisée de l’ensemble de ses équipements. Pour répondre à cet enjeu, j’ai mis en place une solution d’inventaire automatisé au sein d’un réseau, permettant de collecter et de remonter les informations matérielles et logicielles d'un poste utilisateur vers un serveur centralisé.</p>
 
-<p>Ce projet repose sur l’installation d’un Serveur Windows GLPI hébergé en local, ainsi que le déploiement de l’agent GLPI sur un poste client du réseau. L’objectif est d’automatiser l’inventaire, de fiabiliser les données du parc et de faciliter le travail du support informatique grâce à une base d’informations toujours à jour.</p>
+<p>Ce projet repose sur l’installation d’un Serveur Linux (Debian) OCS Inventory hébergé en local, ainsi que le déploiement de l’agent OCS sur les postes clients du réseau. L’objectif est d’automatiser l’inventaire, de fiabiliser les données du parc et de faciliter le travail du support informatique grâce à une base d’informations toujours à jour.</p>
 
 <p>Cette solution permet à l’entreprise d’améliorer la maintenance, d’optimiser le suivi du matériel et de renforcer la traçabilité des équipements, tout en s’intégrant parfaitement dans les bonnes pratiques de gestion informatique.</p>
 
@@ -16,7 +16,7 @@
 
 <p>Dans un contexte où le parc informatique évolue constamment, l’entreprise doit disposer d’une vision fiable et centralisée de ses équipements pour assurer une maintenance efficace et une gestion optimale des ressources. Or, sans outil d’inventaire automatisé, les informations matérielles et logicielles deviennent rapidement obsolètes, ce qui complique le suivi des postes, augmente les risques d’incidents et ralentit le support technique.</p>
 
-<p>La problématique est donc la suivante : comment mettre en place une solution d’inventaire automatisée, sécurisée et accessible via l’intranet, permettant de collecter et d’actualiser en continu les données du parc informatique ?</p>
+<p>La problématique est donc de savoir : comment mettre en place une solution d’inventaire automatisée permettant de collecter et d’actualiser en continu les données du parc informatique ?</p>
 
 ---
 
@@ -44,43 +44,36 @@
 
 ---
 
-## IV. Enjeux
-
-<p>La mise en place d’un inventaire automatisé au sein de l’intranet représente un enjeu stratégique pour la gestion du parc informatique. Elle permet d’améliorer la fiabilité des informations, de renforcer la sécurité du système d’information et d’optimiser les ressources matérielles et logicielles.</p>
-<p>L’enjeu principal est de garantir une maîtrise complète du parc informatique, en disposant de données centralisées, actualisées et accessibles uniquement depuis un environnement interne sécurisé.</p>
-
-<p>Sur le plan opérationnel, ce projet vise à réduire les interventions manuelles, limiter les erreurs de saisie et faciliter le travail des équipes techniques grâce à une meilleure visibilité sur l’état des équipements.</p>
-<p>Sur le plan organisationnel, il contribue à optimiser les coûts, à anticiper les besoins de renouvellement et à assurer la conformité des logiciels installés.</p>
-<p>Enfin, sur le plan sécuritaire, l’utilisation de l’intranet permet de protéger les échanges de données sensibles, en évitant toute exposition du serveur GLPI sur Internet.</p>
-
----
-
-## V. Contexte d'intervention
+## IV. Procédures
 
 <p>Dans le cadre de l’inventaire du parc informatique, une procédure d'intervention a été réalisée :</p>
 
 <p><b>1. Installation du système :</b></p>
-<p>Installation de Windows 10 Entreprise sur le poste client</p>
-<p>Activation de Windows 10 Entreprise sur le poste client</p>
-<p>Installation des mises à jours du poste client.</p>
+<p>Installation de Windows 10 Entreprise sur les postes clients</p>
+<p>Activation de Windows 10 Entreprise sur les postes clients</p>
+<p>Installation des mises à jours des postes clients.</p>
 
 <p><b>2. Sécurité :</b></p>
-<p>Installation et configuration d'un antivirus sur le poste client</p>
+<p>Installation et configuration antivirus sur les postes clients</p>
 <p>Vérification de l'intégrité du système</p>
-<p>Activation du Pare-feu Windows.</p>
+<p>Activation pare-feu.</p>
 
-<p><b>3. Configuration du poste :</b></p>
-<p>Changement du nom du poste</p>
-<p>Configuration réseau</p>
-<p>Installation des logiciels essentiels (WampServer, GLPI et de son agent GLPI)</p>
+<p><b>3. Configuration des postes :</b></p>
+<p>Changement de nom des postes clients</p>
+<p>Configuration réseau.</p>
 
 <p><b>4. Maintenance et Diagnostic :</b></p>
 <p>Diagnostic complet du matériel</p>
 <p>Vérification du Stockage, RAM, Service Windows, erreurs systèmes.</p>
 
+<p><b>Automatisation de l'inventaire</b></p>
+<p>Installation du server Linux (Debian)</p>
+<p>Installation OCS Inventory</p>
+<p>Installation agent OCS sur les postes clients.</p>
+
 ---
 
-## VI. Réalisation
+## V. Réalisations
 
 ### 1. Installation du système
 
@@ -112,9 +105,11 @@
 
 <img src="install_windows/12.png" width="400">
 
+<img src="install_windows/13.png" width="400">
+
 </p>
 
-### Activation de Windows 10
+### Activation de Windows 10 Entreprise
 
 Dans la réalisation de ce projet, nous n'avons pu activer Windows par manque de clé. Le poste fonctionne avec quelques limitations serte, mais le système reste utilisable pour installer GLPI, WampServer, l'agent GLPI, etc.
 
@@ -169,6 +164,7 @@ Avast a été installé sur le poste client. Avast est un antivirus gratuit offr
 </p>
 
 ### Vérification de l'intégrité du système
+
 L'intégrité consiste à démontrer que les données et fichiers n'ont pas été modifiées, alertés, corrompu ou compromis.
 
 ### Vérification de l'intégrité du système Windows
@@ -245,118 +241,6 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 <img src="reseau_PC01/05.png" width="400">
 
 <img src="reseau_PC01/06.png" width="400">
-
-</p>
-
-### Installation WampServer (Serveur GLPI) 
-
-<p align="center">
-
-<img src="serveur_GLPI/01.png" width="400">
-
-<img src="serveur_GLPI/02.png" width="400">
-
-<img src="serveur_GLPI/03.png" width="400">
-
-<img src="serveur_GLPI/04.png" width="400">
-
-<img src="serveur_GLPI/05.png" width="400">
-
-<img src="serveur_GLPI/06.png" width="400">
-
-<img src="serveur_GLPI/07.png" width="400">
-
-<img src="serveur_GLPI/08.png" width="400">
-
-<img src="serveur_GLPI/09.png" width="400">
-
-<img src="serveur_GLPI/10.png" width="400">
-
-</p>
-
-### Configuration GLPI et activation de l’inventaire
-
-<p align="center">
-
-<img src="GLPI/01.png" width="400">
-
-<img src="GLPI/02.png" width="400">
-
-<img src="GLPI/03.png" width="400">
-
-<img src="GLPI/04.png" width="400">
-
-<img src="GLPI/05.png" width="400">
-
-<img src="GLPI/06.png" width="400">
-
-<img src="GLPI/07.png" width="400">
-
-<img src="GLPI/08.png" width="400">
-
-<img src="GLPI/09.png" width="400">
-
-<img src="GLPI/10.png" width="400">
-
-<img src="GLPI/11.png" width="400">
-
-<img src="GLPI/12.png" width="400">
-
-<img src="GLPI/13.png" width="400">
-
-<img src="GLPI/14.png" width="400">
-
-<img src="GLPI/15.png" width="400">
-
-<img src="GLPI/16.png" width="400">
-
-<img src="GLPI/17.png" width="400">
-
-<img src="GLPI/18.png" width="400">
-
-<img src="GLPI/19.png" width="400">
-
-</p>
-
-### Installation de l'agent GLPI
-
-<p align="center">
-
-<img src="agent_GLPI/01.png" width="400">
-
-<img src="agent_GLPI/02.png" width="400">
-
-<img src="agent_GLPI/03.png" width="400">
-
-<img src="agent_GLPI/04.png" width="400">
-
-<img src="agent_GLPI/05.png" width="400">
-
-<img src="agent_GLPI/06.png" width="400">
-
-<img src="agent_GLPI/07.png" width="400">
-
-<img src="agent_GLPI/08.png" width="400">
-
-<img src="agent_GLPI/09.png" width="400">
-
-<img src="agent_GLPI/10.png" width="400">
-
-</p>
-
-### Automatisation de l'inventaire
-
-<p align="center">
-
-<img src="automatisation/01.png" width="400">
-
-<img src="automatisation/02.png" width="400">
-
-<img src="automatisation/03.png" width="400">
-
-<img src="automatisation/04.png" width="400">
-
-<img src="automatisation/05.png" width="400">
 
 </p>
 
@@ -453,4 +337,4 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 <p>Au final, le projet atteint pleinement ses objectifs : l’inventaire est automatisé, les données sont centralisées et fiabilisées, la maintenance est facilitée, la traçabilité du matériel est renforcée, et l’ensemble fonctionne dans un environnement sécurisé et maîtrisé.</p>
 
-<p>Ce travail constitue une base solide pour la gestion du parc informatique et s’inscrit dans les bonnes pratiques professionnelles de supervision, de maintenance et de sécurité.</p>"# inventaire_parc_informatique" 
+<p>Ce travail constitue une base solide pour la gestion du parc informatique et s’inscrit dans les bonnes pratiques professionnelles de supervision, de maintenance et de sécurité.</p>
