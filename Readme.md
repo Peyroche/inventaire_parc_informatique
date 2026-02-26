@@ -28,7 +28,7 @@
 <p>Rassembler dans une base unique toutes les données matérielles et logicielles des postes de travail afin de disposer d’une vision globale, fiable et constamment à jour.</p>
 
 <p><b>2. Automatiser la collecte des inventaires</b></p>
-<p>Éliminer les relevés manuels, sources d’erreurs et de perte de temps, en déployant un agent capable d’envoyer automatiquement les informations vers le Serveur Windows GLPI.</p>
+<p>Éliminer les relevés manuels, sources d’erreurs et de perte de temps, en déployant un agent capable d’envoyer automatiquement les informations vers le serveur ocs.</p>
 
 <p><b>3. Améliorer la maintenance et le support</b></p>
 <p>Faciliter le diagnostic des incidents, anticiper les pannes et optimiser les interventions grâce à des fiches machines complètes et actualisées.</p>
@@ -37,7 +37,7 @@
 <p>Assurer un suivi précis du cycle de vie des équipements : installation, affectation, mises à jour, remplacement.</p>
 
 <p><b>5. Sécuriser les échanges en restant dans un environnement intranet</b></p>
-<p>Garantir que toutes les communications entre les agents et le serveur GLPI se font dans un réseau interne maîtrisé, sans exposition à Internet.</p>
+<p>Garantir que toutes les communications entre les agents et le serveur ocs se font dans un réseau interne maîtrisé, sans exposition à Internet.</p>
 
 <p><b>6. Optimiser la gestion des licences et des ressources</b></p>
 <p>Identifier les logiciels installés, vérifier leur conformité et mieux planifier les achats ou renouvellements.</p>
