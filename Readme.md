@@ -1,4 +1,4 @@
-## PROJET 1 : Inventaire du parc informatique d'une PME
+## PROJET 1 : Inventaire du parc informatique d'une pme
 
 ---
 
@@ -6,7 +6,7 @@
 
 <p>Dans le cadre de la gestion d’un parc informatique, il est essentiel pour une organisation de disposer d’une vision précise et centralisée de l’ensemble de ses équipements. Pour répondre à cet enjeu, j’ai mis en place une solution d’inventaire automatisé au sein d’un réseau, permettant de collecter et de remonter les informations matérielles et logicielles d'un poste utilisateur vers un serveur centralisé.</p>
 
-<p>Ce projet repose sur l’installation d’un Serveur Linux (Debian) OCS Inventory hébergé en local, ainsi que le déploiement de l’agent OCS sur les postes clients du réseau. L’objectif est d’automatiser l’inventaire, de fiabiliser les données du parc et de faciliter le travail du support informatique grâce à une base d’informations toujours à jour.</p>
+<p>Ce projet repose sur l’installation d’un serveur linux (debian) ocs Inventory hébergé en local, ainsi que le déploiement de l’agent ocs sur les postes clients du réseau. L’objectif est d’automatiser l’inventaire, de fiabiliser les données du parc et de faciliter le travail du support informatique grâce à une base d’informations toujours à jour.</p>
 
 <p>Cette solution permet à l’entreprise d’améliorer la maintenance, d’optimiser le suivi du matériel et de renforcer la traçabilité des équipements, tout en s’intégrant parfaitement dans les bonnes pratiques de gestion informatique.</p>
 
@@ -327,7 +327,7 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 
 ### 5. Automatisation de l'inventaire
 
-### Installation du Serveur Linux (Debian)
+### Installation du serveur linux (debian)
 
 <p align="center">
 
@@ -400,13 +400,31 @@ PerfMon a été utilisé pour diagnostiquer le poste client.
 </p>
 
 
+### Installation de l'agent ocs sur les postes clients
 
+<p align="center">
 
+<img src="agent_ocs/01.png" width="400">
 
+<img src="agent_ocs/02.png" width="400">
 
+<img src="agent_ocs/03.png" width="400">
 
+<img src="agent_ocs/04.png" width="400">
 
+<img src="agent_ocs/05.png" width="400">
 
+<img src="agent_ocs/06.png" width="400">
+
+<img src="agent_ocs/07.png" width="400">
+
+<img src="agent_ocs/08.png" width="400">
+
+<img src="agent_ocs/09.png" width="400">
+
+<img src="agent_ocs/10.png" width="400">
+
+</P>
 
 ---
 
