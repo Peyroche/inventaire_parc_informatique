@@ -244,7 +244,7 @@ L'intégrité consiste à démontrer que les données et fichiers n'ont pas ét�
 
 </p>
 
-### 4. Maintenance et Diagnostic
+### 4. Maintenance
 
 ### Diagnostic du poste client
 
